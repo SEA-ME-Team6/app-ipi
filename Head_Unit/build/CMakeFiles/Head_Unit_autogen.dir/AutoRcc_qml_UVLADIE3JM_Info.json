@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/Head_Unit_autogen",
+	"CMAKE_BINARY_DIR" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit",
+	"CMAKE_SOURCE_DIR" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit",
+	"INCLUDE_DIR" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/Head_Unit_autogen/include",
+	"INPUTS" : [ "/home/seame-workstation08/DES_Head-Unit/Head_Unit/src/qml/main.qml" ],
+	"LOCK_FILE" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/CMakeFiles/Head_Unit_autogen.dir/AutoRcc_qml_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/home/seame-workstation08/anaconda3/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/CMakeFiles/Head_Unit_autogen.dir/AutoRcc_qml_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/seame-workstation08/DES_Head-Unit/Head_Unit/src/qml.qrc",
+	"VERBOSITY" : 0
+}
