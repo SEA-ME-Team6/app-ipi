@@ -1,0 +1,29 @@
+import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
+import "status.fidl"
+
+define org.genivi.commonapi.someip.deployment for interface commonapi.BatteryStatus {
+    SomeIpServiceID = 4665
+
+    attribute battery {
+        SomeIpGetterID = 3005
+        SomeIpSetterID = 3006
+        SomeIpNotifierID = 33025
+        SomeIpNotifierEventGroups = { 33013 }
+
+        SomeIpAttributeReliable = true
+    }
+
+}
+
+
+define org.genivi.commonapi.someip.deployment for provider as Service {
+    instance commonapi.BatteryStatus {
+        InstanceId = "commonapi.Battery"
+
+        SomeIpInstanceID = 22138
+
+        SomeIpUnicastAddress = "192.168.86.37"
+        SomeIpReliableUnicastPort = 30501
+        SomeIpUnreliableUnicastPort = 30502
+    }
+}

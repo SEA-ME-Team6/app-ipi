@@ -1,4 +1,0 @@
-/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/CMakeFiles/Head_Unit.dir
-/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/CMakeFiles/edit_cache.dir
-/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/CMakeFiles/rebuild_cache.dir
-/home/seame-workstation08/DES_Head-Unit/Head_Unit/build/CMakeFiles/Head_Unit_autogen.dir
