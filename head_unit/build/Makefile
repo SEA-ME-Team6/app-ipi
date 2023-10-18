@@ -85,51 +85,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles /home/seame-workstation08/DES_Head-Unit/head_unit/build//CMakeFiles/progress.marks
@@ -175,30 +130,17 @@ head_unit/fast:
 .PHONY : head_unit/fast
 
 #=============================================================================
-# Target rules for targets named headunitsomeipcommon
+# Target rules for targets named gear-someipstub
 
 # Build rule for target.
-headunitsomeipcommon: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 headunitsomeipcommon
-.PHONY : headunitsomeipcommon
+gear-someipstub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gear-someipstub
+.PHONY : gear-someipstub
 
 # fast build rule for target.
-headunitsomeipcommon/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/build
-.PHONY : headunitsomeipcommon/fast
-
-#=============================================================================
-# Target rules for targets named headunitsomeipstub
-
-# Build rule for target.
-headunitsomeipstub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 headunitsomeipstub
-.PHONY : headunitsomeipstub
-
-# fast build rule for target.
-headunitsomeipstub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/build
-.PHONY : headunitsomeipstub/fast
+gear-someipstub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/build
+.PHONY : gear-someipstub/fast
 
 #=============================================================================
 # Target rules for targets named head_unit_autogen
@@ -214,30 +156,41 @@ head_unit_autogen/fast:
 .PHONY : head_unit_autogen/fast
 
 #=============================================================================
-# Target rules for targets named headunitsomeipcommon_autogen
+# Target rules for targets named gear-someipstub_autogen
 
 # Build rule for target.
-headunitsomeipcommon_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 headunitsomeipcommon_autogen
-.PHONY : headunitsomeipcommon_autogen
+gear-someipstub_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gear-someipstub_autogen
+.PHONY : gear-someipstub_autogen
 
 # fast build rule for target.
-headunitsomeipcommon_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon_autogen.dir/build.make CMakeFiles/headunitsomeipcommon_autogen.dir/build
-.PHONY : headunitsomeipcommon_autogen/fast
+gear-someipstub_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub_autogen.dir/build.make CMakeFiles/gear-someipstub_autogen.dir/build
+.PHONY : gear-someipstub_autogen/fast
 
-#=============================================================================
-# Target rules for targets named headunitsomeipstub_autogen
+gear-someipstub_autogen/mocs_compilation.o: gear-someipstub_autogen/mocs_compilation.cpp.o
+.PHONY : gear-someipstub_autogen/mocs_compilation.o
 
-# Build rule for target.
-headunitsomeipstub_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 headunitsomeipstub_autogen
-.PHONY : headunitsomeipstub_autogen
+# target to build an object file
+gear-someipstub_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/gear-someipstub_autogen/mocs_compilation.cpp.o
+.PHONY : gear-someipstub_autogen/mocs_compilation.cpp.o
 
-# fast build rule for target.
-headunitsomeipstub_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub_autogen.dir/build.make CMakeFiles/headunitsomeipstub_autogen.dir/build
-.PHONY : headunitsomeipstub_autogen/fast
+gear-someipstub_autogen/mocs_compilation.i: gear-someipstub_autogen/mocs_compilation.cpp.i
+.PHONY : gear-someipstub_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+gear-someipstub_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/gear-someipstub_autogen/mocs_compilation.cpp.i
+.PHONY : gear-someipstub_autogen/mocs_compilation.cpp.i
+
+gear-someipstub_autogen/mocs_compilation.s: gear-someipstub_autogen/mocs_compilation.cpp.s
+.PHONY : gear-someipstub_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+gear-someipstub_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/gear-someipstub_autogen/mocs_compilation.cpp.s
+.PHONY : gear-someipstub_autogen/mocs_compilation.cpp.s
 
 head_unit_autogen/UVLADIE3JM/qrc_qml.o: head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
 .PHONY : head_unit_autogen/UVLADIE3JM/qrc_qml.o
@@ -287,101 +240,29 @@ head_unit_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/head_unit_autogen/mocs_compilation.cpp.s
 .PHONY : head_unit_autogen/mocs_compilation.cpp.s
 
-headunitsomeipcommon_autogen/mocs_compilation.o: headunitsomeipcommon_autogen/mocs_compilation.cpp.o
-.PHONY : headunitsomeipcommon_autogen/mocs_compilation.o
+src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.o: src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.o
 
 # target to build an object file
-headunitsomeipcommon_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/headunitsomeipcommon_autogen/mocs_compilation.cpp.o
-.PHONY : headunitsomeipcommon_autogen/mocs_compilation.cpp.o
+src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o
 
-headunitsomeipcommon_autogen/mocs_compilation.i: headunitsomeipcommon_autogen/mocs_compilation.cpp.i
-.PHONY : headunitsomeipcommon_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-headunitsomeipcommon_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/headunitsomeipcommon_autogen/mocs_compilation.cpp.i
-.PHONY : headunitsomeipcommon_autogen/mocs_compilation.cpp.i
-
-headunitsomeipcommon_autogen/mocs_compilation.s: headunitsomeipcommon_autogen/mocs_compilation.cpp.s
-.PHONY : headunitsomeipcommon_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-headunitsomeipcommon_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/headunitsomeipcommon_autogen/mocs_compilation.cpp.s
-.PHONY : headunitsomeipcommon_autogen/mocs_compilation.cpp.s
-
-headunitsomeipstub_autogen/mocs_compilation.o: headunitsomeipstub_autogen/mocs_compilation.cpp.o
-.PHONY : headunitsomeipstub_autogen/mocs_compilation.o
-
-# target to build an object file
-headunitsomeipstub_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/headunitsomeipstub_autogen/mocs_compilation.cpp.o
-.PHONY : headunitsomeipstub_autogen/mocs_compilation.cpp.o
-
-headunitsomeipstub_autogen/mocs_compilation.i: headunitsomeipstub_autogen/mocs_compilation.cpp.i
-.PHONY : headunitsomeipstub_autogen/mocs_compilation.i
+src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.i: src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.i
 
 # target to preprocess a source file
-headunitsomeipstub_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/headunitsomeipstub_autogen/mocs_compilation.cpp.i
-.PHONY : headunitsomeipstub_autogen/mocs_compilation.cpp.i
+src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i
 
-headunitsomeipstub_autogen/mocs_compilation.s: headunitsomeipstub_autogen/mocs_compilation.cpp.s
-.PHONY : headunitsomeipstub_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-headunitsomeipstub_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/headunitsomeipstub_autogen/mocs_compilation.cpp.s
-.PHONY : headunitsomeipstub_autogen/mocs_compilation.cpp.s
-
-src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.o: src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.o
-.PHONY : src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.o
-
-# target to build an object file
-src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.o
-.PHONY : src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.o
-
-src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.i: src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.i
-.PHONY : src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.i
-
-# target to preprocess a source file
-src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.i
-.PHONY : src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.i
-
-src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.s: src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.s
-.PHONY : src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.s
+src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.s: src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.s
 
 # target to generate assembly for a file
-src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.s
-.PHONY : src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.cpp.s
-
-src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.o: src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o
-.PHONY : src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.o
-
-# target to build an object file
-src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o
-.PHONY : src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.o
-
-src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.i: src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i
-.PHONY : src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.i
-
-# target to preprocess a source file
-src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i
-.PHONY : src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.i
-
-src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.s: src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s
-.PHONY : src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.s
-
-# target to generate assembly for a file
-src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s
-.PHONY : src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s
+src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp.s
 
 src/GearSelectionServer.o: src/GearSelectionServer.cpp.o
 .PHONY : src/GearSelectionServer.o
@@ -462,35 +343,23 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... gear-someipstub_autogen"
 	@echo "... head_unit_autogen"
-	@echo "... headunitsomeipcommon_autogen"
-	@echo "... headunitsomeipstub_autogen"
+	@echo "... gear-someipstub"
 	@echo "... head_unit"
-	@echo "... headunitsomeipcommon"
-	@echo "... headunitsomeipstub"
+	@echo "... gear-someipstub_autogen/mocs_compilation.o"
+	@echo "... gear-someipstub_autogen/mocs_compilation.i"
+	@echo "... gear-someipstub_autogen/mocs_compilation.s"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.o"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.i"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.s"
 	@echo "... head_unit_autogen/mocs_compilation.o"
 	@echo "... head_unit_autogen/mocs_compilation.i"
 	@echo "... head_unit_autogen/mocs_compilation.s"
-	@echo "... headunitsomeipcommon_autogen/mocs_compilation.o"
-	@echo "... headunitsomeipcommon_autogen/mocs_compilation.i"
-	@echo "... headunitsomeipcommon_autogen/mocs_compilation.s"
-	@echo "... headunitsomeipstub_autogen/mocs_compilation.o"
-	@echo "... headunitsomeipstub_autogen/mocs_compilation.i"
-	@echo "... headunitsomeipstub_autogen/mocs_compilation.s"
-	@echo "... src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.o"
-	@echo "... src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.i"
-	@echo "... src-gen-gear/someip/common/v1/commonapi/GearSelectionSomeIPDeployment.s"
-	@echo "... src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.o"
-	@echo "... src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.i"
-	@echo "... src-gen-gear/someip/stub/v1/commonapi/GearSelectionSomeIPStubAdapter.s"
+	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.o"
+	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.i"
+	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.s"
 	@echo "... src/GearSelectionServer.o"
 	@echo "... src/GearSelectionServer.i"
 	@echo "... src/GearSelectionServer.s"

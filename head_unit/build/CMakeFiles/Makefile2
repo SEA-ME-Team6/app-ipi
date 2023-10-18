@@ -64,8 +64,7 @@ CMAKE_BINARY_DIR = /home/seame-workstation08/DES_Head-Unit/head_unit/build
 
 # The main recursive "all" target.
 all: CMakeFiles/head_unit.dir/all
-all: CMakeFiles/headunitsomeipcommon.dir/all
-all: CMakeFiles/headunitsomeipstub.dir/all
+all: CMakeFiles/gear-someipstub.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,11 +73,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/head_unit.dir/clean
-clean: CMakeFiles/headunitsomeipcommon.dir/clean
-clean: CMakeFiles/headunitsomeipstub.dir/clean
+clean: CMakeFiles/gear-someipstub.dir/clean
 clean: CMakeFiles/head_unit_autogen.dir/clean
-clean: CMakeFiles/headunitsomeipcommon_autogen.dir/clean
-clean: CMakeFiles/headunitsomeipstub_autogen.dir/clean
+clean: CMakeFiles/gear-someipstub_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -88,7 +85,7 @@ clean: CMakeFiles/headunitsomeipstub_autogen.dir/clean
 CMakeFiles/head_unit.dir/all: CMakeFiles/head_unit_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target head_unit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=5,6,7,8,9,10,11 "Built target head_unit"
 .PHONY : CMakeFiles/head_unit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,56 +105,30 @@ CMakeFiles/head_unit.dir/clean:
 .PHONY : CMakeFiles/head_unit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/headunitsomeipcommon.dir
+# Target rules for target CMakeFiles/gear-someipstub.dir
 
 # All Build rule for target.
-CMakeFiles/headunitsomeipcommon.dir/all: CMakeFiles/headunitsomeipcommon_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=9,10,11 "Built target headunitsomeipcommon"
-.PHONY : CMakeFiles/headunitsomeipcommon.dir/all
+CMakeFiles/gear-someipstub.dir/all: CMakeFiles/gear-someipstub_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=1,2,3 "Built target gear-someipstub"
+.PHONY : CMakeFiles/gear-someipstub.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/headunitsomeipcommon.dir/rule: cmake_check_build_system
+CMakeFiles/gear-someipstub.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/headunitsomeipcommon.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gear-someipstub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 0
-.PHONY : CMakeFiles/headunitsomeipcommon.dir/rule
+.PHONY : CMakeFiles/gear-someipstub.dir/rule
 
 # Convenience name for target.
-headunitsomeipcommon: CMakeFiles/headunitsomeipcommon.dir/rule
-.PHONY : headunitsomeipcommon
+gear-someipstub: CMakeFiles/gear-someipstub.dir/rule
+.PHONY : gear-someipstub
 
 # clean rule for target.
-CMakeFiles/headunitsomeipcommon.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon.dir/build.make CMakeFiles/headunitsomeipcommon.dir/clean
-.PHONY : CMakeFiles/headunitsomeipcommon.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/headunitsomeipstub.dir
-
-# All Build rule for target.
-CMakeFiles/headunitsomeipstub.dir/all: CMakeFiles/headunitsomeipstub_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=13,14,15 "Built target headunitsomeipstub"
-.PHONY : CMakeFiles/headunitsomeipstub.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/headunitsomeipstub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/headunitsomeipstub.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 0
-.PHONY : CMakeFiles/headunitsomeipstub.dir/rule
-
-# Convenience name for target.
-headunitsomeipstub: CMakeFiles/headunitsomeipstub.dir/rule
-.PHONY : headunitsomeipstub
-
-# clean rule for target.
-CMakeFiles/headunitsomeipstub.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub.dir/build.make CMakeFiles/headunitsomeipstub.dir/clean
-.PHONY : CMakeFiles/headunitsomeipstub.dir/clean
+CMakeFiles/gear-someipstub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/clean
+.PHONY : CMakeFiles/gear-someipstub.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/head_unit_autogen.dir
@@ -166,7 +137,7 @@ CMakeFiles/headunitsomeipstub.dir/clean:
 CMakeFiles/head_unit_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit_autogen.dir/build.make CMakeFiles/head_unit_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit_autogen.dir/build.make CMakeFiles/head_unit_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=8 "Built target head_unit_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=12 "Built target head_unit_autogen"
 .PHONY : CMakeFiles/head_unit_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -186,56 +157,30 @@ CMakeFiles/head_unit_autogen.dir/clean:
 .PHONY : CMakeFiles/head_unit_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/headunitsomeipcommon_autogen.dir
+# Target rules for target CMakeFiles/gear-someipstub_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/headunitsomeipcommon_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon_autogen.dir/build.make CMakeFiles/headunitsomeipcommon_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon_autogen.dir/build.make CMakeFiles/headunitsomeipcommon_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=12 "Built target headunitsomeipcommon_autogen"
-.PHONY : CMakeFiles/headunitsomeipcommon_autogen.dir/all
+CMakeFiles/gear-someipstub_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub_autogen.dir/build.make CMakeFiles/gear-someipstub_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub_autogen.dir/build.make CMakeFiles/gear-someipstub_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=4 "Built target gear-someipstub_autogen"
+.PHONY : CMakeFiles/gear-someipstub_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/headunitsomeipcommon_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/gear-someipstub_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/headunitsomeipcommon_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gear-someipstub_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 0
-.PHONY : CMakeFiles/headunitsomeipcommon_autogen.dir/rule
+.PHONY : CMakeFiles/gear-someipstub_autogen.dir/rule
 
 # Convenience name for target.
-headunitsomeipcommon_autogen: CMakeFiles/headunitsomeipcommon_autogen.dir/rule
-.PHONY : headunitsomeipcommon_autogen
+gear-someipstub_autogen: CMakeFiles/gear-someipstub_autogen.dir/rule
+.PHONY : gear-someipstub_autogen
 
 # clean rule for target.
-CMakeFiles/headunitsomeipcommon_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipcommon_autogen.dir/build.make CMakeFiles/headunitsomeipcommon_autogen.dir/clean
-.PHONY : CMakeFiles/headunitsomeipcommon_autogen.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/headunitsomeipstub_autogen.dir
-
-# All Build rule for target.
-CMakeFiles/headunitsomeipstub_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub_autogen.dir/build.make CMakeFiles/headunitsomeipstub_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub_autogen.dir/build.make CMakeFiles/headunitsomeipstub_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=16 "Built target headunitsomeipstub_autogen"
-.PHONY : CMakeFiles/headunitsomeipstub_autogen.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/headunitsomeipstub_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/headunitsomeipstub_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles 0
-.PHONY : CMakeFiles/headunitsomeipstub_autogen.dir/rule
-
-# Convenience name for target.
-headunitsomeipstub_autogen: CMakeFiles/headunitsomeipstub_autogen.dir/rule
-.PHONY : headunitsomeipstub_autogen
-
-# clean rule for target.
-CMakeFiles/headunitsomeipstub_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headunitsomeipstub_autogen.dir/build.make CMakeFiles/headunitsomeipstub_autogen.dir/clean
-.PHONY : CMakeFiles/headunitsomeipstub_autogen.dir/clean
+CMakeFiles/gear-someipstub_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub_autogen.dir/build.make CMakeFiles/gear-someipstub_autogen.dir/clean
+.PHONY : CMakeFiles/gear-someipstub_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

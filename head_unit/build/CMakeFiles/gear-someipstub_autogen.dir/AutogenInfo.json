@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen",
+	"BUILD_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/gear-someipstub_autogen",
 	"CMAKE_BINARY_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit",
@@ -231,30 +231,16 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/seame-workstation08/DES_Head-Unit/head_unit/src/GearSelectionServer.hpp",
+			"/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.hpp",
 			"MU",
-			"UVLADIE3JM/moc_GearSelectionServer.cpp",
-			null
-		],
-		[
-			"/home/seame-workstation08/DES_Head-Unit/head_unit/src/GearSelectionStubImpl.hpp",
-			"MU",
-			"UVLADIE3JM/moc_GearSelectionStubImpl.cpp",
+			"QPUPTFPPDS/moc_GearSelectionSomeIPStubAdapter.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : 
-	[
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
-		"QT_QML_LIB",
-		"QT_QUICK_LIB"
-	],
+	"INCLUDE_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/gear-someipstub_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/gear-someipstub_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "gear_someipstub_EXPORTS" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -271,18 +257,11 @@
 		"/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/someip/common/gear",
 		"/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/someip/stub/gear",
 		"/home/seame-workstation08/build-commonapi/capicxx-someip-runtime/include",
-		"/home/seame-workstation08/anaconda3/include/qt",
-		"/home/seame-workstation08/anaconda3/include/qt/QtCore",
-		"/home/seame-workstation08/anaconda3/mkspecs/linux-g++",
-		"/home/seame-workstation08/anaconda3/include/qt/QtQuick",
-		"/home/seame-workstation08/anaconda3/include/qt/QtGui",
-		"/home/seame-workstation08/anaconda3/include/qt/QtQml",
-		"/home/seame-workstation08/anaconda3/include/qt/QtNetwork",
+		"/usr/local/include",
 		"/usr/include/c++/9",
 		"/usr/include/x86_64-linux-gnu/c++/9",
 		"/usr/include/c++/9/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
-		"/usr/local/include",
 		"/usr/include/x86_64-linux-gnu",
 		"/usr/include"
 	],
@@ -297,38 +276,36 @@
 		"-c",
 		"/usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/gear-someipstub_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp",
+		"/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/mocs_compilation.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
-	"PARSE_CACHE_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/gear-someipstub_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/seame-workstation08/anaconda3/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/gear-someipstub_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/seame-workstation08/DES_Head-Unit/head_unit/src/GearSelectionServer.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/seame-workstation08/DES_Head-Unit/head_unit/src/GearSelectionStubImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/seame-workstation08/DES_Head-Unit/head_unit/src/main.cpp",
+			"/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/someip/stub/gear/v1/commonapi/GearSelectionSomeIPStubAdapter.cpp",
 			"MU",
 			null
 		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp",
+		"/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/mocs_compilation.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

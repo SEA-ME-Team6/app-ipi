@@ -1,9 +1,271 @@
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> instrumentcluster-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/instrument_cluster/instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> instrumentcluster-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/instrument_cluster/instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][INFO] Loading configuration file '/etc/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][INFO] Loading configuration file '/etc/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][INFO] Loading configuration file '/etc/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][INFO] Loading configuration file '/etc/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
 [CAPI][DEBUG] Adding stub mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libheadunitsomeipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libheadunitsomeipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libheadunitsomeipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" failed (libheadunitsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipstub.so
 [CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/head_unit/head-unit.ini'
 [CAPI][INFO] Using default binding 'someip'
 [CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
 [CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
 [CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
 [CAPI][INFO] Registering function for creating "commonapi.GearSelection:v1_0" stub adapter.
-[CAPI][DEBUG] Loading interface library "libheadunitsomeipstub.so" succeeded.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" succeeded.
 [CAPI][INFO] Registering stub for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][INFO] Loading configuration file '/etc/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" failed (libgear-someipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.GearSelection:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libgear-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][INFO] Loading configuration file '/etc/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection stub.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)

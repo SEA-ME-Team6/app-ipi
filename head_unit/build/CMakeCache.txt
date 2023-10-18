@@ -14,10 +14,10 @@
 # EXTERNAL cache entries
 ########################
 
-//Build the head_unit project
-BUILD_HEAD_UNIT:BOOL=ON
+//Build the CommonAPI
+BUILD_COMMONAPI:BOOL=ON
 
-//Build the helloworldsomeip libraries
+//Build the SomeIP libraries
 BUILD_SOMEIP_LIB:BOOL=ON
 
 //Path to a program.

@@ -188,17 +188,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.24.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/head_unit_autogen.dir/AutogenInfo.json"
   "CMakeFiles/head_unit_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json"
-  "CMakeFiles/headunitsomeipcommon_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/headunitsomeipstub_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/gear-someipstub_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/head_unit.dir/DependInfo.cmake"
-  "CMakeFiles/headunitsomeipcommon.dir/DependInfo.cmake"
-  "CMakeFiles/headunitsomeipstub.dir/DependInfo.cmake"
+  "CMakeFiles/gear-someipstub.dir/DependInfo.cmake"
   "CMakeFiles/head_unit_autogen.dir/DependInfo.cmake"
-  "CMakeFiles/headunitsomeipcommon_autogen.dir/DependInfo.cmake"
-  "CMakeFiles/headunitsomeipstub_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/gear-someipstub_autogen.dir/DependInfo.cmake"
   )
