@@ -1,0 +1,42 @@
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> battery-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/instrument_cluster/instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.Gear proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.Speed proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> battery-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/instrument_cluster/instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.Gear proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.Speed proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> battery-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/instrument_cluster/instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.Gear proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.Speed proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> battery-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> gear-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> speed-someipstub.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/DES_Head-Unit/instrument_cluster/instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.Gear proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.Speed proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)

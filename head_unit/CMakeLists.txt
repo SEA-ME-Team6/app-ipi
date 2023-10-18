@@ -10,7 +10,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-option(BUILD_COMMONAPI "Build the CommonAPI" OFF)
+option(BUILD_COMMONAPI "Build the CommonAPI" ON)
 option(BUILD_SOMEIP_LIB "Build the SomeIP libraries" ON)
 
 if(BUILD_COMMONAPI)
@@ -34,7 +34,13 @@ if(BUILD_COMMONAPI)
 
     target_link_libraries(head_unit
         PRIVATE Qt5::Core Qt5::Quick Qt5::Gui Qt5::Network
-        CommonAPI)
+        CommonAPI
+    )
+
+    install(TARGETS       head_unit 
+            DESTINATION   /usr/bin
+    )
+
 endif()
 
 if(BUILD_SOMEIP_LIB)

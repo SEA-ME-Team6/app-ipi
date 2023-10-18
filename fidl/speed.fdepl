@@ -1,5 +1,5 @@
 import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
-import "status.fidl"
+import "speed.fidl"
 
 define org.genivi.commonapi.someip.deployment for interface commonapi.SpeedStatus {
     SomeIpServiceID = 4664
@@ -18,7 +18,7 @@ define org.genivi.commonapi.someip.deployment for interface commonapi.SpeedStatu
 
 define org.genivi.commonapi.someip.deployment for provider as Service {
     instance commonapi.SpeedStatus {
-        InstanceId = "commonapi.Speed"
+        InstanceId = "commonapi.SpeedStatus"
 
         SomeIpInstanceID = 22137
 

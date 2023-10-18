@@ -1,5 +1,5 @@
 import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
-import "status.fidl"
+import "battery.fidl"
 
 define org.genivi.commonapi.someip.deployment for interface commonapi.BatteryStatus {
     SomeIpServiceID = 4665
@@ -18,7 +18,7 @@ define org.genivi.commonapi.someip.deployment for interface commonapi.BatterySta
 
 define org.genivi.commonapi.someip.deployment for provider as Service {
     instance commonapi.BatteryStatus {
-        InstanceId = "commonapi.Battery"
+        InstanceId = "commonapi.BatteryStatus"
 
         SomeIpInstanceID = 22138
 
