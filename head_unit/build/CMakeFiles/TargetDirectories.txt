@@ -1,6 +1,0 @@
-/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit.dir
-/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/gear-someipstub.dir
-/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/edit_cache.dir
-/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/rebuild_cache.dir
-/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit_autogen.dir
-/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/gear-someipstub_autogen.dir
