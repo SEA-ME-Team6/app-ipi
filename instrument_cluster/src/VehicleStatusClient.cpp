@@ -14,9 +14,9 @@ VehicleStatusClient::VehicleStatusClient() {
 
     std::string domain = "local";
 
-    std::string Gear_instance = "commonapi.Gear";
-    std::string Speed_instance = "commonapi.Speed";
-    std::string Battery_instance = "commonapi.Battery";
+    std::string Gear_instance = "commonapi.GearSelection";
+    std::string Speed_instance = "commonapi.SpeedStatus";
+    std::string Battery_instance = "commonapi.BatteryStatus";
 
     std::string connection = "client-gear";
 

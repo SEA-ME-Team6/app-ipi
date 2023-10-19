@@ -130,43 +130,43 @@ instrument_cluster/fast:
 .PHONY : instrument_cluster/fast
 
 #=============================================================================
-# Target rules for targets named battery-someipstub
+# Target rules for targets named battery-someipproxy
 
 # Build rule for target.
-battery-someipstub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery-someipstub
-.PHONY : battery-someipstub
+battery-someipproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery-someipproxy
+.PHONY : battery-someipproxy
 
 # fast build rule for target.
-battery-someipstub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub.dir/build.make CMakeFiles/battery-someipstub.dir/build
-.PHONY : battery-someipstub/fast
+battery-someipproxy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy.dir/build.make CMakeFiles/battery-someipproxy.dir/build
+.PHONY : battery-someipproxy/fast
 
 #=============================================================================
-# Target rules for targets named gear-someipstub
+# Target rules for targets named gear-someipproxy
 
 # Build rule for target.
-gear-someipstub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gear-someipstub
-.PHONY : gear-someipstub
+gear-someipproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gear-someipproxy
+.PHONY : gear-someipproxy
 
 # fast build rule for target.
-gear-someipstub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/build
-.PHONY : gear-someipstub/fast
+gear-someipproxy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy.dir/build.make CMakeFiles/gear-someipproxy.dir/build
+.PHONY : gear-someipproxy/fast
 
 #=============================================================================
-# Target rules for targets named speed-someipstub
+# Target rules for targets named speed-someipproxy
 
 # Build rule for target.
-speed-someipstub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 speed-someipstub
-.PHONY : speed-someipstub
+speed-someipproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 speed-someipproxy
+.PHONY : speed-someipproxy
 
 # fast build rule for target.
-speed-someipstub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub.dir/build.make CMakeFiles/speed-someipstub.dir/build
-.PHONY : speed-someipstub/fast
+speed-someipproxy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy.dir/build.make CMakeFiles/speed-someipproxy.dir/build
+.PHONY : speed-someipproxy/fast
 
 #=============================================================================
 # Target rules for targets named instrument_cluster_autogen
@@ -182,91 +182,91 @@ instrument_cluster_autogen/fast:
 .PHONY : instrument_cluster_autogen/fast
 
 #=============================================================================
-# Target rules for targets named battery-someipstub_autogen
+# Target rules for targets named battery-someipproxy_autogen
 
 # Build rule for target.
-battery-someipstub_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery-someipstub_autogen
-.PHONY : battery-someipstub_autogen
+battery-someipproxy_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery-someipproxy_autogen
+.PHONY : battery-someipproxy_autogen
 
 # fast build rule for target.
-battery-someipstub_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub_autogen.dir/build.make CMakeFiles/battery-someipstub_autogen.dir/build
-.PHONY : battery-someipstub_autogen/fast
+battery-someipproxy_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy_autogen.dir/build.make CMakeFiles/battery-someipproxy_autogen.dir/build
+.PHONY : battery-someipproxy_autogen/fast
 
 #=============================================================================
-# Target rules for targets named gear-someipstub_autogen
+# Target rules for targets named gear-someipproxy_autogen
 
 # Build rule for target.
-gear-someipstub_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gear-someipstub_autogen
-.PHONY : gear-someipstub_autogen
+gear-someipproxy_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gear-someipproxy_autogen
+.PHONY : gear-someipproxy_autogen
 
 # fast build rule for target.
-gear-someipstub_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub_autogen.dir/build.make CMakeFiles/gear-someipstub_autogen.dir/build
-.PHONY : gear-someipstub_autogen/fast
+gear-someipproxy_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy_autogen.dir/build.make CMakeFiles/gear-someipproxy_autogen.dir/build
+.PHONY : gear-someipproxy_autogen/fast
 
 #=============================================================================
-# Target rules for targets named speed-someipstub_autogen
+# Target rules for targets named speed-someipproxy_autogen
 
 # Build rule for target.
-speed-someipstub_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 speed-someipstub_autogen
-.PHONY : speed-someipstub_autogen
+speed-someipproxy_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 speed-someipproxy_autogen
+.PHONY : speed-someipproxy_autogen
 
 # fast build rule for target.
-speed-someipstub_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub_autogen.dir/build.make CMakeFiles/speed-someipstub_autogen.dir/build
-.PHONY : speed-someipstub_autogen/fast
+speed-someipproxy_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy_autogen.dir/build.make CMakeFiles/speed-someipproxy_autogen.dir/build
+.PHONY : speed-someipproxy_autogen/fast
 
-battery-someipstub_autogen/mocs_compilation.o: battery-someipstub_autogen/mocs_compilation.cpp.o
-.PHONY : battery-someipstub_autogen/mocs_compilation.o
-
-# target to build an object file
-battery-someipstub_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub.dir/build.make CMakeFiles/battery-someipstub.dir/battery-someipstub_autogen/mocs_compilation.cpp.o
-.PHONY : battery-someipstub_autogen/mocs_compilation.cpp.o
-
-battery-someipstub_autogen/mocs_compilation.i: battery-someipstub_autogen/mocs_compilation.cpp.i
-.PHONY : battery-someipstub_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-battery-someipstub_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub.dir/build.make CMakeFiles/battery-someipstub.dir/battery-someipstub_autogen/mocs_compilation.cpp.i
-.PHONY : battery-someipstub_autogen/mocs_compilation.cpp.i
-
-battery-someipstub_autogen/mocs_compilation.s: battery-someipstub_autogen/mocs_compilation.cpp.s
-.PHONY : battery-someipstub_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-battery-someipstub_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub.dir/build.make CMakeFiles/battery-someipstub.dir/battery-someipstub_autogen/mocs_compilation.cpp.s
-.PHONY : battery-someipstub_autogen/mocs_compilation.cpp.s
-
-gear-someipstub_autogen/mocs_compilation.o: gear-someipstub_autogen/mocs_compilation.cpp.o
-.PHONY : gear-someipstub_autogen/mocs_compilation.o
+battery-someipproxy_autogen/mocs_compilation.o: battery-someipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : battery-someipproxy_autogen/mocs_compilation.o
 
 # target to build an object file
-gear-someipstub_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/gear-someipstub_autogen/mocs_compilation.cpp.o
-.PHONY : gear-someipstub_autogen/mocs_compilation.cpp.o
+battery-someipproxy_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy.dir/build.make CMakeFiles/battery-someipproxy.dir/battery-someipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : battery-someipproxy_autogen/mocs_compilation.cpp.o
 
-gear-someipstub_autogen/mocs_compilation.i: gear-someipstub_autogen/mocs_compilation.cpp.i
-.PHONY : gear-someipstub_autogen/mocs_compilation.i
+battery-someipproxy_autogen/mocs_compilation.i: battery-someipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : battery-someipproxy_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-gear-someipstub_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/gear-someipstub_autogen/mocs_compilation.cpp.i
-.PHONY : gear-someipstub_autogen/mocs_compilation.cpp.i
+battery-someipproxy_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy.dir/build.make CMakeFiles/battery-someipproxy.dir/battery-someipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : battery-someipproxy_autogen/mocs_compilation.cpp.i
 
-gear-someipstub_autogen/mocs_compilation.s: gear-someipstub_autogen/mocs_compilation.cpp.s
-.PHONY : gear-someipstub_autogen/mocs_compilation.s
+battery-someipproxy_autogen/mocs_compilation.s: battery-someipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : battery-someipproxy_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-gear-someipstub_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/gear-someipstub_autogen/mocs_compilation.cpp.s
-.PHONY : gear-someipstub_autogen/mocs_compilation.cpp.s
+battery-someipproxy_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy.dir/build.make CMakeFiles/battery-someipproxy.dir/battery-someipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : battery-someipproxy_autogen/mocs_compilation.cpp.s
+
+gear-someipproxy_autogen/mocs_compilation.o: gear-someipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : gear-someipproxy_autogen/mocs_compilation.o
+
+# target to build an object file
+gear-someipproxy_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy.dir/build.make CMakeFiles/gear-someipproxy.dir/gear-someipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : gear-someipproxy_autogen/mocs_compilation.cpp.o
+
+gear-someipproxy_autogen/mocs_compilation.i: gear-someipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : gear-someipproxy_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+gear-someipproxy_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy.dir/build.make CMakeFiles/gear-someipproxy.dir/gear-someipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : gear-someipproxy_autogen/mocs_compilation.cpp.i
+
+gear-someipproxy_autogen/mocs_compilation.s: gear-someipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : gear-someipproxy_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+gear-someipproxy_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy.dir/build.make CMakeFiles/gear-someipproxy.dir/gear-someipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : gear-someipproxy_autogen/mocs_compilation.cpp.s
 
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.o: instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o
 .PHONY : instrument_cluster_autogen/UVLADIE3JM/qrc_qml.o
@@ -316,36 +316,36 @@ instrument_cluster_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/instrument_cluster.dir/build.make CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.s
 .PHONY : instrument_cluster_autogen/mocs_compilation.cpp.s
 
-speed-someipstub_autogen/mocs_compilation.o: speed-someipstub_autogen/mocs_compilation.cpp.o
-.PHONY : speed-someipstub_autogen/mocs_compilation.o
+speed-someipproxy_autogen/mocs_compilation.o: speed-someipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : speed-someipproxy_autogen/mocs_compilation.o
 
 # target to build an object file
-speed-someipstub_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub.dir/build.make CMakeFiles/speed-someipstub.dir/speed-someipstub_autogen/mocs_compilation.cpp.o
-.PHONY : speed-someipstub_autogen/mocs_compilation.cpp.o
+speed-someipproxy_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy.dir/build.make CMakeFiles/speed-someipproxy.dir/speed-someipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : speed-someipproxy_autogen/mocs_compilation.cpp.o
 
-speed-someipstub_autogen/mocs_compilation.i: speed-someipstub_autogen/mocs_compilation.cpp.i
-.PHONY : speed-someipstub_autogen/mocs_compilation.i
+speed-someipproxy_autogen/mocs_compilation.i: speed-someipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : speed-someipproxy_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-speed-someipstub_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub.dir/build.make CMakeFiles/speed-someipstub.dir/speed-someipstub_autogen/mocs_compilation.cpp.i
-.PHONY : speed-someipstub_autogen/mocs_compilation.cpp.i
+speed-someipproxy_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy.dir/build.make CMakeFiles/speed-someipproxy.dir/speed-someipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : speed-someipproxy_autogen/mocs_compilation.cpp.i
 
-speed-someipstub_autogen/mocs_compilation.s: speed-someipstub_autogen/mocs_compilation.cpp.s
-.PHONY : speed-someipstub_autogen/mocs_compilation.s
+speed-someipproxy_autogen/mocs_compilation.s: speed-someipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : speed-someipproxy_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-speed-someipstub_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub.dir/build.make CMakeFiles/speed-someipstub.dir/speed-someipstub_autogen/mocs_compilation.cpp.s
-.PHONY : speed-someipstub_autogen/mocs_compilation.cpp.s
+speed-someipproxy_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy.dir/build.make CMakeFiles/speed-someipproxy.dir/speed-someipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : speed-someipproxy_autogen/mocs_compilation.cpp.s
 
 src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.o: src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.o
 .PHONY : src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.o
 
 # target to build an object file
 src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub.dir/build.make CMakeFiles/battery-someipstub.dir/src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy.dir/build.make CMakeFiles/battery-someipproxy.dir/src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.o
 .PHONY : src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.o
 
 src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.i: src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.i
@@ -353,7 +353,7 @@ src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.i: src-gen/so
 
 # target to preprocess a source file
 src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub.dir/build.make CMakeFiles/battery-someipstub.dir/src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy.dir/build.make CMakeFiles/battery-someipproxy.dir/src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.i
 .PHONY : src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.i
 
 src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.s: src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.s
@@ -361,7 +361,7 @@ src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.s: src-gen/so
 
 # target to generate assembly for a file
 src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipstub.dir/build.make CMakeFiles/battery-someipstub.dir/src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery-someipproxy.dir/build.make CMakeFiles/battery-someipproxy.dir/src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.s
 .PHONY : src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.cpp.s
 
 src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.o: src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.o
@@ -369,8 +369,7 @@ src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.o: src-gen/somei
 
 # target to build an object file
 src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub.dir/build.make CMakeFiles/speed-someipstub.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy.dir/build.make CMakeFiles/gear-someipproxy.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.o
 .PHONY : src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.o
 
 src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.i: src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.i
@@ -378,8 +377,7 @@ src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.i: src-gen/somei
 
 # target to preprocess a source file
 src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub.dir/build.make CMakeFiles/speed-someipstub.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy.dir/build.make CMakeFiles/gear-someipproxy.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.i
 .PHONY : src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.i
 
 src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.s: src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.s
@@ -387,9 +385,32 @@ src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.s: src-gen/somei
 
 # target to generate assembly for a file
 src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipstub.dir/build.make CMakeFiles/gear-someipstub.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipstub.dir/build.make CMakeFiles/speed-someipstub.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gear-someipproxy.dir/build.make CMakeFiles/gear-someipproxy.dir/src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.s
 .PHONY : src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.cpp.s
+
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o: src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o
+
+# target to build an object file
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy.dir/build.make CMakeFiles/speed-someipproxy.dir/src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o
+
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i: src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i
+
+# target to preprocess a source file
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy.dir/build.make CMakeFiles/speed-someipproxy.dir/src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i
+
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s: src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s
+
+# target to generate assembly for a file
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed-someipproxy.dir/build.make CMakeFiles/speed-someipproxy.dir/src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
 
 src/VehicleStatusClient.o: src/VehicleStatusClient.cpp.o
 .PHONY : src/VehicleStatusClient.o
@@ -447,35 +468,38 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... battery-someipstub_autogen"
-	@echo "... gear-someipstub_autogen"
+	@echo "... battery-someipproxy_autogen"
+	@echo "... gear-someipproxy_autogen"
 	@echo "... instrument_cluster_autogen"
-	@echo "... speed-someipstub_autogen"
-	@echo "... battery-someipstub"
-	@echo "... gear-someipstub"
+	@echo "... speed-someipproxy_autogen"
+	@echo "... battery-someipproxy"
+	@echo "... gear-someipproxy"
 	@echo "... instrument_cluster"
-	@echo "... speed-someipstub"
-	@echo "... battery-someipstub_autogen/mocs_compilation.o"
-	@echo "... battery-someipstub_autogen/mocs_compilation.i"
-	@echo "... battery-someipstub_autogen/mocs_compilation.s"
-	@echo "... gear-someipstub_autogen/mocs_compilation.o"
-	@echo "... gear-someipstub_autogen/mocs_compilation.i"
-	@echo "... gear-someipstub_autogen/mocs_compilation.s"
+	@echo "... speed-someipproxy"
+	@echo "... battery-someipproxy_autogen/mocs_compilation.o"
+	@echo "... battery-someipproxy_autogen/mocs_compilation.i"
+	@echo "... battery-someipproxy_autogen/mocs_compilation.s"
+	@echo "... gear-someipproxy_autogen/mocs_compilation.o"
+	@echo "... gear-someipproxy_autogen/mocs_compilation.i"
+	@echo "... gear-someipproxy_autogen/mocs_compilation.s"
 	@echo "... instrument_cluster_autogen/UVLADIE3JM/qrc_qml.o"
 	@echo "... instrument_cluster_autogen/UVLADIE3JM/qrc_qml.i"
 	@echo "... instrument_cluster_autogen/UVLADIE3JM/qrc_qml.s"
 	@echo "... instrument_cluster_autogen/mocs_compilation.o"
 	@echo "... instrument_cluster_autogen/mocs_compilation.i"
 	@echo "... instrument_cluster_autogen/mocs_compilation.s"
-	@echo "... speed-someipstub_autogen/mocs_compilation.o"
-	@echo "... speed-someipstub_autogen/mocs_compilation.i"
-	@echo "... speed-someipstub_autogen/mocs_compilation.s"
+	@echo "... speed-someipproxy_autogen/mocs_compilation.o"
+	@echo "... speed-someipproxy_autogen/mocs_compilation.i"
+	@echo "... speed-someipproxy_autogen/mocs_compilation.s"
 	@echo "... src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.o"
 	@echo "... src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.i"
 	@echo "... src-gen/someip/proxy/battery/v1/commonapi/BatteryStatusSomeIPProxy.s"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.o"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.i"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearSelectionSomeIPProxy.s"
+	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o"
+	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i"
+	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s"
 	@echo "... src/VehicleStatusClient.o"
 	@echo "... src/VehicleStatusClient.i"
 	@echo "... src/VehicleStatusClient.s"

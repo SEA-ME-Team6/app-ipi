@@ -10,7 +10,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-option(BUILD_COMMONAPI "Build the CommonAPI" OFF)
+option(BUILD_COMMONAPI "Build the CommonAPI" ON)
 option(BUILD_SOMEIP_LIB "Build the SomeIP libraries" ON)
 
 if(BUILD_COMMONAPI)
@@ -58,10 +58,10 @@ if(BUILD_SOMEIP_LIB)
     FILE(GLOB_RECURSE BATTERY_SOMEIP_STUB_LIB_SRCS 
         src-gen/someip/proxy/battery/*.cpp
     )
-    add_library(battery-someipstub  SHARED
+    add_library(battery-someipproxy  SHARED
         ${BATTERY_SOMEIP_STUB_LIB_SRCS}
     )
-    target_link_libraries(battery-someipstub
+    target_link_libraries(battery-someipproxy
         CommonAPI-SomeIP
         vsomeip3
     )
@@ -70,22 +70,22 @@ if(BUILD_SOMEIP_LIB)
     FILE(GLOB_RECURSE GEAR_SOMEIP_STUB_LIB_SRCS 
         src-gen/someip/proxy/gear/*.cpp
     )
-    add_library(gear-someipstub  SHARED
+    add_library(gear-someipproxy  SHARED
         ${GEAR_SOMEIP_STUB_LIB_SRCS}
     )
-    target_link_libraries(gear-someipstub
+    target_link_libraries(gear-someipproxy
         CommonAPI-SomeIP
         vsomeip3
     )
 
-    # speed proxy
-    FILE(GLOB_RECURSE SPEED_SOMEIP_STUB_LIB_SRCS 
-        src-gen/someip/proxy/gear/*.cpp
+    # speed stub
+    FILE(GLOB_RECURSE SPEED_SOMEIP_PROXY_LIB_SRCS 
+        src-gen/someip/proxy/speed/*.cpp
     )
-    add_library(speed-someipstub  SHARED
-        ${SPEED_SOMEIP_STUB_LIB_SRCS}
+    add_library(speed-someipproxy  SHARED
+        ${SPEED_SOMEIP_PROXY_LIB_SRCS}
     )
-    target_link_libraries(speed-someipstub
+    target_link_libraries(speed-someipproxy
         CommonAPI-SomeIP
         vsomeip3
     )

@@ -188,20 +188,20 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.24.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/instrument_cluster_autogen.dir/AutogenInfo.json"
   "CMakeFiles/instrument_cluster_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json"
-  "CMakeFiles/battery-someipstub_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/gear-someipstub_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/speed-someipstub_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/battery-someipproxy_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/gear-someipproxy_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/speed-someipproxy_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/instrument_cluster.dir/DependInfo.cmake"
-  "CMakeFiles/battery-someipstub.dir/DependInfo.cmake"
-  "CMakeFiles/gear-someipstub.dir/DependInfo.cmake"
-  "CMakeFiles/speed-someipstub.dir/DependInfo.cmake"
+  "CMakeFiles/battery-someipproxy.dir/DependInfo.cmake"
+  "CMakeFiles/gear-someipproxy.dir/DependInfo.cmake"
+  "CMakeFiles/speed-someipproxy.dir/DependInfo.cmake"
   "CMakeFiles/instrument_cluster_autogen.dir/DependInfo.cmake"
-  "CMakeFiles/battery-someipstub_autogen.dir/DependInfo.cmake"
-  "CMakeFiles/gear-someipstub_autogen.dir/DependInfo.cmake"
-  "CMakeFiles/speed-someipstub_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/battery-someipproxy_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/gear-someipproxy_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/speed-someipproxy_autogen.dir/DependInfo.cmake"
   )

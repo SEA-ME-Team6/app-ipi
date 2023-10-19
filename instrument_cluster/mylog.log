@@ -8,3 +8,326 @@
 [CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
 [CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery proxy.
 [CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> libgear-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.Gear proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.Speed proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> libgear-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.Gear proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.Speed proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> libgear-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> libgear-someipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:commonapi.GearStatus --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Loading interface library "libGearSelection-someip.so" failed (libGearSelection-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][ERROR] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus" failed!
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: # local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.SpeedStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipproxy.so
+[CAPI][INFO] Loading configuration file './instrument_cluster.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.SpeedStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libspeed-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.BatteryStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libbattery-someipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"

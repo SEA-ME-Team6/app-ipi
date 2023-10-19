@@ -1,0 +1,63 @@
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './speed_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.SpeedStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libspeed-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './speed_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.SpeedStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libspeed-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './speed_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.SpeedStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libspeed-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './speed_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.SpeedStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libspeed-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './speed_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.SpeedStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libspeed-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './speed_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.SpeedStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libspeed-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus --> libspeed-someipstub.so
+[CAPI][INFO] Loading configuration file './speed_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus <--> [1238.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.SpeedStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libspeed-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus"

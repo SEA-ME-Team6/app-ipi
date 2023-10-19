@@ -1,0 +1,112 @@
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][INFO] Loading configuration file './battery_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][INFO] Loading configuration file './battery_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.Battery stub.
+[CAPI][DEBUG] Loading interface library "libBatteryServer-someip.so" failed (libBatteryServer-someip.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][INFO] Loading configuration file './battery_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.BatteryStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libbattery-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][INFO] Loading configuration file './battery_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.BatteryStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libbattery-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][INFO] Loading configuration file './battery_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.BatteryStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libbattery-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus --> libbattery-someipstub.so
+[CAPI][INFO] Loading configuration file './battery_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus <--> [1239.567a(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.BatteryStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libbattery-someipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus"
