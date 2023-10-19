@@ -32,7 +32,7 @@ if(BUILD_COMMONAPI)
     )
 
     install(TARGETS       gamepad 
-            DESTINATION   /usr/bin
+            DESTINATION   /usr/bin/DES3
     )
 
 endif()

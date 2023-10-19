@@ -28,7 +28,7 @@ if(BUILD_COMMONAPI)
     )
 
     install(TARGETS       speed_sender 
-            DESTINATION   /usr/bin
+            DESTINATION   /usr/bin/DES3
     )
 
 endif()

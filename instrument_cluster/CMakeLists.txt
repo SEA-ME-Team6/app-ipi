@@ -37,6 +37,11 @@ if(BUILD_COMMONAPI)
     target_link_libraries(instrument_cluster
         PRIVATE Qt5::Core Qt5::Quick Qt5::Gui Qt5::Network
         CommonAPI)
+
+
+    install(TARGETS       instrument_cluster 
+            DESTINATION   /usr/bin/DES3
+    )
 endif()
 
 if(BUILD_SOMEIP_LIB)
