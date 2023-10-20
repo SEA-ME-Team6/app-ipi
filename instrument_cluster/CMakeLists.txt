@@ -10,13 +10,20 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-option(BUILD_COMMONAPI "Build the CommonAPI" ON)
-option(BUILD_SOMEIP_LIB "Build the SomeIP libraries" ON)
+# set(BUILD_COMMONAPI true)
+# set(BUILD_SOMEIP_LIB true)
 
 if(BUILD_COMMONAPI)
+    if (NOT COMMON_API_FOUND)
+        find_package(CommonAPI REQUIRED)
+
+        include_directories(
+            ${COMMONAPI_INCLUDE_DIRS}
+        )
+    endif()
+
     find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Quick)
     find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick)
-    find_package(CommonAPI REQUIRED)
 
     include_directories(
         src-gen/core/common/battery
@@ -25,7 +32,6 @@ if(BUILD_COMMONAPI)
         src-gen/core/proxy/gear
         src-gen/core/common/speed
         src-gen/core/proxy/speed
-        ${COMMONAPI_INCLUDE_DIRS}
     )
 
     add_executable(instrument_cluster
@@ -45,8 +51,15 @@ if(BUILD_COMMONAPI)
 endif()
 
 if(BUILD_SOMEIP_LIB)
-    find_package(CommonAPI-SomeIP REQUIRED)
-    find_package(vsomeip3 REQUIRED)
+    if (NOT TOP_CMAKE_FOUND)
+        find_package(CommonAPI-SomeIP REQUIRED)
+        find_package(vsomeip3 REQUIRED)
+
+        include_directories(
+            ${COMMONAPI_SOMEIP_INCLUDE_DIRS}
+            ${VSOMEIP3_INCLUDE_DIRS}
+        )
+    endif()
 
     include_directories(
         src-gen/someip/common/battery
@@ -55,18 +68,16 @@ if(BUILD_SOMEIP_LIB)
         src-gen/someip/proxy/gear
         src-gen/someip/common/speed
         src-gen/someip/proxy/speed
-        ${COMMONAPI_SOMEIP_INCLUDE_DIRS}
-        ${VSOMEIP3_INCLUDE_DIRS}
     )
 
     # battery proxy
     FILE(GLOB_RECURSE BATTERY_SOMEIP_STUB_LIB_SRCS 
         src-gen/someip/proxy/battery/*.cpp
     )
-    add_library(battery-someipproxy  SHARED
+    add_library(ic-battery-someipproxy  SHARED
         ${BATTERY_SOMEIP_STUB_LIB_SRCS}
     )
-    target_link_libraries(battery-someipproxy
+    target_link_libraries(ic-battery-someipproxy
         CommonAPI-SomeIP
         vsomeip3
     )
@@ -75,10 +86,10 @@ if(BUILD_SOMEIP_LIB)
     FILE(GLOB_RECURSE GEAR_SOMEIP_STUB_LIB_SRCS 
         src-gen/someip/proxy/gear/*.cpp
     )
-    add_library(gear-someipproxy  SHARED
+    add_library(ic-gear-someipproxy  SHARED
         ${GEAR_SOMEIP_STUB_LIB_SRCS}
     )
-    target_link_libraries(gear-someipproxy
+    target_link_libraries(ic-gear-someipproxy
         CommonAPI-SomeIP
         vsomeip3
     )
@@ -87,10 +98,10 @@ if(BUILD_SOMEIP_LIB)
     FILE(GLOB_RECURSE SPEED_SOMEIP_PROXY_LIB_SRCS 
         src-gen/someip/proxy/speed/*.cpp
     )
-    add_library(speed-someipproxy  SHARED
+    add_library(ic-speed-someipproxy  SHARED
         ${SPEED_SOMEIP_PROXY_LIB_SRCS}
     )
-    target_link_libraries(speed-someipproxy
+    target_link_libraries(ic-speed-someipproxy
         CommonAPI-SomeIP
         vsomeip3
     )
