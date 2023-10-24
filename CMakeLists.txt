@@ -5,7 +5,6 @@ set(BUILD_COMMONAPI true CACHE BOOL "Build the CommonAPI")
 set(BUILD_SOMEIP_LIB true CACHE BOOL "Build the SOMEIP")
 set(TOP_CMAKE_FOUND true CACHE BOOL "Found Top of CMakeFIle")
 
-
 if(BUILD_COMMONAPI)
     find_package(CommonAPI REQUIRED)
 

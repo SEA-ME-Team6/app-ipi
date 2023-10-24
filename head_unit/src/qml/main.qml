@@ -3,39 +3,22 @@ import QtQuick.Window 2.2
 import QtQuick.Controls 2.2
 
 Window {
-    width: 640
-    height: 480
+    id:root
+    width: 1024
+    height: 600
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("Head Unit")
 
-    Column{
-        Button {
-            text: "0"
-            onClicked: {
-                server.buttonPressed(0)
-            }
-        }
+    Image{
+        id:background
+        anchors.fill: parent
+        source: "/img/benz.jpg"
+    }
 
-        Button {
-            text: "1"
-            onClicked: {
-                server.buttonPressed(1)
-            }
-        }
-
-        Button {
-            text: "2"
-            onClicked: {
-                server.buttonPressed(2)
-            }
-        }
-
-        Button {
-            text: "3"
-            onClicked: {
-                server.buttonPressed(3)
-            }
-        }
+    StackView{
+        id:stackview
+        anchors.fill:parent
+        initialItem: "/qml/home.qml"
     }
 
 }

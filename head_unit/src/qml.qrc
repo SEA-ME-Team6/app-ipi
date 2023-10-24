@@ -1,5 +1,13 @@
 <RCC>
     <qresource prefix="/">
         <file>qml/main.qml</file>
+        <file>qml/home.qml</file>
+        <file>qml/light.qml</file>
+        <file>img/benz.jpg</file>
+        <file>img/shine2.png</file>
+        <file>img/light2.svg</file>
+        <file>img/music2.svg</file>
+        <file>img/video.svg</file>
+
     </qresource>
 </RCC>
