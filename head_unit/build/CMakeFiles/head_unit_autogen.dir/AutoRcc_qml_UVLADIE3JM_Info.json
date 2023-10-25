@@ -7,14 +7,9 @@
 	"INCLUDE_DIR" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/qml/home.qml",
-		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/qml/light.qml",
 		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/qml/main.qml",
-		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/img/light2.svg",
-		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/img/video.svg",
-		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/img/shine2.png",
-		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/img/benz.jpg",
-		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/img/music2.svg"
+		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/img/shine.png",
+		"/home/seame-workstation08/DES_Head-Unit/head_unit/src/img/benz.jpg"
 	],
 	"LOCK_FILE" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit_autogen.dir/AutoRcc_qml_UVLADIE3JM_Lock.lock",
 	"MULTI_CONFIG" : false,

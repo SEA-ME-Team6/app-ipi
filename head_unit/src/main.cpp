@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     GearSelectionServer *server = new GearSelectionServer();
+    server->run();
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("server", server);

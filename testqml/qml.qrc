@@ -2,7 +2,8 @@
     <qresource prefix="/">
         <file>qml/main.qml</file>
         <file>img/benz.jpg</file>
-        <file>img/shine.png</file>
-
+        <file>img/head_light.png</file>
+        <file>img/ground_shadow.png</file>
+        <file>img/settings-24.png</file>
     </qresource>
 </RCC>

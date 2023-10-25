@@ -71,14 +71,9 @@ include CMakeFiles/head_unit.dir/flags.make
 
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/qml.qrc
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: CMakeFiles/head_unit_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json
-head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/qml/home.qml
-head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/qml/light.qml
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/qml/main.qml
-head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/img/light2.svg
-head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/img/video.svg
-head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/img/shine2.png
+head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/img/shine.png
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/img/benz.jpg
-head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/img/music2.svg
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/anaconda3/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for src/qml.qrc"
 	/usr/local/bin/cmake -E cmake_autorcc /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json 
