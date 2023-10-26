@@ -6,7 +6,7 @@ Item {
     id:home
     width: 1024
     height: 600
-    //scale: 0.5
+    scale: 0.5
 
     Image{
         id:background

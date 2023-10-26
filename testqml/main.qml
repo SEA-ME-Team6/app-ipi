@@ -11,7 +11,10 @@ Window {
 
     StackView{
         id:stackview
-        anchors.fill: parent
+        anchors{
+            left: parent.left
+            top: parent.top
+        }
         initialItem: "/home.qml"
     }
 }
