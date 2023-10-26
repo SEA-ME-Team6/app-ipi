@@ -6,11 +6,12 @@ Window {
     id:root
     width: 1024
     height: 600
+    visible: true
     color: "black"
 
     StackView{
         id:stackview
-        anchors.fill:parent
+        anchors.fill: parent
         initialItem: "/home.qml"
     }
 }
