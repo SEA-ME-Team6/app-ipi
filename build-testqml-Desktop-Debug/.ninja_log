@@ -1,0 +1,11 @@
+# ninja log v5
+14	560	1698250755811758585	CMakeFiles/testqml.dir/main.cpp.o	8f303f9f232e1010
+14	23	1698249856812958395	CMakeFiles/testqml.dir/testqml_autogen/mocs_compilation.cpp.o	3d2507e6b6afa79a
+7	13	1698283311657763534	/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/testqml_autogen/EWIEGA46WW/qrc_qml.cpp	e65634fd91abd0cb
+13	148	1698283311789762062	CMakeFiles/testqml.dir/testqml_autogen/EWIEGA46WW/qrc_qml.cpp.o	c3822529fab45703
+7	13	1698283311657763534	testqml_autogen/EWIEGA46WW/qrc_qml.cpp	e65634fd91abd0cb
+148	313	1698283311945760323	testqml	3dfed615a4ae8923
+1	7	1698283311649763623	/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/testqml_autogen/timestamp	bf573eec383ac839
+1	7	1698283311649763623	testqml_autogen/mocs_compilation.cpp	bf573eec383ac839
+1	7	1698283311649763623	/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/testqml_autogen/mocs_compilation.cpp	bf573eec383ac839
+1	7	1698283311649763623	testqml_autogen/timestamp	bf573eec383ac839

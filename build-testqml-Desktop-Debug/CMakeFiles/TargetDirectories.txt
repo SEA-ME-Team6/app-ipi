@@ -1,0 +1,5 @@
+/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/CMakeFiles/testqml.dir
+/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/CMakeFiles/testqml_autogen_timestamp_deps.dir
+/home/seame-workstation08/DES_Head-Unit/build-testqml-Desktop-Debug/CMakeFiles/testqml_autogen.dir
