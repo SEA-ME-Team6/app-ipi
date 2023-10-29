@@ -26,18 +26,16 @@ if(BUILD_COMMONAPI)
     find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick)
 
     include_directories(
-        src-gen/core/common/battery
-        src-gen/core/proxy/battery
-        src-gen/core/common/gear
-        src-gen/core/proxy/gear
         src-gen/core/common/speed
         src-gen/core/proxy/speed
+        src-gen/core/common/battery
+        src-gen/core/proxy/battery
     )
 
     add_executable(instrument_cluster
         src/main.cpp
         src/qml.qrc
-        src/VehicleStatusClient.cpp
+        src/StatusClient.cpp
     )
 
     target_link_libraries(instrument_cluster
@@ -62,49 +60,37 @@ if(BUILD_SOMEIP_LIB)
     endif()
 
     include_directories(
-        src-gen/someip/common/battery
-        src-gen/someip/proxy/battery
-        src-gen/someip/common/gear
-        src-gen/someip/proxy/gear
         src-gen/someip/common/speed
         src-gen/someip/proxy/speed
+        src-gen/someip/common/battery
+        src-gen/someip/proxy/battery
     )
 
-    # battery proxy
-    FILE(GLOB_RECURSE BATTERY_SOMEIP_STUB_LIB_SRCS 
-        src-gen/someip/proxy/battery/*.cpp
-    )
-    add_library(ic-battery-someipproxy  SHARED
-        ${BATTERY_SOMEIP_STUB_LIB_SRCS}
-    )
-    target_link_libraries(ic-battery-someipproxy
-        CommonAPI-SomeIP
-        vsomeip3
-    )
-
-    # gear proxy
-    FILE(GLOB_RECURSE GEAR_SOMEIP_STUB_LIB_SRCS 
-        src-gen/someip/proxy/gear/*.cpp
-    )
-    add_library(ic-gear-someipproxy  SHARED
-        ${GEAR_SOMEIP_STUB_LIB_SRCS}
-    )
-    target_link_libraries(ic-gear-someipproxy
-        CommonAPI-SomeIP
-        vsomeip3
-    )
-
-    # speed stub
+    # speed proxy
     FILE(GLOB_RECURSE SPEED_SOMEIP_PROXY_LIB_SRCS 
         src-gen/someip/proxy/speed/*.cpp
     )
-    add_library(ic-speed-someipproxy  SHARED
+    add_library(ic-speedsomeipproxy  SHARED
         ${SPEED_SOMEIP_PROXY_LIB_SRCS}
     )
-    target_link_libraries(ic-speed-someipproxy
+    target_link_libraries(ic-speedsomeipproxy
         CommonAPI-SomeIP
         vsomeip3
     )
+
+    # battery proxy
+    FILE(GLOB_RECURSE BATTERY_SOMEIP_PROXY_LIB_SRCS 
+        src-gen/someip/proxy/battery/*.cpp
+    )
+    add_library(ic-batterysomeipproxy  SHARED
+        ${BATTERY_SOMEIP_PROXY_LIB_SRCS}
+    )
+    target_link_libraries(ic-batterysomeipproxy
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
+
 
 
 endif()

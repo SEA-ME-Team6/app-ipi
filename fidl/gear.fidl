@@ -1,7 +1,16 @@
 package commonapi
 
-interface GearSelection {
+interface GearStatus {
     version { major 1 minor 0 }
 
-    attribute UInt32 gear 
+    method gearselction {
+        in {
+            UInt8 gearselct
+        }
+        out {
+            UInt8 gear
+        }
+    }
+
+    attribute UInt8 gear
 }

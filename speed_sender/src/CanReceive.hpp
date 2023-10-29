@@ -20,7 +20,7 @@ class CanReceive {
     public:
         explicit CanReceive(const char* interface_name);
         ~CanReceive();
-        bool getData(float &rpm, float &speed);
+        float getSpeed();
 };
 
 #endif

@@ -1,20 +1,23 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "VehicleStatusClient.hpp"
+#include <QFont>
+#include "StatusClient.hpp"
 
 int main(int argc, char *argv[])
 {
 
     QGuiApplication app(argc, argv);
 
-    VehicleStatusClient *vehiclestatusclient = new VehicleStatusClient();
-    vehiclestatusclient->run();
+    //QFontDatabase::addApplicationFont(":/fonts/DejaVuSans.ttf");
+    //app.setFont(QFont("DejaVu Sans"));
+
+    StatusClient *statusclient = new StatusClient();
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("vehicle", vehiclestatusclient);
+    engine.rootContext()->setContextProperty("car", statusclient);
 
-    const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/qml/dashboard.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
         &app, [url](QObject *obj, const QUrl &objUrl) {
             if (!obj && url == objUrl)

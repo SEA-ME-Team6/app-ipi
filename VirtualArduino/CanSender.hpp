@@ -19,7 +19,7 @@ private:
 public:
     CanSender(const char* interface_name);
     ~CanSender();
-    void sendData(float rpm, float speed);
+    void sendRPM(float rpm);
 };
 
 #endif // CAN_SENDER_HPP

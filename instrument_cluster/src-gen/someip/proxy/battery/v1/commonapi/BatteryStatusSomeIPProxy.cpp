@@ -32,8 +32,8 @@ std::shared_ptr<CommonAPI::SomeIP::Proxy> createBatteryStatusSomeIPProxy(
 
 void initializeBatteryStatusSomeIPProxy() {
     CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.BatteryStatus:v1_0:commonapi.BatteryStatus",
-        0x1239, 0x567a, 1, 0);
+        "local:commonapi.BatteryStatus:v1_0:BatteryStatus",
+        0x1234, 0x5678, 1, 0);
     CommonAPI::SomeIP::Factory::get()->registerProxyCreateMethod(
         "commonapi.BatteryStatus:v1_0",
         &createBatteryStatusSomeIPProxy);
@@ -47,7 +47,7 @@ BatteryStatusSomeIPProxy::BatteryStatusSomeIPProxy(
     const CommonAPI::SomeIP::Address &_address,
     const std::shared_ptr<CommonAPI::SomeIP::ProxyConnection> &_connection)
         : CommonAPI::SomeIP::Proxy(_address, _connection),
-          battery_(*this, CommonAPI::SomeIP::eventgroup_id_t(0x80f5), CommonAPI::SomeIP::event_id_t(0x8101), CommonAPI::SomeIP::method_id_t(0xbbd), true, CommonAPI::SomeIP::reliability_type_e::RT_RELIABLE, false, CommonAPI::SomeIP::method_id_t(0xbbe), true, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint32_t>* >(nullptr))
+          battery_(*this, CommonAPI::SomeIP::eventgroup_id_t(0x80f2), CommonAPI::SomeIP::event_id_t(0x80f2), CommonAPI::SomeIP::method_id_t(0xbb8), false, CommonAPI::SomeIP::reliability_type_e::RT_UNRELIABLE, false, CommonAPI::SomeIP::method_id_t(0xbb9), false, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint32_t>* >(nullptr))
 {
 }
 

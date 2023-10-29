@@ -1,9 +1,0 @@
-[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection --> libgear-someipproxy.so
-[CAPI][INFO] Loading configuration file './gamepad.ini'
-[CAPI][INFO] Using default binding 'someip'
-[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
-[CAPI][DEBUG] Loading library for local:commonapi.GearSelection:v1_0:commonapi.GearSelection proxy.
-[CAPI][DEBUG] Added address mapping: local:commonapi.GearSelection:v1_0:commonapi.GearSelection <--> [1237.5678(1.0)]
-[CAPI][VERBOSE] Registering function for creating "commonapi.GearSelection:v1_0" proxy.
-[CAPI][DEBUG] Loading interface library "libgear-someipproxy.so" succeeded.
-[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearSelection:v1_0:commonapi.GearSelection"

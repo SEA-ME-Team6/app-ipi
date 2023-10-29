@@ -1,6 +1,8 @@
 #include "CanReceive.hpp"
 #include <cstdio>
 #include <cstdlib>
+# define M_PI           3.14159265358979323846  /* pi */
+# define WheelRadius    0.0325
 
 CanReceive::CanReceive(const char* interface_name) : ifname(interface_name) {
     if ((s = socket(PF_CAN, SOCK_RAW, CAN_RAW)) < 0) {
@@ -24,7 +26,8 @@ CanReceive::~CanReceive() {
     close(s);
 }
 
-bool CanReceive::getData(float &rpm, float &speed) {
+float CanReceive::getSpeed() {
+    float rpm;
     int nbytes = read(s, &frame, sizeof(struct can_frame));
 
     if (nbytes < 0) {
@@ -33,8 +36,7 @@ bool CanReceive::getData(float &rpm, float &speed) {
     }
 
     std::memcpy(&rpm, frame.data, sizeof(float));
-    std::memcpy(&speed, frame.data + 4, sizeof(float));
-    usleep(200000);
-
-    return true;
+    
+    float speed = rpm * (2 * M_PI * WheelRadius);
+    return speed;
 }

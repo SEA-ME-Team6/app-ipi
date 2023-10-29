@@ -34,8 +34,8 @@ std::shared_ptr<CommonAPI::SomeIP::StubAdapter> createSpeedStatusSomeIPStubAdapt
 
 void initializeSpeedStatusSomeIPStubAdapter() {
     CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus",
-         0x1238, 0x5679, 1, 0);
+        "local:commonapi.SpeedStatus:v1_0:SpeedStatus",
+         0x1235, 0x5679, 1, 0);
     CommonAPI::SomeIP::Factory::get()->registerStubAdapterCreateMethod(
         "commonapi.SpeedStatus:v1_0",
         &createSpeedStatusSomeIPStubAdapter);

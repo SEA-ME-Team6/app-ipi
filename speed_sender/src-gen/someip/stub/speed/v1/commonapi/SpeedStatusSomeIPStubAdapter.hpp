@@ -89,15 +89,15 @@ public:
             false,
             _stub->hasElement(0))
     {
-        SpeedStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0xbbc) }, &getSpeedAttributeStubDispatcher );
-        SpeedStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0xbbd) }, &setSpeedAttributeStubDispatcher );
+        SpeedStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0xbb9) }, &getSpeedAttributeStubDispatcher );
+        SpeedStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0xbba) }, &setSpeedAttributeStubDispatcher );
         std::shared_ptr<CommonAPI::SomeIP::ClientId> itsClient = std::make_shared<CommonAPI::SomeIP::ClientId>(0xFFFF, 0xFFFFFFFF, 0xFFFFFFFF);
 
         // Provided events/fields
         if (_stub->hasElement(0)) {
             std::set<CommonAPI::SomeIP::eventgroup_id_t> itsEventGroups;
-            itsEventGroups.insert(CommonAPI::SomeIP::eventgroup_id_t(CommonAPI::SomeIP::eventgroup_id_t(0x80f4)));
-            CommonAPI::SomeIP::StubAdapter::registerEvent(CommonAPI::SomeIP::event_id_t(0x8100), itsEventGroups, CommonAPI::SomeIP::event_type_e::ET_FIELD, CommonAPI::SomeIP::reliability_type_e::RT_RELIABLE);
+            itsEventGroups.insert(CommonAPI::SomeIP::eventgroup_id_t(CommonAPI::SomeIP::eventgroup_id_t(0x80f3)));
+            CommonAPI::SomeIP::StubAdapter::registerEvent(CommonAPI::SomeIP::event_id_t(0x80f3), itsEventGroups, CommonAPI::SomeIP::event_type_e::ET_FIELD, CommonAPI::SomeIP::reliability_type_e::RT_UNRELIABLE);
             fireSpeedAttributeChanged(std::dynamic_pointer_cast< ::v1::commonapi::SpeedStatusStub>(_stub)->getSpeedAttribute(itsClient));
         }
 
@@ -117,7 +117,7 @@ void SpeedStatusSomeIPStubAdapterInternal<_Stub, _Stubs...>::fireSpeedAttributeC
             >
     >::sendEvent(
         *this,
-        CommonAPI::SomeIP::event_id_t(0x8100),
+        CommonAPI::SomeIP::event_id_t(0x80f3),
         false,
         _value
     );

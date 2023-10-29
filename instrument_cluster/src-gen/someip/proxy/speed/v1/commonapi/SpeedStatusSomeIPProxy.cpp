@@ -32,8 +32,8 @@ std::shared_ptr<CommonAPI::SomeIP::Proxy> createSpeedStatusSomeIPProxy(
 
 void initializeSpeedStatusSomeIPProxy() {
     CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.SpeedStatus:v1_0:commonapi.SpeedStatus",
-        0x1238, 0x5679, 1, 0);
+        "local:commonapi.SpeedStatus:v1_0:SpeedStatus",
+        0x1235, 0x5679, 1, 0);
     CommonAPI::SomeIP::Factory::get()->registerProxyCreateMethod(
         "commonapi.SpeedStatus:v1_0",
         &createSpeedStatusSomeIPProxy);
@@ -47,7 +47,7 @@ SpeedStatusSomeIPProxy::SpeedStatusSomeIPProxy(
     const CommonAPI::SomeIP::Address &_address,
     const std::shared_ptr<CommonAPI::SomeIP::ProxyConnection> &_connection)
         : CommonAPI::SomeIP::Proxy(_address, _connection),
-          speed_(*this, CommonAPI::SomeIP::eventgroup_id_t(0x80f4), CommonAPI::SomeIP::event_id_t(0x8100), CommonAPI::SomeIP::method_id_t(0xbbc), true, CommonAPI::SomeIP::reliability_type_e::RT_RELIABLE, false, CommonAPI::SomeIP::method_id_t(0xbbd), true, static_cast< CommonAPI::EmptyDeployment* >(nullptr))
+          speed_(*this, CommonAPI::SomeIP::eventgroup_id_t(0x80f3), CommonAPI::SomeIP::event_id_t(0x80f3), CommonAPI::SomeIP::method_id_t(0xbb9), false, CommonAPI::SomeIP::reliability_type_e::RT_UNRELIABLE, false, CommonAPI::SomeIP::method_id_t(0xbba), false, static_cast< CommonAPI::EmptyDeployment* >(nullptr))
 {
 }
 
