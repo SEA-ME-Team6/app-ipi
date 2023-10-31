@@ -187,6 +187,19 @@ rc-batterysomeipstub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-batterysomeipstub.dir/build.make CMakeFiles/rc-batterysomeipstub.dir/build
 .PHONY : rc-batterysomeipstub/fast
 
+#=============================================================================
+# Target rules for targets named rc-gearsomeipstub
+
+# Build rule for target.
+rc-gearsomeipstub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc-gearsomeipstub
+.PHONY : rc-gearsomeipstub
+
+# fast build rule for target.
+rc-gearsomeipstub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/build
+.PHONY : rc-gearsomeipstub/fast
+
 src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.o: src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.cpp.o
 .PHONY : src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.o
 
@@ -210,6 +223,78 @@ src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.s: src-g
 src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-batterysomeipstub.dir/build.make CMakeFiles/rc-batterysomeipstub.dir/src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.cpp.s
 .PHONY : src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.cpp.s
+
+src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.o: src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.o
+
+# target to build an object file
+src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.o
+
+src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.i: src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.i
+
+# target to preprocess a source file
+src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.i
+
+src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.s: src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.s
+
+# target to generate assembly for a file
+src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.s
+
+src/batterystubImpl.o: src/batterystubImpl.cpp.o
+.PHONY : src/batterystubImpl.o
+
+# target to build an object file
+src/batterystubImpl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/batterystubImpl.cpp.o
+.PHONY : src/batterystubImpl.cpp.o
+
+src/batterystubImpl.i: src/batterystubImpl.cpp.i
+.PHONY : src/batterystubImpl.i
+
+# target to preprocess a source file
+src/batterystubImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/batterystubImpl.cpp.i
+.PHONY : src/batterystubImpl.cpp.i
+
+src/batterystubImpl.s: src/batterystubImpl.cpp.s
+.PHONY : src/batterystubImpl.s
+
+# target to generate assembly for a file
+src/batterystubImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/batterystubImpl.cpp.s
+.PHONY : src/batterystubImpl.cpp.s
+
+src/gearstubImpl.o: src/gearstubImpl.cpp.o
+.PHONY : src/gearstubImpl.o
+
+# target to build an object file
+src/gearstubImpl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/gearstubImpl.cpp.o
+.PHONY : src/gearstubImpl.cpp.o
+
+src/gearstubImpl.i: src/gearstubImpl.cpp.i
+.PHONY : src/gearstubImpl.i
+
+# target to preprocess a source file
+src/gearstubImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/gearstubImpl.cpp.i
+.PHONY : src/gearstubImpl.cpp.i
+
+src/gearstubImpl.s: src/gearstubImpl.cpp.s
+.PHONY : src/gearstubImpl.s
+
+# target to generate assembly for a file
+src/gearstubImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/gearstubImpl.cpp.s
+.PHONY : src/gearstubImpl.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -259,30 +344,6 @@ src/racer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/racer.cpp.s
 .PHONY : src/racer.cpp.s
 
-src/racerstubImpl.o: src/racerstubImpl.cpp.o
-.PHONY : src/racerstubImpl.o
-
-# target to build an object file
-src/racerstubImpl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/racerstubImpl.cpp.o
-.PHONY : src/racerstubImpl.cpp.o
-
-src/racerstubImpl.i: src/racerstubImpl.cpp.i
-.PHONY : src/racerstubImpl.i
-
-# target to preprocess a source file
-src/racerstubImpl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/racerstubImpl.cpp.i
-.PHONY : src/racerstubImpl.cpp.i
-
-src/racerstubImpl.s: src/racerstubImpl.cpp.s
-.PHONY : src/racerstubImpl.s
-
-# target to generate assembly for a file
-src/racerstubImpl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/racerstubImpl.cpp.s
-.PHONY : src/racerstubImpl.cpp.s
-
 src/racersystem.o: src/racersystem.cpp.o
 .PHONY : src/racersystem.o
 
@@ -321,18 +382,25 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... racer"
 	@echo "... rc-batterysomeipstub"
+	@echo "... rc-gearsomeipstub"
 	@echo "... src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.o"
 	@echo "... src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.i"
 	@echo "... src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.s"
+	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.o"
+	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.i"
+	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.s"
+	@echo "... src/batterystubImpl.o"
+	@echo "... src/batterystubImpl.i"
+	@echo "... src/batterystubImpl.s"
+	@echo "... src/gearstubImpl.o"
+	@echo "... src/gearstubImpl.i"
+	@echo "... src/gearstubImpl.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/racer.o"
 	@echo "... src/racer.i"
 	@echo "... src/racer.s"
-	@echo "... src/racerstubImpl.o"
-	@echo "... src/racerstubImpl.i"
-	@echo "... src/racerstubImpl.s"
 	@echo "... src/racersystem.o"
 	@echo "... src/racersystem.i"
 	@echo "... src/racersystem.s"

@@ -3,9 +3,9 @@ package commonapi
 interface GearStatus {
     version { major 1 minor 0 }
 
-    method gearselction {
+    method gearselection {
         in {
-            UInt8 gearselct
+            UInt8 gearselect
         }
         out {
             UInt8 gear

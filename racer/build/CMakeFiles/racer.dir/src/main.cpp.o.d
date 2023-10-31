@@ -299,11 +299,15 @@ CMakeFiles/racer.dir/src/main.cpp.o: \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/AttributeExtension.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Factory.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Types.hpp \
- /home/seame-workstation08/DES_Head-Unit/racer/src/racerstubImpl.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src/batterystubImpl.hpp \
  /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/skel/battery/v1/commonapi/BatteryStatusStubDefault.hpp \
  /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/stub/battery/v1/commonapi/BatteryStatusStub.hpp \
  /usr/include/c++/9/sstream /usr/include/c++/9/bits/sstream.tcc \
  /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/common/battery/v1/commonapi/BatteryStatus.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Stub.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp \
- /usr/include/c++/9/cassert
+ /usr/include/c++/9/cassert \
+ /home/seame-workstation08/DES_Head-Unit/racer/src/gearstubImpl.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/skel/gear/v1/commonapi/GearStatusStubDefault.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/stub/gear/v1/commonapi/GearStatusStub.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/common/gear/v1/commonapi/GearStatus.hpp

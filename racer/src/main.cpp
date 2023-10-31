@@ -5,13 +5,13 @@
 
 int main() {
     //Racer racer;
-    RacerSystem racersystem;
+    RacerSystem* racersystem = new RacerSystem;
     int battery = 0;
     
     while (true) {
-        //battery = racer.getVoltage();
-        battery += 1; 
-        racersystem.setBattery(battery);
+        //battery = racer.getBatttery();
+        battery += 1;
+        racersystem->setBattery(battery);
         std::cout << "Battery Voltage: " << battery << " V" << std::endl;
         sleep(1);
     }

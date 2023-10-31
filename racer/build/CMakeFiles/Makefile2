@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/seame-workstation08/DES_Head-Unit/racer/build
 # The main recursive "all" target.
 all: CMakeFiles/racer.dir/all
 all: CMakeFiles/rc-batterysomeipstub.dir/all
+all: CMakeFiles/rc-gearsomeipstub.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/racer.dir/clean
 clean: CMakeFiles/rc-batterysomeipstub.dir/clean
+clean: CMakeFiles/rc-gearsomeipstub.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,12 +85,12 @@ clean: CMakeFiles/rc-batterysomeipstub.dir/clean
 CMakeFiles/racer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target racer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target racer"
 .PHONY : CMakeFiles/racer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/racer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/racer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles 0
 .PHONY : CMakeFiles/racer.dir/rule
@@ -109,7 +111,7 @@ CMakeFiles/racer.dir/clean:
 CMakeFiles/rc-batterysomeipstub.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-batterysomeipstub.dir/build.make CMakeFiles/rc-batterysomeipstub.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-batterysomeipstub.dir/build.make CMakeFiles/rc-batterysomeipstub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=6,7 "Built target rc-batterysomeipstub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=7,8 "Built target rc-batterysomeipstub"
 .PHONY : CMakeFiles/rc-batterysomeipstub.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,6 +129,32 @@ rc-batterysomeipstub: CMakeFiles/rc-batterysomeipstub.dir/rule
 CMakeFiles/rc-batterysomeipstub.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-batterysomeipstub.dir/build.make CMakeFiles/rc-batterysomeipstub.dir/clean
 .PHONY : CMakeFiles/rc-batterysomeipstub.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rc-gearsomeipstub.dir
+
+# All Build rule for target.
+CMakeFiles/rc-gearsomeipstub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=9,10 "Built target rc-gearsomeipstub"
+.PHONY : CMakeFiles/rc-gearsomeipstub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rc-gearsomeipstub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rc-gearsomeipstub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles 0
+.PHONY : CMakeFiles/rc-gearsomeipstub.dir/rule
+
+# Convenience name for target.
+rc-gearsomeipstub: CMakeFiles/rc-gearsomeipstub.dir/rule
+.PHONY : rc-gearsomeipstub
+
+# clean rule for target.
+CMakeFiles/rc-gearsomeipstub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/clean
+.PHONY : CMakeFiles/rc-gearsomeipstub.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

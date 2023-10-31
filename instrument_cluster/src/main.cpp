@@ -1,16 +1,11 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QFont>
 #include "StatusClient.hpp"
 
 int main(int argc, char *argv[])
 {
-
     QGuiApplication app(argc, argv);
-
-    //QFontDatabase::addApplicationFont(":/fonts/DejaVuSans.ttf");
-    //app.setFont(QFont("DejaVu Sans"));
 
     StatusClient *statusclient = new StatusClient();
 

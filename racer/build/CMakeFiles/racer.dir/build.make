@@ -97,24 +97,10 @@ CMakeFiles/racer.dir/src/racer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/racer.dir/src/racer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/racer/src/racer.cpp -o CMakeFiles/racer.dir/src/racer.cpp.s
 
-CMakeFiles/racer.dir/src/racerstubImpl.cpp.o: CMakeFiles/racer.dir/flags.make
-CMakeFiles/racer.dir/src/racerstubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/racer/src/racerstubImpl.cpp
-CMakeFiles/racer.dir/src/racerstubImpl.cpp.o: CMakeFiles/racer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/racer.dir/src/racerstubImpl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/racer.dir/src/racerstubImpl.cpp.o -MF CMakeFiles/racer.dir/src/racerstubImpl.cpp.o.d -o CMakeFiles/racer.dir/src/racerstubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/racer/src/racerstubImpl.cpp
-
-CMakeFiles/racer.dir/src/racerstubImpl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/racer.dir/src/racerstubImpl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/racer/src/racerstubImpl.cpp > CMakeFiles/racer.dir/src/racerstubImpl.cpp.i
-
-CMakeFiles/racer.dir/src/racerstubImpl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/racer.dir/src/racerstubImpl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/racer/src/racerstubImpl.cpp -o CMakeFiles/racer.dir/src/racerstubImpl.cpp.s
-
 CMakeFiles/racer.dir/src/racersystem.cpp.o: CMakeFiles/racer.dir/flags.make
 CMakeFiles/racer.dir/src/racersystem.cpp.o: /home/seame-workstation08/DES_Head-Unit/racer/src/racersystem.cpp
 CMakeFiles/racer.dir/src/racersystem.cpp.o: CMakeFiles/racer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/racer.dir/src/racersystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/racer.dir/src/racersystem.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/racer.dir/src/racersystem.cpp.o -MF CMakeFiles/racer.dir/src/racersystem.cpp.o.d -o CMakeFiles/racer.dir/src/racersystem.cpp.o -c /home/seame-workstation08/DES_Head-Unit/racer/src/racersystem.cpp
 
 CMakeFiles/racer.dir/src/racersystem.cpp.i: cmake_force
@@ -125,25 +111,55 @@ CMakeFiles/racer.dir/src/racersystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/racer.dir/src/racersystem.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/racer/src/racersystem.cpp -o CMakeFiles/racer.dir/src/racersystem.cpp.s
 
+CMakeFiles/racer.dir/src/batterystubImpl.cpp.o: CMakeFiles/racer.dir/flags.make
+CMakeFiles/racer.dir/src/batterystubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/racer/src/batterystubImpl.cpp
+CMakeFiles/racer.dir/src/batterystubImpl.cpp.o: CMakeFiles/racer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/racer.dir/src/batterystubImpl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/racer.dir/src/batterystubImpl.cpp.o -MF CMakeFiles/racer.dir/src/batterystubImpl.cpp.o.d -o CMakeFiles/racer.dir/src/batterystubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/racer/src/batterystubImpl.cpp
+
+CMakeFiles/racer.dir/src/batterystubImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/racer.dir/src/batterystubImpl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/racer/src/batterystubImpl.cpp > CMakeFiles/racer.dir/src/batterystubImpl.cpp.i
+
+CMakeFiles/racer.dir/src/batterystubImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/racer.dir/src/batterystubImpl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/racer/src/batterystubImpl.cpp -o CMakeFiles/racer.dir/src/batterystubImpl.cpp.s
+
+CMakeFiles/racer.dir/src/gearstubImpl.cpp.o: CMakeFiles/racer.dir/flags.make
+CMakeFiles/racer.dir/src/gearstubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/racer/src/gearstubImpl.cpp
+CMakeFiles/racer.dir/src/gearstubImpl.cpp.o: CMakeFiles/racer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/racer.dir/src/gearstubImpl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/racer.dir/src/gearstubImpl.cpp.o -MF CMakeFiles/racer.dir/src/gearstubImpl.cpp.o.d -o CMakeFiles/racer.dir/src/gearstubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/racer/src/gearstubImpl.cpp
+
+CMakeFiles/racer.dir/src/gearstubImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/racer.dir/src/gearstubImpl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/racer/src/gearstubImpl.cpp > CMakeFiles/racer.dir/src/gearstubImpl.cpp.i
+
+CMakeFiles/racer.dir/src/gearstubImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/racer.dir/src/gearstubImpl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/racer/src/gearstubImpl.cpp -o CMakeFiles/racer.dir/src/gearstubImpl.cpp.s
+
 # Object files for target racer
 racer_OBJECTS = \
 "CMakeFiles/racer.dir/src/main.cpp.o" \
 "CMakeFiles/racer.dir/src/racer.cpp.o" \
-"CMakeFiles/racer.dir/src/racerstubImpl.cpp.o" \
-"CMakeFiles/racer.dir/src/racersystem.cpp.o"
+"CMakeFiles/racer.dir/src/racersystem.cpp.o" \
+"CMakeFiles/racer.dir/src/batterystubImpl.cpp.o" \
+"CMakeFiles/racer.dir/src/gearstubImpl.cpp.o"
 
 # External object files for target racer
 racer_EXTERNAL_OBJECTS =
 
 racer: CMakeFiles/racer.dir/src/main.cpp.o
 racer: CMakeFiles/racer.dir/src/racer.cpp.o
-racer: CMakeFiles/racer.dir/src/racerstubImpl.cpp.o
 racer: CMakeFiles/racer.dir/src/racersystem.cpp.o
+racer: CMakeFiles/racer.dir/src/batterystubImpl.cpp.o
+racer: CMakeFiles/racer.dir/src/gearstubImpl.cpp.o
 racer: CMakeFiles/racer.dir/build.make
 racer: /home/seame-workstation08/build-commonapi/capicxx-core-runtime/build/libCommonAPI.so.3.2.0
 racer: /usr/lib/x86_64-linux-gnu/libpython3.8.so
 racer: CMakeFiles/racer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable racer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable racer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/racer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
