@@ -10,7 +10,7 @@ public:
     void read_data();
     float get_inputLX() const;
     float get_inputRY() const;
-    float get_inputL1() const;
+    bool get_inputL1() const;
 
 private:
     PyObject *pGModule, *pGClass, *pGInstance;

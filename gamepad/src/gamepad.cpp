@@ -1,4 +1,4 @@
-#include "Gamepad.h"
+#include "gamepad.h"
 #include <iostream>
 
 Gamepad::Gamepad() {

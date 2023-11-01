@@ -1,0 +1,74 @@
+cmake_minimum_required(VERSION 3.14)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x -Wl,--no-as-needed")
+
+project(gamepad)
+
+set(BUILD_COMMONAPI true)
+set(BUILD_SOMEIP_LIB true)
+
+if(BUILD_COMMONAPI)
+    if (NOT COMMON_API_FOUND)
+        find_package(CommonAPI REQUIRED)
+
+        include_directories(
+            ${COMMONAPI_INCLUDE_DIRS}
+        )
+    endif()
+
+    find_package(PythonLibs REQUIRED)
+
+    include_directories(
+        src-gen/core/common/moving
+        src-gen/core/stub/moving
+        src-gen/core/skel/moving
+        ${PYTHON_INCLUDE_DIRS}
+    )
+
+    add_executable(gamepad
+        src/main.cpp
+        src/gamepad.cpp
+        src/gamepadServer.cpp
+        src/movingStubImpl.cpp
+    )
+
+    target_link_libraries(gamepad
+        PRIVATE           CommonAPI
+        ${PYTHON_LIBRARIES}
+    )
+
+    install(TARGETS       gamepad 
+            DESTINATION   /usr/bin/DES3
+    )
+
+endif()
+
+if(BUILD_SOMEIP_LIB)
+    if (NOT TOP_CMAKE_FOUND)
+        find_package(CommonAPI-SomeIP REQUIRED)
+        find_package(vsomeip3 REQUIRED)
+
+        include_directories(
+            ${COMMONAPI_SOMEIP_INCLUDE_DIRS}
+            ${VSOMEIP3_INCLUDE_DIRS}
+        )
+    endif()
+
+    include_directories(
+        src-gen/someip/common/moving
+        src-gen/someip/stub/moving
+    )
+
+    # moving stub
+    FILE(GLOB_RECURSE MOVING_SOMEIP_STUB_LIB_SRCS 
+        src-gen/someip/stub/moving/*.cpp
+    )
+    add_library(gp-movingsomeipstub  SHARED
+        ${MOVING_SOMEIP_STUB_LIB_SRCS}
+    )
+    target_link_libraries(gp-movingsomeipstub
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
+
+endif()

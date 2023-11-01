@@ -1,39 +1,30 @@
-//#include "Gamepad.h"
-//#include "piracer.h"
-//#include "PythonManager.h"
+//#include "game.h"
+#include "gamepadServer.hpp"
 #include <unistd.h>
-#include "GearSelectionClient.hpp"
-#include <iostream>
 
 int main() {
-    //PythonManager pythonManager;
-    //Gamepad gamepad;
-    //Piracer racer;
+    //Gamepad* gamepad;
+    GamepadServer* gamepadserver = new GamepadServer;
 
-    GearSelectionClient *gearclient = new GearSelectionClient();
-
-    while(true){
-        gearclient->run();
-        sleep(10000);
-    }
-
+    float steering = 0;
+    float throttle = 0;
     
-    /*
     while(true){
-        gamepad.read_data(); 
+        //gamepad->read_data(); 
     
-        float steering = gamepad.get_inputLX(); 
-        float throttle = gamepad.get_inputRY();
+        //steering = gamepad.get_inputLX(); 
+        //throttle = gamepad.get_inputRY();
+        steering +=1;
+        throttle +=1;
 
         std::cout << "Steering: " << steering << std::endl;
         std::cout << "Throttle: " << throttle << std::endl;
-    
-        racer.set_steering_percent(steering);
-        racer.set_throttle_percent(throttle);
 
+        gamepadserver->setSteeringAttribute(steering);
+        gamepadserver->setThrottleAttribute(throttle);
+
+        sleep(1);
     }
-    */
     
-
     return 0;
 }
