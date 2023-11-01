@@ -121,7 +121,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.gearselection(0);
+                car.changegear(0);
             }
         }
 
@@ -135,7 +135,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.gearselection(1);
+                car.changegear(1);
             }
         }
 
@@ -149,7 +149,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.gearselection(2);
+                car.changegear(2);
             }
         }
         Button {
@@ -162,7 +162,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.gearselection(3);
+                car.changegear(3);
             }
         }
     }

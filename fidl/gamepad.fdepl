@@ -1,7 +1,7 @@
 import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
-import "light.fidl"
+import "gamepad.fidl"
 
-define org.genivi.commonapi.someip.deployment for interface commonapi.LightStatus {
+define org.genivi.commonapi.someip.deployment for interface commonapi.GamepadStatus {
     SomeIpServiceID = 4662
 
     attribute light {
@@ -15,13 +15,13 @@ define org.genivi.commonapi.someip.deployment for interface commonapi.LightStatu
 }
 
 define org.genivi.commonapi.someip.deployment for provider as Service {
-    instance commonapi.LightStatus {
-        InstanceId = "LightStatus_to_HU"
+    instance commonapi.GamepadStatus {
+        InstanceId = "GamepadStatus2HU"
 
         SomeIpInstanceID = 22138
     }
-    instance commonapi.LightStatus {
-        InstanceId = "LightStatus_to_RC"
+    instance commonapi.GamepadStatus {
+        InstanceId = "GamepadStatus2RC"
         SomeIpInstanceID = 22139
     }
 }

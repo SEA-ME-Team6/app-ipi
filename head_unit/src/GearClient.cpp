@@ -25,7 +25,7 @@ GearClient::GearClient() {
 
 }
 
-void GearClient::gearselection(quint8 gearselect){
+void GearClient::changegear(quint8 gearselect){
     CommonAPI::CallStatus callStatus;
     uint8_t returnedGear;
 

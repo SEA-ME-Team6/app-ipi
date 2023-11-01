@@ -16,7 +16,7 @@ public:
     GearClient();
 
 public slots:
-    void gearselection(quint8 gearselect);
+    void changegear(quint8 gearselect);
 
 private:
     std::shared_ptr<CommonAPI::Runtime> runtime;

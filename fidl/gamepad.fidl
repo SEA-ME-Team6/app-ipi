@@ -1,0 +1,14 @@
+package commonapi
+
+interface GamepadStatus {
+    version { major 1 minor 0 }
+
+    method lightselection {
+        in {
+            Bool light
+        }
+    }
+
+    attribute Float steering 
+    attribute Float throttle 
+}

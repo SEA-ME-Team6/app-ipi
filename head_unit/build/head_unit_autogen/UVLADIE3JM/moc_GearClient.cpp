@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_GearClient_t {
     QByteArrayData data[4];
-    char stringdata0[37];
+    char stringdata0[34];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -32,12 +32,12 @@ struct qt_meta_stringdata_GearClient_t {
 static const qt_meta_stringdata_GearClient_t qt_meta_stringdata_GearClient = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "GearClient"
-QT_MOC_LITERAL(1, 11, 13), // "gearselection"
-QT_MOC_LITERAL(2, 25, 0), // ""
-QT_MOC_LITERAL(3, 26, 10) // "gearselect"
+QT_MOC_LITERAL(1, 11, 10), // "changegear"
+QT_MOC_LITERAL(2, 22, 0), // ""
+QT_MOC_LITERAL(3, 23, 10) // "gearselect"
 
     },
-    "GearClient\0gearselection\0\0gearselect"
+    "GearClient\0changegear\0\0gearselect"
 };
 #undef QT_MOC_LITERAL
 
@@ -69,7 +69,7 @@ void GearClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         GearClient *_t = static_cast<GearClient *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->gearselection((*reinterpret_cast< quint8(*)>(_a[1]))); break;
+        case 0: _t->changegear((*reinterpret_cast< quint8(*)>(_a[1]))); break;
         default: ;
         }
     }
