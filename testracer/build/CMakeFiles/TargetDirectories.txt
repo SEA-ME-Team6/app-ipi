@@ -1,0 +1,3 @@
+/home/seame-workstation08/DES_Head-Unit/testracer/build/CMakeFiles/testracer.dir
+/home/seame-workstation08/DES_Head-Unit/testracer/build/CMakeFiles/edit_cache.dir
+/home/seame-workstation08/DES_Head-Unit/testracer/build/CMakeFiles/rebuild_cache.dir
