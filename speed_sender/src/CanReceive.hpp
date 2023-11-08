@@ -8,6 +8,7 @@
 #include <net/if.h>
 #include <cstring>
 #include <unistd.h>
+#include <queue> 
 
 class CanReceive {
     private:
@@ -16,6 +17,9 @@ class CanReceive {
         struct can_frame frame;
         struct ifreq ifr;
         const char *ifname;
+
+        float current_speed, filtered_speed, prev_filtered_speed;
+        float alpha; //filtering
 
     public:
         explicit CanReceive(const char* interface_name);

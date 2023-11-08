@@ -16,6 +16,12 @@ GamepadServer::GamepadServer(){
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
     std::cout << "Successfully Registered Moving Service!" << std::endl;
+
+    //light from gamepad client
+    std::string light_from_gamepad_instance = "lightStatus_from_gamepad";
+    std::string light_from_gamepad_connection = "client-light";
+    lightProxy1 = runtime->buildProxy<lightStatusProxy>(domain, light_from_gamepad_instance, light_from_gamepad_connection);
+    std::cout << "Successfully Accessed Light from gamepad Service!" << std::endl;
 }
 
 void GamepadServer::setSteeringAttribute(float steering){

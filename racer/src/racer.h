@@ -11,6 +11,8 @@ public:
     ~Racer();
 
     void setGear(uint8_t gear);
+    void set_steering_percent(float steering);
+    void set_throttle_percent(float throttle);
 
     uint32_t getBatttery();
     uint8_t getGear() const;

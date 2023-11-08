@@ -23,8 +23,22 @@ Racer::~Racer() {
 
 
 void Racer::setGear(uint8_t gear){
-    std::cout << "method set" << std::endl;
     gearStatus = gear;
+    std::cout << "Head unit set gear to " << gearStatus << std::endl;
+}
+
+void Racer::set_steering_percent(float steering) {
+    if (gearStatus == 2 && gearStatus == 3) {
+        //PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", steering);
+        std::cout << "set steering" << steering << std::endl;
+    }
+}
+
+void Racer::set_throttle_percent(float throttle) {
+    if (gearStatus == 1 && gearStatus == 3) {
+        //PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", throttle);
+        std::cout << "set throttle" << throttle << std::endl;
+    }
 }
 
 uint32_t Racer::getBatttery() {
@@ -36,9 +50,7 @@ uint32_t Racer::getBatttery() {
     */
 }
 
-
 uint8_t Racer::getGear() const{
-    std::cout << "method get" << std::endl;
     return gearStatus;
 }
 

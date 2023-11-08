@@ -4,17 +4,15 @@
 #include <iostream>
 
 int main() {
-    //Racer racer;
     RacerSystem* racersystem = new RacerSystem;
-    int battery = 0;
+    uint32_t battery = 0;
     
     while (true) {
-        //battery = racer.getBatttery();
-        battery += 1;
-        racersystem->setBattery(battery);
-        std::cout << "Battery Voltage: " << battery << " V" << std::endl;
+        // battery = racersystem->getBattery();
+        racersystem->setBatteryAttribute(battery);
+        battery +=1;
         sleep(1);
     }
-
+    
     return 0;
 }

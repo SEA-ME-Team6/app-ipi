@@ -19,6 +19,6 @@ SpeedServer::SpeedServer() {
     std::cout << "Successfully Registered Service!" << std::endl;
 }
 
-void SpeedServer::run(float speed) {
+void SpeedServer::setSpeedAttribute(float speed) {
     myService_->setSpeedAttribute(speed);
 }

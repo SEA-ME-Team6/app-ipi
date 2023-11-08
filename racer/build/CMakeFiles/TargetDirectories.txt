@@ -1,6 +1,7 @@
 /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles/racer.dir
 /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles/rc-batterysomeipstub.dir
 /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles/rc-gearsomeipstub.dir
+/home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles/rc-movingsomeipproxy.dir
 /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles/edit_cache.dir
 /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles/rebuild_cache.dir
 /home/seame-workstation08/DES_Head-Unit/racer/build/CMakeFiles/list_install_components.dir

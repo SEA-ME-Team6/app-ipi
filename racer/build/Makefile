@@ -200,6 +200,43 @@ rc-gearsomeipstub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/build
 .PHONY : rc-gearsomeipstub/fast
 
+#=============================================================================
+# Target rules for targets named rc-movingsomeipproxy
+
+# Build rule for target.
+rc-movingsomeipproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc-movingsomeipproxy
+.PHONY : rc-movingsomeipproxy
+
+# fast build rule for target.
+rc-movingsomeipproxy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-movingsomeipproxy.dir/build.make CMakeFiles/rc-movingsomeipproxy.dir/build
+.PHONY : rc-movingsomeipproxy/fast
+
+src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.o: src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.o
+
+# target to build an object file
+src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-movingsomeipproxy.dir/build.make CMakeFiles/rc-movingsomeipproxy.dir/src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.o
+
+src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.i: src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.i
+
+# target to preprocess a source file
+src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-movingsomeipproxy.dir/build.make CMakeFiles/rc-movingsomeipproxy.dir/src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.i
+
+src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.s: src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.s
+
+# target to generate assembly for a file
+src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-movingsomeipproxy.dir/build.make CMakeFiles/rc-movingsomeipproxy.dir/src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.s
+
 src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.o: src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.cpp.o
 .PHONY : src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.o
 
@@ -383,6 +420,10 @@ help:
 	@echo "... racer"
 	@echo "... rc-batterysomeipstub"
 	@echo "... rc-gearsomeipstub"
+	@echo "... rc-movingsomeipproxy"
+	@echo "... src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.o"
+	@echo "... src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.i"
+	@echo "... src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.s"
 	@echo "... src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.o"
 	@echo "... src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.i"
 	@echo "... src-gen/someip/stub/battery/v1/commonapi/BatteryStatusSomeIPStubAdapter.s"

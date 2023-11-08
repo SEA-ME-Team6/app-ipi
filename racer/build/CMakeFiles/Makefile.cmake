@@ -140,4 +140,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/racer.dir/DependInfo.cmake"
   "CMakeFiles/rc-batterysomeipstub.dir/DependInfo.cmake"
   "CMakeFiles/rc-gearsomeipstub.dir/DependInfo.cmake"
+  "CMakeFiles/rc-movingsomeipproxy.dir/DependInfo.cmake"
   )

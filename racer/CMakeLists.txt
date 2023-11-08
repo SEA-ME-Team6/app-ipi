@@ -25,6 +25,8 @@ if(BUILD_COMMONAPI)
         src-gen/core/common/gear
         src-gen/core/stub/gear
         src-gen/core/skel/gear
+        src-gen/core/common/moving
+        src-gen/core/proxy/moving
         ${PYTHON_INCLUDE_DIRS}
     )
 
@@ -63,6 +65,8 @@ if(BUILD_SOMEIP_LIB)
         src-gen/someip/stub/battery
         src-gen/someip/common/gear
         src-gen/someip/stub/gear
+        src-gen/someip/common/moving
+        src-gen/someip/proxy/moving
     )
 
     # battery stub
@@ -85,6 +89,18 @@ if(BUILD_SOMEIP_LIB)
         ${GEAR_SOMEIP_STUB_LIB_SRCS}
     )
     target_link_libraries(rc-gearsomeipstub
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
+    # battery proxy
+    FILE(GLOB_RECURSE MOVING_SOMEIP_PROXY_LIB_SRCS 
+    src-gen/someip/proxy/moving/*.cpp
+    )
+    add_library(rc-movingsomeipproxy  SHARED
+        ${MOVING_SOMEIP_PROXY_LIB_SRCS}
+    )
+    target_link_libraries(rc-movingsomeipproxy
         CommonAPI-SomeIP
         vsomeip3
     )

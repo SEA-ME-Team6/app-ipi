@@ -3,7 +3,7 @@
 #include <iostream>
 #include <thread>
 
-RacerSystem::RacerSystem(){
+RacerSystem::RacerSystem() : current_battery(0), filtered_battery(0), prev_filtered_battery(0), alpha(0.3){
     runtime = CommonAPI::Runtime::get();
     batteryService = std::make_shared<BatteryStubImpl>();
     gearService = std::make_shared<GearStubImpl>(racer);
@@ -28,14 +28,33 @@ RacerSystem::RacerSystem(){
     }
     std::cout << "Successfully Registered Gear Service!" << std::endl;
 
+    //moving proxy
+    std::string moving_instance = "MovingStatus";
+    std::string moving_connection = "service-gear";
+    movingProxy = runtime->buildProxy<MovingStatusProxy>(domain, moving_instance, moving_connection);
+
+    std::cout << "Waiting for Moving service to become available." << std::endl;
+    movingProxy->getSteeringAttribute().getChangedEvent().subscribe(
+        [&](const float& steering){
+            racer->set_steering_percent(steering); 
+        }
+    );
+    movingProxy->getThrottleAttribute().getChangedEvent().subscribe(
+        [&](const float& throttle){
+            racer->set_throttle_percent(throttle); 
+        }
+    );
+
 }
 
-/*
-RacerSystem::~RacerSystem() {
-    delete racer;
-}
-*/
-
-void RacerSystem::setBattery(uint32_t batteryStatus) {
+void RacerSystem::setBatteryAttribute(uint32_t batteryStatus) {
+    std::cout << "Battery Voltage: " << batteryStatus << " V" << std::endl;
     batteryService->setBatteryAttribute(batteryStatus);
+}
+
+uint32_t RacerSystem::getBattery() {
+    current_battery = racer->getBatttery(); 
+    filtered_battery = alpha * current_battery + (1 - alpha) * prev_filtered_battery;
+    prev_filtered_battery = filtered_battery;
+    return filtered_battery;
 }

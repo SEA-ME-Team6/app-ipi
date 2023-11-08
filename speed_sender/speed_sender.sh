@@ -9,6 +9,10 @@ sudo modprobe vcan
 sudo ip link add dev can0 type vcan
 sudo ip link set up can0
 
+cd build
+make
+cd ..
+
 SCRIPT_DIR=$(dirname "$0")
 
 export COMMONAPI_CONFIG="$SCRIPT_DIR/speed_sender.ini"

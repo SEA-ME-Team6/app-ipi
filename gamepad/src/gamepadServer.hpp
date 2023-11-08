@@ -3,6 +3,7 @@
 
 #include <memory>
 #include <CommonAPI/CommonAPI.hpp>
+#include <v1/commonapi/lightStatusProxy.hpp>
 #include "movingStubImpl.hpp"
 
 using namespace v1::commonapi;
@@ -16,6 +17,7 @@ public:
 private:
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<MovingStubImpl> movingService;
+    std::shared_ptr<lightStatusProxy<>> lightProxy;
     
 };
 
