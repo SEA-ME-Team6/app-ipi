@@ -35,7 +35,7 @@ if(BUILD_COMMONAPI)
     add_executable(instrument_cluster
         src/main.cpp
         src/qml.qrc
-        src/StatusClient.cpp
+        src/icsystem.cpp
     )
 
     target_link_libraries(instrument_cluster

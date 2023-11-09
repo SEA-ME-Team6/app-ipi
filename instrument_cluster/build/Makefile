@@ -383,29 +383,29 @@ src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ic-speedsomeipproxy.dir/build.make CMakeFiles/ic-speedsomeipproxy.dir/src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
 .PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
 
-src/StatusClient.o: src/StatusClient.cpp.o
-.PHONY : src/StatusClient.o
+src/icsystem.o: src/icsystem.cpp.o
+.PHONY : src/icsystem.o
 
 # target to build an object file
-src/StatusClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instrument_cluster.dir/build.make CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o
-.PHONY : src/StatusClient.cpp.o
+src/icsystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/instrument_cluster.dir/build.make CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o
+.PHONY : src/icsystem.cpp.o
 
-src/StatusClient.i: src/StatusClient.cpp.i
-.PHONY : src/StatusClient.i
+src/icsystem.i: src/icsystem.cpp.i
+.PHONY : src/icsystem.i
 
 # target to preprocess a source file
-src/StatusClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instrument_cluster.dir/build.make CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.i
-.PHONY : src/StatusClient.cpp.i
+src/icsystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/instrument_cluster.dir/build.make CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i
+.PHONY : src/icsystem.cpp.i
 
-src/StatusClient.s: src/StatusClient.cpp.s
-.PHONY : src/StatusClient.s
+src/icsystem.s: src/icsystem.cpp.s
+.PHONY : src/icsystem.s
 
 # target to generate assembly for a file
-src/StatusClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instrument_cluster.dir/build.make CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.s
-.PHONY : src/StatusClient.cpp.s
+src/icsystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/instrument_cluster.dir/build.make CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s
+.PHONY : src/icsystem.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -467,9 +467,9 @@ help:
 	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o"
 	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i"
 	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s"
-	@echo "... src/StatusClient.o"
-	@echo "... src/StatusClient.i"
-	@echo "... src/StatusClient.s"
+	@echo "... src/icsystem.o"
+	@echo "... src/icsystem.i"
+	@echo "... src/icsystem.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -116,19 +116,19 @@ CMakeFiles/instrument_cluster.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instrument_cluster.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/main.cpp -o CMakeFiles/instrument_cluster.dir/src/main.cpp.s
 
-CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o: CMakeFiles/instrument_cluster.dir/flags.make
-CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/StatusClient.cpp
-CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o: CMakeFiles/instrument_cluster.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o -MF CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o.d -o CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o -c /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/StatusClient.cpp
+CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o: CMakeFiles/instrument_cluster.dir/flags.make
+CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/icsystem.cpp
+CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o: CMakeFiles/instrument_cluster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o -MF CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o.d -o CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o -c /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/icsystem.cpp
 
-CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/StatusClient.cpp > CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.i
+CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/icsystem.cpp > CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i
 
-CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/StatusClient.cpp -o CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.s
+CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/icsystem.cpp -o CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s
 
 CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o: CMakeFiles/instrument_cluster.dir/flags.make
 CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o: instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp
@@ -148,7 +148,7 @@ CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.
 instrument_cluster_OBJECTS = \
 "CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/instrument_cluster.dir/src/main.cpp.o" \
-"CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o" \
+"CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o" \
 "CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o"
 
 # External object files for target instrument_cluster
@@ -156,7 +156,7 @@ instrument_cluster_EXTERNAL_OBJECTS =
 
 instrument_cluster: CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o
 instrument_cluster: CMakeFiles/instrument_cluster.dir/src/main.cpp.o
-instrument_cluster: CMakeFiles/instrument_cluster.dir/src/StatusClient.cpp.o
+instrument_cluster: CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o
 instrument_cluster: CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o
 instrument_cluster: CMakeFiles/instrument_cluster.dir/build.make
 instrument_cluster: /home/seame-workstation08/anaconda3/lib/libQt5Quick.so.5.9.7

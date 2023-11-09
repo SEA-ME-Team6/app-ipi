@@ -83,62 +83,62 @@ CMakeFiles/speed_sender.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_sender.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/speed_sender/src/main.cpp -o CMakeFiles/speed_sender.dir/src/main.cpp.s
 
-CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o: CMakeFiles/speed_sender.dir/flags.make
-CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o: /home/seame-workstation08/DES_Head-Unit/speed_sender/src/CanReceive.cpp
-CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o: CMakeFiles/speed_sender.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/speed_sender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o -MF CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o.d -o CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o -c /home/seame-workstation08/DES_Head-Unit/speed_sender/src/CanReceive.cpp
+CMakeFiles/speed_sender.dir/src/canreceive.cpp.o: CMakeFiles/speed_sender.dir/flags.make
+CMakeFiles/speed_sender.dir/src/canreceive.cpp.o: /home/seame-workstation08/DES_Head-Unit/speed_sender/src/canreceive.cpp
+CMakeFiles/speed_sender.dir/src/canreceive.cpp.o: CMakeFiles/speed_sender.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/speed_sender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/speed_sender.dir/src/canreceive.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_sender.dir/src/canreceive.cpp.o -MF CMakeFiles/speed_sender.dir/src/canreceive.cpp.o.d -o CMakeFiles/speed_sender.dir/src/canreceive.cpp.o -c /home/seame-workstation08/DES_Head-Unit/speed_sender/src/canreceive.cpp
 
-CMakeFiles/speed_sender.dir/src/CanReceive.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_sender.dir/src/CanReceive.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/speed_sender/src/CanReceive.cpp > CMakeFiles/speed_sender.dir/src/CanReceive.cpp.i
+CMakeFiles/speed_sender.dir/src/canreceive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_sender.dir/src/canreceive.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/speed_sender/src/canreceive.cpp > CMakeFiles/speed_sender.dir/src/canreceive.cpp.i
 
-CMakeFiles/speed_sender.dir/src/CanReceive.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_sender.dir/src/CanReceive.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/speed_sender/src/CanReceive.cpp -o CMakeFiles/speed_sender.dir/src/CanReceive.cpp.s
+CMakeFiles/speed_sender.dir/src/canreceive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_sender.dir/src/canreceive.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/speed_sender/src/canreceive.cpp -o CMakeFiles/speed_sender.dir/src/canreceive.cpp.s
 
-CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o: CMakeFiles/speed_sender.dir/flags.make
-CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o: /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedServer.cpp
-CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o: CMakeFiles/speed_sender.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/speed_sender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o -MF CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o.d -o CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o -c /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedServer.cpp
+CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o: CMakeFiles/speed_sender.dir/flags.make
+CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o: /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedsystem.cpp
+CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o: CMakeFiles/speed_sender.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/speed_sender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o -MF CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o.d -o CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o -c /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedsystem.cpp
 
-CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedServer.cpp > CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.i
+CMakeFiles/speed_sender.dir/src/speedsystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_sender.dir/src/speedsystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedsystem.cpp > CMakeFiles/speed_sender.dir/src/speedsystem.cpp.i
 
-CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedServer.cpp -o CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.s
+CMakeFiles/speed_sender.dir/src/speedsystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_sender.dir/src/speedsystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedsystem.cpp -o CMakeFiles/speed_sender.dir/src/speedsystem.cpp.s
 
-CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o: CMakeFiles/speed_sender.dir/flags.make
-CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedStubImpl.cpp
-CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o: CMakeFiles/speed_sender.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/speed_sender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o -MF CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o.d -o CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedStubImpl.cpp
+CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o: CMakeFiles/speed_sender.dir/flags.make
+CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedstubImpl.cpp
+CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o: CMakeFiles/speed_sender.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/speed_sender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o -MF CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o.d -o CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedstubImpl.cpp
 
-CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedStubImpl.cpp > CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.i
+CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedstubImpl.cpp > CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.i
 
-CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedStubImpl.cpp -o CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.s
+CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedstubImpl.cpp -o CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.s
 
 # Object files for target speed_sender
 speed_sender_OBJECTS = \
 "CMakeFiles/speed_sender.dir/src/main.cpp.o" \
-"CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o" \
-"CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o" \
-"CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o"
+"CMakeFiles/speed_sender.dir/src/canreceive.cpp.o" \
+"CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o" \
+"CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o"
 
 # External object files for target speed_sender
 speed_sender_EXTERNAL_OBJECTS =
 
 speed_sender: CMakeFiles/speed_sender.dir/src/main.cpp.o
-speed_sender: CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o
-speed_sender: CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o
-speed_sender: CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o
+speed_sender: CMakeFiles/speed_sender.dir/src/canreceive.cpp.o
+speed_sender: CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o
+speed_sender: CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o
 speed_sender: CMakeFiles/speed_sender.dir/build.make
 speed_sender: /home/seame-workstation08/build-commonapi/capicxx-core-runtime/build/libCommonAPI.so.3.2.0
 speed_sender: CMakeFiles/speed_sender.dir/link.txt

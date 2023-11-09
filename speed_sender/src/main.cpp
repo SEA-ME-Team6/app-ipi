@@ -1,10 +1,10 @@
-#include "CanReceive.hpp"
-#include "SpeedServer.hpp"
+#include "canreceive.hpp"
+#include "speedsystem.hpp"
 #include <iostream>
 
 int main() {
     CanReceive receiver("can0");
-    SpeedServer speed_server;
+    SpeedSystem speed_server;
 
     while (true) {
         float speed = receiver.getSpeed();

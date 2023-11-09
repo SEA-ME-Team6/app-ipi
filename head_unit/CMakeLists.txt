@@ -28,12 +28,14 @@ if(BUILD_COMMONAPI)
     include_directories(
         src-gen/core/common/gear
         src-gen/core/proxy/gear
+        src-gen/core/common/speed
+        src-gen/core/proxy/speed
     )
 
     add_executable(head_unit
         src/main.cpp
         src/qml.qrc
-        src/GearClient.cpp
+        src/husystem.cpp
     )
 
     target_link_libraries(head_unit
@@ -61,6 +63,8 @@ if(BUILD_SOMEIP_LIB)
     include_directories(
         src-gen/someip/common/gear
         src-gen/someip/proxy/gear
+        src-gen/someip/common/speed
+        src-gen/someip/proxy/speed
     )
 
     # gear proxy
@@ -74,6 +78,19 @@ if(BUILD_SOMEIP_LIB)
         CommonAPI-SomeIP
         vsomeip3
     )
+
+    # speed proxy
+    FILE(GLOB_RECURSE SPEED_SOMEIP_PROXY_LIB_SRCS 
+    src-gen/someip/proxy/speed/*.cpp
+    )
+    add_library(hu-speedsomeipproxy  SHARED
+        ${SPEED_SOMEIP_PROXY_LIB_SRCS}
+    )
+    target_link_libraries(hu-speedsomeipproxy
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
 
 
 endif()

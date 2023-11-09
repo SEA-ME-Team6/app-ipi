@@ -252,7 +252,7 @@ CMakeFiles/head_unit.dir/src/main.cpp.o: \
  /home/seame-workstation08/anaconda3/include/qt/QtQml/qqmldebug.h \
  /home/seame-workstation08/anaconda3/include/qt/QtQml/QQmlContext \
  /home/seame-workstation08/anaconda3/include/qt/QtQml/qqmlcontext.h \
- /home/seame-workstation08/DES_Head-Unit/head_unit/src/GearClient.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src/husystem.hpp \
  /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_raw_storage_iter.h \
  /usr/include/c++/9/ext/concurrence.h \
  /usr/include/c++/9/bits/unique_ptr.h \
@@ -299,4 +299,7 @@ CMakeFiles/head_unit.dir/src/main.cpp.o: \
  /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/gear/v1/commonapi/GearStatus.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Attribute.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Proxy.hpp \
- /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp
+ /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxy.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxyBase.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/speed/v1/commonapi/SpeedStatus.hpp

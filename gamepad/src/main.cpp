@@ -1,10 +1,10 @@
 //#include "game.h"
-#include "gamepadServer.hpp"
+#include "gamepadsystem.hpp"
 #include <unistd.h>
 
 int main() {
     //Gamepad* gamepad;
-    GamepadServer* gamepadserver = new GamepadServer;
+    GamepadSystem* gamepadsystem = new GamepadSystem;
 
     float steering = 0;
     float throttle = 0;
@@ -20,8 +20,8 @@ int main() {
         std::cout << "Steering: " << steering << std::endl;
         std::cout << "Throttle: " << throttle << std::endl;
 
-        gamepadserver->setSteeringAttribute(steering);
-        gamepadserver->setThrottleAttribute(throttle);
+        gamepadsystem->setSteeringAttribute(steering);
+        gamepadsystem->setThrottleAttribute(throttle);
 
         sleep(1);
     }

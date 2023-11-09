@@ -1,8 +1,8 @@
 CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o: \
  /home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/instrument_cluster_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/instrument_cluster_autogen/UVLADIE3JM/moc_StatusClient.cpp \
- /home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/instrument_cluster_autogen/UVLADIE3JM/../../../src/StatusClient.hpp \
+ /home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/instrument_cluster_autogen/UVLADIE3JM/moc_icsystem.cpp \
+ /home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/instrument_cluster_autogen/UVLADIE3JM/../../../src/icsystem.hpp \
  /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \

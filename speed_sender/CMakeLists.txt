@@ -23,9 +23,9 @@ if(BUILD_COMMONAPI)
 
     add_executable(speed_sender
         src/main.cpp
-        src/CanReceive.cpp
-        src/SpeedServer.cpp
-        src/SpeedStubImpl.cpp
+        src/canreceive.cpp
+        src/speedsystem.cpp
+        src/speedstubImpl.cpp
     )
 
     target_link_libraries(speed_sender

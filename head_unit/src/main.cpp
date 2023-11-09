@@ -1,16 +1,16 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "GearClient.hpp"
+#include "husystem.hpp"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    GearClient *gearclient = new GearClient();
+    HUSystem *husystem = new HUSystem();
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("car", gearclient);
+    engine.rootContext()->setContextProperty("car", husystem);
     
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,

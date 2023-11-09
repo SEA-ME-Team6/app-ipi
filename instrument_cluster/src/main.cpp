@@ -1,16 +1,16 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "StatusClient.hpp"
+#include "icsystem.hpp"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    StatusClient *statusclient = new StatusClient();
+    ICSystem *icsystem = new ICSystem();
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("car", statusclient);
+    engine.rootContext()->setContextProperty("car", icsystem);
 
     const QUrl url(QStringLiteral("qrc:/qml/dashboard.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,

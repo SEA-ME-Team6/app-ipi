@@ -211,77 +211,29 @@ src-gen/someip/stub/speed/v1/commonapi/SpeedStatusSomeIPStubAdapter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ss-speedsomeipstub.dir/build.make CMakeFiles/ss-speedsomeipstub.dir/src-gen/someip/stub/speed/v1/commonapi/SpeedStatusSomeIPStubAdapter.cpp.s
 .PHONY : src-gen/someip/stub/speed/v1/commonapi/SpeedStatusSomeIPStubAdapter.cpp.s
 
-src/CanReceive.o: src/CanReceive.cpp.o
-.PHONY : src/CanReceive.o
+src/canreceive.o: src/canreceive.cpp.o
+.PHONY : src/canreceive.o
 
 # target to build an object file
-src/CanReceive.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/CanReceive.cpp.o
-.PHONY : src/CanReceive.cpp.o
+src/canreceive.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/canreceive.cpp.o
+.PHONY : src/canreceive.cpp.o
 
-src/CanReceive.i: src/CanReceive.cpp.i
-.PHONY : src/CanReceive.i
-
-# target to preprocess a source file
-src/CanReceive.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/CanReceive.cpp.i
-.PHONY : src/CanReceive.cpp.i
-
-src/CanReceive.s: src/CanReceive.cpp.s
-.PHONY : src/CanReceive.s
-
-# target to generate assembly for a file
-src/CanReceive.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/CanReceive.cpp.s
-.PHONY : src/CanReceive.cpp.s
-
-src/SpeedServer.o: src/SpeedServer.cpp.o
-.PHONY : src/SpeedServer.o
-
-# target to build an object file
-src/SpeedServer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.o
-.PHONY : src/SpeedServer.cpp.o
-
-src/SpeedServer.i: src/SpeedServer.cpp.i
-.PHONY : src/SpeedServer.i
+src/canreceive.i: src/canreceive.cpp.i
+.PHONY : src/canreceive.i
 
 # target to preprocess a source file
-src/SpeedServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.i
-.PHONY : src/SpeedServer.cpp.i
+src/canreceive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/canreceive.cpp.i
+.PHONY : src/canreceive.cpp.i
 
-src/SpeedServer.s: src/SpeedServer.cpp.s
-.PHONY : src/SpeedServer.s
-
-# target to generate assembly for a file
-src/SpeedServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/SpeedServer.cpp.s
-.PHONY : src/SpeedServer.cpp.s
-
-src/SpeedStubImpl.o: src/SpeedStubImpl.cpp.o
-.PHONY : src/SpeedStubImpl.o
-
-# target to build an object file
-src/SpeedStubImpl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.o
-.PHONY : src/SpeedStubImpl.cpp.o
-
-src/SpeedStubImpl.i: src/SpeedStubImpl.cpp.i
-.PHONY : src/SpeedStubImpl.i
-
-# target to preprocess a source file
-src/SpeedStubImpl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.i
-.PHONY : src/SpeedStubImpl.cpp.i
-
-src/SpeedStubImpl.s: src/SpeedStubImpl.cpp.s
-.PHONY : src/SpeedStubImpl.s
+src/canreceive.s: src/canreceive.cpp.s
+.PHONY : src/canreceive.s
 
 # target to generate assembly for a file
-src/SpeedStubImpl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/SpeedStubImpl.cpp.s
-.PHONY : src/SpeedStubImpl.cpp.s
+src/canreceive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/canreceive.cpp.s
+.PHONY : src/canreceive.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -307,6 +259,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/speedstubImpl.o: src/speedstubImpl.cpp.o
+.PHONY : src/speedstubImpl.o
+
+# target to build an object file
+src/speedstubImpl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.o
+.PHONY : src/speedstubImpl.cpp.o
+
+src/speedstubImpl.i: src/speedstubImpl.cpp.i
+.PHONY : src/speedstubImpl.i
+
+# target to preprocess a source file
+src/speedstubImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.i
+.PHONY : src/speedstubImpl.cpp.i
+
+src/speedstubImpl.s: src/speedstubImpl.cpp.s
+.PHONY : src/speedstubImpl.s
+
+# target to generate assembly for a file
+src/speedstubImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/speedstubImpl.cpp.s
+.PHONY : src/speedstubImpl.cpp.s
+
+src/speedsystem.o: src/speedsystem.cpp.o
+.PHONY : src/speedsystem.o
+
+# target to build an object file
+src/speedsystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/speedsystem.cpp.o
+.PHONY : src/speedsystem.cpp.o
+
+src/speedsystem.i: src/speedsystem.cpp.i
+.PHONY : src/speedsystem.i
+
+# target to preprocess a source file
+src/speedsystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/speedsystem.cpp.i
+.PHONY : src/speedsystem.cpp.i
+
+src/speedsystem.s: src/speedsystem.cpp.s
+.PHONY : src/speedsystem.s
+
+# target to generate assembly for a file
+src/speedsystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_sender.dir/build.make CMakeFiles/speed_sender.dir/src/speedsystem.cpp.s
+.PHONY : src/speedsystem.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -324,18 +324,18 @@ help:
 	@echo "... src-gen/someip/stub/speed/v1/commonapi/SpeedStatusSomeIPStubAdapter.o"
 	@echo "... src-gen/someip/stub/speed/v1/commonapi/SpeedStatusSomeIPStubAdapter.i"
 	@echo "... src-gen/someip/stub/speed/v1/commonapi/SpeedStatusSomeIPStubAdapter.s"
-	@echo "... src/CanReceive.o"
-	@echo "... src/CanReceive.i"
-	@echo "... src/CanReceive.s"
-	@echo "... src/SpeedServer.o"
-	@echo "... src/SpeedServer.i"
-	@echo "... src/SpeedServer.s"
-	@echo "... src/SpeedStubImpl.o"
-	@echo "... src/SpeedStubImpl.i"
-	@echo "... src/SpeedStubImpl.s"
+	@echo "... src/canreceive.o"
+	@echo "... src/canreceive.i"
+	@echo "... src/canreceive.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/speedstubImpl.o"
+	@echo "... src/speedstubImpl.i"
+	@echo "... src/speedstubImpl.s"
+	@echo "... src/speedsystem.o"
+	@echo "... src/speedsystem.i"
+	@echo "... src/speedsystem.s"
 .PHONY : help
 
 

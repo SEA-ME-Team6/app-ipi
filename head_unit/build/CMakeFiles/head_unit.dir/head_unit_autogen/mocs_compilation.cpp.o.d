@@ -1,8 +1,8 @@
 CMakeFiles/head_unit.dir/head_unit_autogen/mocs_compilation.cpp.o: \
  /home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/UVLADIE3JM/moc_GearClient.cpp \
- /home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/UVLADIE3JM/../../../src/GearClient.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/UVLADIE3JM/moc_husystem.cpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/UVLADIE3JM/../../../src/husystem.hpp \
  /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -261,4 +261,7 @@ CMakeFiles/head_unit.dir/head_unit_autogen/mocs_compilation.cpp.o: \
  /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/gear/v1/commonapi/GearStatus.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Attribute.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Proxy.hpp \
- /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp
+ /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxy.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxyBase.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/speed/v1/commonapi/SpeedStatus.hpp

@@ -118,19 +118,19 @@ CMakeFiles/head_unit.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/head_unit.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/head_unit/src/main.cpp -o CMakeFiles/head_unit.dir/src/main.cpp.s
 
-CMakeFiles/head_unit.dir/src/GearClient.cpp.o: CMakeFiles/head_unit.dir/flags.make
-CMakeFiles/head_unit.dir/src/GearClient.cpp.o: /home/seame-workstation08/DES_Head-Unit/head_unit/src/GearClient.cpp
-CMakeFiles/head_unit.dir/src/GearClient.cpp.o: CMakeFiles/head_unit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/head_unit.dir/src/GearClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/head_unit.dir/src/GearClient.cpp.o -MF CMakeFiles/head_unit.dir/src/GearClient.cpp.o.d -o CMakeFiles/head_unit.dir/src/GearClient.cpp.o -c /home/seame-workstation08/DES_Head-Unit/head_unit/src/GearClient.cpp
+CMakeFiles/head_unit.dir/src/husystem.cpp.o: CMakeFiles/head_unit.dir/flags.make
+CMakeFiles/head_unit.dir/src/husystem.cpp.o: /home/seame-workstation08/DES_Head-Unit/head_unit/src/husystem.cpp
+CMakeFiles/head_unit.dir/src/husystem.cpp.o: CMakeFiles/head_unit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/head_unit.dir/src/husystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/head_unit.dir/src/husystem.cpp.o -MF CMakeFiles/head_unit.dir/src/husystem.cpp.o.d -o CMakeFiles/head_unit.dir/src/husystem.cpp.o -c /home/seame-workstation08/DES_Head-Unit/head_unit/src/husystem.cpp
 
-CMakeFiles/head_unit.dir/src/GearClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/head_unit.dir/src/GearClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/head_unit/src/GearClient.cpp > CMakeFiles/head_unit.dir/src/GearClient.cpp.i
+CMakeFiles/head_unit.dir/src/husystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/head_unit.dir/src/husystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/head_unit/src/husystem.cpp > CMakeFiles/head_unit.dir/src/husystem.cpp.i
 
-CMakeFiles/head_unit.dir/src/GearClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/head_unit.dir/src/GearClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/head_unit/src/GearClient.cpp -o CMakeFiles/head_unit.dir/src/GearClient.cpp.s
+CMakeFiles/head_unit.dir/src/husystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/head_unit.dir/src/husystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/head_unit/src/husystem.cpp -o CMakeFiles/head_unit.dir/src/husystem.cpp.s
 
 CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o: CMakeFiles/head_unit.dir/flags.make
 CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o: head_unit_autogen/UVLADIE3JM/qrc_qml.cpp
@@ -150,7 +150,7 @@ CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.s: cmake_force
 head_unit_OBJECTS = \
 "CMakeFiles/head_unit.dir/head_unit_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/head_unit.dir/src/main.cpp.o" \
-"CMakeFiles/head_unit.dir/src/GearClient.cpp.o" \
+"CMakeFiles/head_unit.dir/src/husystem.cpp.o" \
 "CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o"
 
 # External object files for target head_unit
@@ -158,7 +158,7 @@ head_unit_EXTERNAL_OBJECTS =
 
 head_unit: CMakeFiles/head_unit.dir/head_unit_autogen/mocs_compilation.cpp.o
 head_unit: CMakeFiles/head_unit.dir/src/main.cpp.o
-head_unit: CMakeFiles/head_unit.dir/src/GearClient.cpp.o
+head_unit: CMakeFiles/head_unit.dir/src/husystem.cpp.o
 head_unit: CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
 head_unit: CMakeFiles/head_unit.dir/build.make
 head_unit: /home/seame-workstation08/anaconda3/lib/libQt5Quick.so.5.9.7

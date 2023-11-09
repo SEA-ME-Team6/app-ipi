@@ -188,6 +188,19 @@ hu-gearsomeipproxy/fast:
 .PHONY : hu-gearsomeipproxy/fast
 
 #=============================================================================
+# Target rules for targets named hu-speedsomeipproxy
+
+# Build rule for target.
+hu-speedsomeipproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hu-speedsomeipproxy
+.PHONY : hu-speedsomeipproxy
+
+# fast build rule for target.
+hu-speedsomeipproxy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy.dir/build.make CMakeFiles/hu-speedsomeipproxy.dir/build
+.PHONY : hu-speedsomeipproxy/fast
+
+#=============================================================================
 # Target rules for targets named head_unit_autogen
 
 # Build rule for target.
@@ -212,6 +225,19 @@ hu-gearsomeipproxy_autogen: cmake_check_build_system
 hu-gearsomeipproxy_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-gearsomeipproxy_autogen.dir/build.make CMakeFiles/hu-gearsomeipproxy_autogen.dir/build
 .PHONY : hu-gearsomeipproxy_autogen/fast
+
+#=============================================================================
+# Target rules for targets named hu-speedsomeipproxy_autogen
+
+# Build rule for target.
+hu-speedsomeipproxy_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hu-speedsomeipproxy_autogen
+.PHONY : hu-speedsomeipproxy_autogen
+
+# fast build rule for target.
+hu-speedsomeipproxy_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy_autogen.dir/build.make CMakeFiles/hu-speedsomeipproxy_autogen.dir/build
+.PHONY : hu-speedsomeipproxy_autogen/fast
 
 head_unit_autogen/UVLADIE3JM/qrc_qml.o: head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
 .PHONY : head_unit_autogen/UVLADIE3JM/qrc_qml.o
@@ -285,6 +311,30 @@ hu-gearsomeipproxy_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-gearsomeipproxy.dir/build.make CMakeFiles/hu-gearsomeipproxy.dir/hu-gearsomeipproxy_autogen/mocs_compilation.cpp.s
 .PHONY : hu-gearsomeipproxy_autogen/mocs_compilation.cpp.s
 
+hu-speedsomeipproxy_autogen/mocs_compilation.o: hu-speedsomeipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : hu-speedsomeipproxy_autogen/mocs_compilation.o
+
+# target to build an object file
+hu-speedsomeipproxy_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy.dir/build.make CMakeFiles/hu-speedsomeipproxy.dir/hu-speedsomeipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : hu-speedsomeipproxy_autogen/mocs_compilation.cpp.o
+
+hu-speedsomeipproxy_autogen/mocs_compilation.i: hu-speedsomeipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : hu-speedsomeipproxy_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+hu-speedsomeipproxy_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy.dir/build.make CMakeFiles/hu-speedsomeipproxy.dir/hu-speedsomeipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : hu-speedsomeipproxy_autogen/mocs_compilation.cpp.i
+
+hu-speedsomeipproxy_autogen/mocs_compilation.s: hu-speedsomeipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : hu-speedsomeipproxy_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+hu-speedsomeipproxy_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy.dir/build.make CMakeFiles/hu-speedsomeipproxy.dir/hu-speedsomeipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : hu-speedsomeipproxy_autogen/mocs_compilation.cpp.s
+
 src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.o: src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.cpp.o
 .PHONY : src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.o
 
@@ -309,29 +359,53 @@ src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-gearsomeipproxy.dir/build.make CMakeFiles/hu-gearsomeipproxy.dir/src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.cpp.s
 .PHONY : src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.cpp.s
 
-src/GearClient.o: src/GearClient.cpp.o
-.PHONY : src/GearClient.o
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o: src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o
 
 # target to build an object file
-src/GearClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/src/GearClient.cpp.o
-.PHONY : src/GearClient.cpp.o
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy.dir/build.make CMakeFiles/hu-speedsomeipproxy.dir/src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o
 
-src/GearClient.i: src/GearClient.cpp.i
-.PHONY : src/GearClient.i
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i: src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i
 
 # target to preprocess a source file
-src/GearClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/src/GearClient.cpp.i
-.PHONY : src/GearClient.cpp.i
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy.dir/build.make CMakeFiles/hu-speedsomeipproxy.dir/src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.i
 
-src/GearClient.s: src/GearClient.cpp.s
-.PHONY : src/GearClient.s
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s: src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s
 
 # target to generate assembly for a file
-src/GearClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/src/GearClient.cpp.s
-.PHONY : src/GearClient.cpp.s
+src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy.dir/build.make CMakeFiles/hu-speedsomeipproxy.dir/src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.s
+
+src/husystem.o: src/husystem.cpp.o
+.PHONY : src/husystem.o
+
+# target to build an object file
+src/husystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/src/husystem.cpp.o
+.PHONY : src/husystem.cpp.o
+
+src/husystem.i: src/husystem.cpp.i
+.PHONY : src/husystem.i
+
+# target to preprocess a source file
+src/husystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/src/husystem.cpp.i
+.PHONY : src/husystem.cpp.i
+
+src/husystem.s: src/husystem.cpp.s
+.PHONY : src/husystem.s
+
+# target to generate assembly for a file
+src/husystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/head_unit.dir/build.make CMakeFiles/head_unit.dir/src/husystem.cpp.s
+.PHONY : src/husystem.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -371,8 +445,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... head_unit_autogen"
 	@echo "... hu-gearsomeipproxy_autogen"
+	@echo "... hu-speedsomeipproxy_autogen"
 	@echo "... head_unit"
 	@echo "... hu-gearsomeipproxy"
+	@echo "... hu-speedsomeipproxy"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.o"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.i"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.s"
@@ -382,12 +458,18 @@ help:
 	@echo "... hu-gearsomeipproxy_autogen/mocs_compilation.o"
 	@echo "... hu-gearsomeipproxy_autogen/mocs_compilation.i"
 	@echo "... hu-gearsomeipproxy_autogen/mocs_compilation.s"
+	@echo "... hu-speedsomeipproxy_autogen/mocs_compilation.o"
+	@echo "... hu-speedsomeipproxy_autogen/mocs_compilation.i"
+	@echo "... hu-speedsomeipproxy_autogen/mocs_compilation.s"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.o"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.i"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.s"
-	@echo "... src/GearClient.o"
-	@echo "... src/GearClient.i"
-	@echo "... src/GearClient.s"
+	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o"
+	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i"
+	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s"
+	@echo "... src/husystem.o"
+	@echo "... src/husystem.i"
+	@echo "... src/husystem.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

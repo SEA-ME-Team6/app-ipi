@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp" "CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o" "gcc" "CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/mocs_compilation.cpp" "CMakeFiles/head_unit.dir/head_unit_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/head_unit.dir/head_unit_autogen/mocs_compilation.cpp.o.d"
-  "/home/seame-workstation08/DES_Head-Unit/head_unit/src/GearClient.cpp" "CMakeFiles/head_unit.dir/src/GearClient.cpp.o" "gcc" "CMakeFiles/head_unit.dir/src/GearClient.cpp.o.d"
+  "/home/seame-workstation08/DES_Head-Unit/head_unit/src/husystem.cpp" "CMakeFiles/head_unit.dir/src/husystem.cpp.o" "gcc" "CMakeFiles/head_unit.dir/src/husystem.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/head_unit/src/main.cpp" "CMakeFiles/head_unit.dir/src/main.cpp.o" "gcc" "CMakeFiles/head_unit.dir/src/main.cpp.o.d"
   )
 

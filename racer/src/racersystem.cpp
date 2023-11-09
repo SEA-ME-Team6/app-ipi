@@ -30,7 +30,7 @@ RacerSystem::RacerSystem() : current_battery(0), filtered_battery(0), prev_filte
 
     //moving proxy
     std::string moving_instance = "MovingStatus";
-    std::string moving_connection = "service-gear";
+    std::string moving_connection = "service-moving";
     movingProxy = runtime->buildProxy<MovingStatusProxy>(domain, moving_instance, moving_connection);
 
     std::cout << "Waiting for Moving service to become available." << std::endl;

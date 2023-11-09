@@ -235,29 +235,29 @@ src/gamepad.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepad.cpp.s
 .PHONY : src/gamepad.cpp.s
 
-src/gamepadServer.o: src/gamepadServer.cpp.o
-.PHONY : src/gamepadServer.o
+src/gamepadsystem.o: src/gamepadsystem.cpp.o
+.PHONY : src/gamepadsystem.o
 
 # target to build an object file
-src/gamepadServer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepadServer.cpp.o
-.PHONY : src/gamepadServer.cpp.o
+src/gamepadsystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.o
+.PHONY : src/gamepadsystem.cpp.o
 
-src/gamepadServer.i: src/gamepadServer.cpp.i
-.PHONY : src/gamepadServer.i
+src/gamepadsystem.i: src/gamepadsystem.cpp.i
+.PHONY : src/gamepadsystem.i
 
 # target to preprocess a source file
-src/gamepadServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepadServer.cpp.i
-.PHONY : src/gamepadServer.cpp.i
+src/gamepadsystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.i
+.PHONY : src/gamepadsystem.cpp.i
 
-src/gamepadServer.s: src/gamepadServer.cpp.s
-.PHONY : src/gamepadServer.s
+src/gamepadsystem.s: src/gamepadsystem.cpp.s
+.PHONY : src/gamepadsystem.s
 
 # target to generate assembly for a file
-src/gamepadServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepadServer.cpp.s
-.PHONY : src/gamepadServer.cpp.s
+src/gamepadsystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.s
+.PHONY : src/gamepadsystem.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -327,9 +327,9 @@ help:
 	@echo "... src/gamepad.o"
 	@echo "... src/gamepad.i"
 	@echo "... src/gamepad.s"
-	@echo "... src/gamepadServer.o"
-	@echo "... src/gamepadServer.i"
-	@echo "... src/gamepadServer.s"
+	@echo "... src/gamepadsystem.o"
+	@echo "... src/gamepadsystem.i"
+	@echo "... src/gamepadsystem.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

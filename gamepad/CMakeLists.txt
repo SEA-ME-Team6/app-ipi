@@ -27,7 +27,7 @@ if(BUILD_COMMONAPI)
     add_executable(gamepad
         src/main.cpp
         src/gamepad.cpp
-        src/gamepadServer.cpp
+        src/gamepadsystem.cpp
         src/movingStubImpl.cpp
     )
 

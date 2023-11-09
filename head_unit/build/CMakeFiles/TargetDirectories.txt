@@ -1,5 +1,6 @@
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit.dir
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/hu-gearsomeipproxy.dir
+/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/hu-speedsomeipproxy.dir
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/edit_cache.dir
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/rebuild_cache.dir
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/list_install_components.dir
@@ -8,3 +9,4 @@
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/install/strip.dir
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit_autogen.dir
 /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/hu-gearsomeipproxy_autogen.dir
+/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/hu-speedsomeipproxy_autogen.dir

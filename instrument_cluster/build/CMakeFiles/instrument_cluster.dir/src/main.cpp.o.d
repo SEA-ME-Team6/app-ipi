@@ -261,9 +261,7 @@ CMakeFiles/instrument_cluster.dir/src/main.cpp.o: \
  /home/seame-workstation08/anaconda3/include/qt/QtQml/qqmldebug.h \
  /home/seame-workstation08/anaconda3/include/qt/QtQml/QQmlContext \
  /home/seame-workstation08/anaconda3/include/qt/QtQml/qqmlcontext.h \
- /home/seame-workstation08/anaconda3/include/qt/QtGui/QFont \
- /home/seame-workstation08/anaconda3/include/qt/QtGui/qfont.h \
- /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/StatusClient.hpp \
+ /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/icsystem.hpp \
  /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_raw_storage_iter.h \
  /usr/include/c++/9/ext/concurrence.h \
  /usr/include/c++/9/bits/unique_ptr.h \

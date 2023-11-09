@@ -1,7 +1,7 @@
 CMakeFiles/speed_sender.dir/src/main.cpp.o: \
  /home/seame-workstation08/DES_Head-Unit/speed_sender/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/DES_Head-Unit/speed_sender/src/CanReceive.hpp \
+ /home/seame-workstation08/DES_Head-Unit/speed_sender/src/canreceive.hpp \
  /usr/include/linux/can.h /usr/include/linux/types.h \
  /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
@@ -112,7 +112,7 @@ CMakeFiles/speed_sender.dir/src/main.cpp.o: \
  /usr/include/c++/9/backward/binders.h \
  /usr/include/c++/9/bits/stl_queue.h \
  /usr/include/c++/9/bits/uses_allocator.h \
- /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedServer.hpp \
+ /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedsystem.hpp \
  /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/stl_raw_storage_iter.h /usr/include/c++/9/iosfwd \
  /usr/include/c++/9/bits/stringfwd.h /usr/include/c++/9/bits/postypes.h \
@@ -236,7 +236,7 @@ CMakeFiles/speed_sender.dir/src/main.cpp.o: \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/AttributeExtension.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Factory.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Types.hpp \
- /home/seame-workstation08/DES_Head-Unit/speed_sender/src/SpeedStubImpl.hpp \
+ /home/seame-workstation08/DES_Head-Unit/speed_sender/src/speedstubImpl.hpp \
  /home/seame-workstation08/DES_Head-Unit/speed_sender/src-gen/core/skel/speed/v1/commonapi/SpeedStatusStubDefault.hpp \
  /home/seame-workstation08/DES_Head-Unit/speed_sender/src-gen/core/stub/speed/v1/commonapi/SpeedStatusStub.hpp \
  /usr/include/c++/9/sstream /usr/include/c++/9/bits/sstream.tcc \
