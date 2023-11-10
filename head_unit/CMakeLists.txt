@@ -10,11 +10,11 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(BUILD_COMMONAPI true)
-set(BUILD_SOMEIP_LIB true)
+set(BUILD_COMMONAPI true) # if you want to multi compile using top op CMakeLists, 
+set(BUILD_SOMEIP_LIB true) # make comment this two line.
 
 if(BUILD_COMMONAPI)
-    if (NOT COMMON_API_FOUND)
+    if (NOT TOP_CMAKE_FOUND)
         find_package(CommonAPI REQUIRED)
 
         include_directories(

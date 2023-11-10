@@ -3,11 +3,11 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x -Wl,--no-as-needed")
 
 project(racer)
 
-set(BUILD_COMMONAPI true) #for single compile
-set(BUILD_SOMEIP_LIB true) #for single compile
+set(BUILD_COMMONAPI true) # if you want to multi compile using top op CMakeLists, 
+set(BUILD_SOMEIP_LIB true) # make comment this two line.
 
 if(BUILD_COMMONAPI)
-    if (NOT COMMON_API_FOUND)
+    if (NOT TOP_CMAKE_FOUND)
         find_package(CommonAPI REQUIRED)
 
         include_directories(

@@ -20,8 +20,8 @@ ICSystem::ICSystem() {
     speedProxy->getSpeedAttribute().getChangedEvent().subscribe(
         [&](const float& speed_){
             speed = speed_;
-            rpm = speed / (2 * M_PI * WheelRadius);
             emit speedChanged();
+            rpm = speed / (2 * M_PI * WheelRadius);
             emit RpmChanged();
         }
     );
