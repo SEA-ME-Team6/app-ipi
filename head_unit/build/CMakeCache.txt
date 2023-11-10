@@ -219,25 +219,28 @@ CommonAPI-SomeIP_DIR:PATH=/home/seame-workstation08/build-commonapi/capicxx-some
 CommonAPI_DIR:PATH=/home/seame-workstation08/build-commonapi/capicxx-core-runtime/build
 
 //The directory containing a CMake configuration file for QT.
-QT_DIR:PATH=/home/seame-workstation08/anaconda3/lib/cmake/Qt5
+QT_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5
 
 //The directory containing a CMake configuration file for Qt5Core.
-Qt5Core_DIR:PATH=/home/seame-workstation08/anaconda3/lib/cmake/Qt5Core
+Qt5Core_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core
 
 //The directory containing a CMake configuration file for Qt5Gui.
-Qt5Gui_DIR:PATH=/home/seame-workstation08/anaconda3/lib/cmake/Qt5Gui
+Qt5Gui_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui
 
 //The directory containing a CMake configuration file for Qt5Network.
-Qt5Network_DIR:PATH=/home/seame-workstation08/anaconda3/lib/cmake/Qt5Network
+Qt5Network_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network
+
+//The directory containing a CMake configuration file for Qt5QmlModels.
+Qt5QmlModels_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5QmlModels
 
 //The directory containing a CMake configuration file for Qt5Qml.
-Qt5Qml_DIR:PATH=/home/seame-workstation08/anaconda3/lib/cmake/Qt5Qml
+Qt5Qml_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml
 
 //The directory containing a CMake configuration file for Qt5Quick.
-Qt5Quick_DIR:PATH=/home/seame-workstation08/anaconda3/lib/cmake/Qt5Quick
+Qt5Quick_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5Quick
 
 //The directory containing a CMake configuration file for Qt5.
-Qt5_DIR:PATH=/home/seame-workstation08/anaconda3/lib/cmake/Qt5
+Qt5_DIR:PATH=/home/seame-workstation08/Qt/5.15.2/gcc_64/lib/cmake/Qt5
 
 //Value Computed by CMake
 head_unit_BINARY_DIR:STATIC=/home/seame-workstation08/DES_Head-Unit/head_unit/build

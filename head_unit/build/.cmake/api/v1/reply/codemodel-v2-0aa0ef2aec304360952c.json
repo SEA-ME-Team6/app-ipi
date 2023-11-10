@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-67de89dcd151fc264a02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "head_unit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "head_unit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-head_unit-e24b1bdf551db23c2732.json",
+					"name" : "head_unit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "head_unit_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-head_unit_autogen-58d2f2790ae7e38911bd.json",
+					"name" : "head_unit_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-gearsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-gearsomeipproxy-621a72d6d01ab077947d.json",
+					"name" : "hu-gearsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-gearsomeipproxy_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-gearsomeipproxy_autogen-99b4cd155c2e094fb5aa.json",
+					"name" : "hu-gearsomeipproxy_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-speedsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-speedsomeipproxy-0a86053f299ffcc64dbe.json",
+					"name" : "hu-speedsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-speedsomeipproxy_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-speedsomeipproxy_autogen-6ed2da910238d8f029d8.json",
+					"name" : "hu-speedsomeipproxy_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/seame-workstation08/DES_Head-Unit/head_unit/build",
+		"source" : "/home/seame-workstation08/DES_Head-Unit/head_unit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

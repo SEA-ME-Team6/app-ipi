@@ -10,5 +10,6 @@ void GearStubImpl::gearselection(const std::shared_ptr<CommonAPI::ClientId> _cli
                                  gearselectionReply_t _reply) {
     racer->setGear(_gearselect);
     uint8_t currentGear = racer->getGear();
+    setGearAttribute(currentGear);
     _reply(currentGear);
 }

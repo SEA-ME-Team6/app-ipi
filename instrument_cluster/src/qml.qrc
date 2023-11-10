@@ -11,7 +11,11 @@
         <file>qml/TurnIndicator.qml</file>
         <file>qml/ValueSource.qml</file>
         <file>images/battery.png</file>
-        <file>images/background.jpg</file>
+        <file>images/background.png</file>
         <file>images/warning.jpg</file>
+        <file>images/p.png</file>
+        <file>images/r.png</file>
+        <file>images/n.png</file>
+        <file>images/d.png</file>
     </qresource>
 </RCC>

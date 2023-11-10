@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd build
+make
+cd ..
+
 SCRIPT_DIR=$(dirname "$0")
 
 export COMMONAPI_CONFIG="$SCRIPT_DIR/instrument_cluster.ini"

@@ -78,13 +78,17 @@ instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/qml/TachometerStyle.qml
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/qml/ValueSource.qml
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/battery.png
+instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/n.png
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/warning.jpg
+instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/r.png
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/temperature-icon.png
-instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/background.jpg
+instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/background.png
+instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/d.png
+instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/p.png
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/images/fuel-icon.png
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/fonts/LICENSE
 instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/fonts/DejaVuSans.ttf
-instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/anaconda3/bin/rcc
+instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/Qt/5.15.2/gcc_64/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for src/qml.qrc"
 	/usr/local/bin/cmake -E cmake_autorcc /home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/CMakeFiles/instrument_cluster_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json 
 
@@ -159,12 +163,13 @@ instrument_cluster: CMakeFiles/instrument_cluster.dir/src/main.cpp.o
 instrument_cluster: CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o
 instrument_cluster: CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o
 instrument_cluster: CMakeFiles/instrument_cluster.dir/build.make
-instrument_cluster: /home/seame-workstation08/anaconda3/lib/libQt5Quick.so.5.9.7
-instrument_cluster: /home/seame-workstation08/anaconda3/lib/libQt5Gui.so.5.9.7
+instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Quick.so.5.15.2
+instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
 instrument_cluster: /home/seame-workstation08/build-commonapi/capicxx-core-runtime/build/libCommonAPI.so.3.2.0
-instrument_cluster: /home/seame-workstation08/anaconda3/lib/libQt5Qml.so.5.9.7
-instrument_cluster: /home/seame-workstation08/anaconda3/lib/libQt5Network.so.5.9.7
-instrument_cluster: /home/seame-workstation08/anaconda3/lib/libQt5Core.so.5.9.7
+instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5QmlModels.so.5.15.2
+instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Qml.so.5.15.2
+instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2
+instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
 instrument_cluster: CMakeFiles/instrument_cluster.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/instrument_cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable instrument_cluster"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/instrument_cluster.dir/link.txt --verbose=$(VERBOSE)

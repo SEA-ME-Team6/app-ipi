@@ -12,13 +12,6 @@ Window {
     title: "INSTRUMENT CLUSTER"
     visibility: Window.FullScreen
 
-    Image {
-        id: background
-        width: parent.width
-        height: parent.height
-        source: "qrc:/images/background.jpg"
-    }
-
     ValueSource {
         id: valueSource
     }
@@ -96,83 +89,38 @@ Window {
             }
         }
 
-        Text {
-            id: cantimeoutText
-            anchors.top: parent.top
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: "CAN"
-            color: "white"
-            visible: false // Initially, the text is hidden.
-            anchors.topMargin: 50
-            Image {
-                id: canimage
-                source: "qrc:/images/warning.jpg"
-                width:16
-                height:16
-                anchors.left: cantimeoutText.right
-                anchors.verticalCenter: cantimeoutText.verticalCenter
-
-
-            }
-
+    }
+        
+    Item {
+        anchors{
+            horizontalCenter: parent.horizontalCenter
+            top: parent.top
+            topMargin: parent.width * 0.08
         }
 
-        Text {
-            id: speedtimeoutText
-            anchors.top: cantimeoutText.bottom
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: "Speed"
-            color: "white"
-            visible: false // Initially, the text is hidden.
-            anchors.margins: 5 // Adjust this value as needed for spacing
-            Image {
-                id: speedimage
-                source: "qrc:/images/warning.jpg"
-                width:16
-                height:16
-                anchors.left: speedtimeoutText.right
-                anchors.verticalCenter: speedtimeoutText.verticalCenter
-
-
-            }
+        Image {
+            id: p_gear
+            source: "qrc:/images/p.png"
+            visible: valueSource.gear === 0
         }
 
-        Text {
-            id: rpmtimeoutText
-            anchors.top: speedtimeoutText.bottom
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: "RPM"
-            color: "white"
-            visible: false // Initially, the text is hidden.
-            anchors.margins: 5 // Adjust this value as needed for spacing
-            Image {
-                id: rpmimage
-                source: "qrc:/images/warning.jpg"
-                width:16
-                height:16
-                anchors.left: rpmtimeoutText.right
-                anchors.verticalCenter: rpmtimeoutText.verticalCenter
-            }
-
+        Image {
+            id: r_gear
+            source: "qrc:/images/r.png"
+            visible: valueSource.gear === 1
         }
 
-        Text {
-            id: batterytimeoutText
-            anchors.top: rpmtimeoutText.bottom
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: "Battery"
-            color: "white"
-            visible: false // Initially, the text is hidden.
-            anchors.margins: 5 // Adjust this value as needed for spacing
-            Image {
-                id: batteryimage
-                source: "qrc:/images/warning.jpg"
-                width:16
-                height:16
-                anchors.left: batterytimeoutText.right
-                anchors.verticalCenter: batteryText.verticalCenter
-            }
+        Image {
+            id: n_gear
+            source: "qrc:/images/n.png"
+            visible: valueSource.gear === 2
+        }
 
+        Image {
+            id: d_gear
+            source: "qrc:/images/d.png"
+            visible: valueSource.gear === 3
         }
     }
+
 }

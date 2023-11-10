@@ -86,7 +86,7 @@ head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Uni
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/images/p.png
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/images/benz.jpg
 head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/DES_Head-Unit/head_unit/src/images/ground_shadow.png
-head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/anaconda3/bin/rcc
+head_unit_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/Qt/5.15.2/gcc_64/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for src/qml.qrc"
 	/usr/local/bin/cmake -E cmake_autorcc /home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles/head_unit_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json 
 
@@ -161,12 +161,13 @@ head_unit: CMakeFiles/head_unit.dir/src/main.cpp.o
 head_unit: CMakeFiles/head_unit.dir/src/husystem.cpp.o
 head_unit: CMakeFiles/head_unit.dir/head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
 head_unit: CMakeFiles/head_unit.dir/build.make
-head_unit: /home/seame-workstation08/anaconda3/lib/libQt5Quick.so.5.9.7
-head_unit: /home/seame-workstation08/anaconda3/lib/libQt5Gui.so.5.9.7
+head_unit: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Quick.so.5.15.2
+head_unit: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
 head_unit: /home/seame-workstation08/build-commonapi/capicxx-core-runtime/build/libCommonAPI.so.3.2.0
-head_unit: /home/seame-workstation08/anaconda3/lib/libQt5Qml.so.5.9.7
-head_unit: /home/seame-workstation08/anaconda3/lib/libQt5Network.so.5.9.7
-head_unit: /home/seame-workstation08/anaconda3/lib/libQt5Core.so.5.9.7
+head_unit: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5QmlModels.so.5.15.2
+head_unit: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Qml.so.5.15.2
+head_unit: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2
+head_unit: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
 head_unit: CMakeFiles/head_unit.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/head_unit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable head_unit"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/head_unit.dir/link.txt --verbose=$(VERBOSE)

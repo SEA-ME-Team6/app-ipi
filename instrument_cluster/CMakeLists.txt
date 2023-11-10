@@ -30,6 +30,8 @@ if(BUILD_COMMONAPI)
         src-gen/core/proxy/speed
         src-gen/core/common/battery
         src-gen/core/proxy/battery
+        src-gen/core/common/gear
+        src-gen/core/proxy/gear
     )
 
     add_executable(instrument_cluster
@@ -64,6 +66,8 @@ if(BUILD_SOMEIP_LIB)
         src-gen/someip/proxy/speed
         src-gen/someip/common/battery
         src-gen/someip/proxy/battery
+        src-gen/someip/common/gear
+        src-gen/someip/proxy/gear
     )
 
     # speed proxy
@@ -90,6 +94,17 @@ if(BUILD_SOMEIP_LIB)
         vsomeip3
     )
 
+    # gear proxy
+    FILE(GLOB_RECURSE GEAR_SOMEIP_PROXY_LIB_SRCS 
+        src-gen/someip/proxy/gear/*.cpp
+    )
+    add_library(ic-gearsomeipproxy  SHARED
+        ${GEAR_SOMEIP_PROXY_LIB_SRCS}
+    )
+    target_link_libraries(ic-gearsomeipproxy
+        CommonAPI-SomeIP
+        vsomeip3
+    )
 
 
 

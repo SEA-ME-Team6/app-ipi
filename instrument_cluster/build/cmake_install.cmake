@@ -62,7 +62,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/DES3/instrument_cluster")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/bin/DES3/instrument_cluster"
-         OLD_RPATH "/home/seame-workstation08/anaconda3/lib:/home/seame-workstation08/build-commonapi/capicxx-core-runtime/build:"
+         OLD_RPATH "/home/seame-workstation08/Qt/5.15.2/gcc_64/lib:/home/seame-workstation08/build-commonapi/capicxx-core-runtime/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/DES3/instrument_cluster")
