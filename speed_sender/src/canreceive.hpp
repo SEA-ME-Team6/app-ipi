@@ -18,7 +18,7 @@ class CanReceive {
         struct ifreq ifr;
         const char *ifname;
 
-        float current_speed, filtered_speed, prev_filtered_speed;
+        float filtered_speed, prev_filtered_speed;
         float alpha; //filtering
 
     public:

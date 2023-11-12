@@ -2,10 +2,10 @@
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
-# define M_PI           3.14159265358979323846  /* pi */
+# define M_PI           3.1415 /* pi */
 # define WheelRadius    0.0325
 
-CanReceive::CanReceive(const char* interface_name) : ifname(interface_name), current_speed(0), filtered_speed(0), prev_filtered_speed(0), alpha(0.3){
+CanReceive::CanReceive(const char* interface_name) : ifname(interface_name), filtered_speed(0), prev_filtered_speed(0), alpha(0.7) {
     if ((s = socket(PF_CAN, SOCK_RAW, CAN_RAW)) < 0) {
         perror("Error while opening socket");
         exit(-1);
@@ -28,9 +28,8 @@ CanReceive::~CanReceive() {
 }
 
 float CanReceive::getSpeed() {
-    float rpm;
+    float rpm =0;
     int nbytes = read(s, &frame, sizeof(struct can_frame));
-    std::cout << "Filltering Speed: " << filtered_speed << std::endl;
 
     //Receiveing CAN data
     if (nbytes < 0) {
@@ -38,12 +37,19 @@ float CanReceive::getSpeed() {
         return false;
     }
     std::memcpy(&rpm, frame.data, sizeof(float));
-    current_speed = rpm * (2 * M_PI * WheelRadius);
+    float current_speed = rpm * (2 * M_PI * WheelRadius);
     
     //Filtering
-    filtered_speed = alpha * current_speed + (1 - alpha) * prev_filtered_speed;
-    prev_filtered_speed = filtered_speed;
+    if (current_speed < 0.01) {
+        filtered_speed = 0;
+        prev_filtered_speed = 0;
+    }
+    else {
+    	filtered_speed = alpha * current_speed + (1 - alpha) * prev_filtered_speed;
+    	prev_filtered_speed = filtered_speed;
+    }
 
+    std::cout << "Origin Speed: " << current_speed << std::endl;
     std::cout << "Filltering Speed: " << filtered_speed << std::endl;
 
     return filtered_speed;
