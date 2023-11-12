@@ -32,13 +32,13 @@ void Racer::setLight(bool light){
 }
 
 void Racer::set_steering_percent(float steering) {
-    if (gearStatus == 2 || gearStatus == 3) {
-        //PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", steering);
-    }
+    std::cout << "Steering : " << steering << std::endl;
+    //PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", steering);
 }
 
 void Racer::set_throttle_percent(float throttle) {
     if (gearStatus == 1 || gearStatus == 3) {
+        std::cout << "Throttle : " << throttle << std::endl;
         //PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", throttle);
     }
 }

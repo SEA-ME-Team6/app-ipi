@@ -20,6 +20,7 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
     speedProxy->getSpeedAttribute().getChangedEvent().subscribe(
         [&](const float& speed_){
             speed = speed_;
+            std::cout << "IC receive speed " << speed_ << std::endl;
             convert_to_Rpm(speed);
             emit speedChanged();
             emit RpmChanged();
