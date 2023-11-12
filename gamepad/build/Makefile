@@ -187,6 +187,43 @@ gp-movingsomeipstub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-movingsomeipstub.dir/build.make CMakeFiles/gp-movingsomeipstub.dir/build
 .PHONY : gp-movingsomeipstub/fast
 
+#=============================================================================
+# Target rules for targets named gp-lightsomeipstub
+
+# Build rule for target.
+gp-lightsomeipstub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gp-lightsomeipstub
+.PHONY : gp-lightsomeipstub
+
+# fast build rule for target.
+gp-lightsomeipstub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-lightsomeipstub.dir/build.make CMakeFiles/gp-lightsomeipstub.dir/build
+.PHONY : gp-lightsomeipstub/fast
+
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.o: src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.o
+
+# target to build an object file
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-lightsomeipstub.dir/build.make CMakeFiles/gp-lightsomeipstub.dir/src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o
+
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.i: src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.i
+
+# target to preprocess a source file
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-lightsomeipstub.dir/build.make CMakeFiles/gp-lightsomeipstub.dir/src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i
+
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.s: src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.s
+
+# target to generate assembly for a file
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-lightsomeipstub.dir/build.make CMakeFiles/gp-lightsomeipstub.dir/src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s
+
 src-gen/someip/stub/moving/v1/commonapi/MovingStatusSomeIPStubAdapter.o: src-gen/someip/stub/moving/v1/commonapi/MovingStatusSomeIPStubAdapter.cpp.o
 .PHONY : src-gen/someip/stub/moving/v1/commonapi/MovingStatusSomeIPStubAdapter.o
 
@@ -259,6 +296,30 @@ src/gamepadsystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.s
 .PHONY : src/gamepadsystem.cpp.s
 
+src/lightstubImpl.o: src/lightstubImpl.cpp.o
+.PHONY : src/lightstubImpl.o
+
+# target to build an object file
+src/lightstubImpl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o
+.PHONY : src/lightstubImpl.cpp.o
+
+src/lightstubImpl.i: src/lightstubImpl.cpp.i
+.PHONY : src/lightstubImpl.i
+
+# target to preprocess a source file
+src/lightstubImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.i
+.PHONY : src/lightstubImpl.cpp.i
+
+src/lightstubImpl.s: src/lightstubImpl.cpp.s
+.PHONY : src/lightstubImpl.s
+
+# target to generate assembly for a file
+src/lightstubImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.s
+.PHONY : src/lightstubImpl.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -283,29 +344,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/movingStubImpl.o: src/movingStubImpl.cpp.o
-.PHONY : src/movingStubImpl.o
+src/movingstubImpl.o: src/movingstubImpl.cpp.o
+.PHONY : src/movingstubImpl.o
 
 # target to build an object file
-src/movingStubImpl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o
-.PHONY : src/movingStubImpl.cpp.o
+src/movingstubImpl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o
+.PHONY : src/movingstubImpl.cpp.o
 
-src/movingStubImpl.i: src/movingStubImpl.cpp.i
-.PHONY : src/movingStubImpl.i
+src/movingstubImpl.i: src/movingstubImpl.cpp.i
+.PHONY : src/movingstubImpl.i
 
 # target to preprocess a source file
-src/movingStubImpl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.i
-.PHONY : src/movingStubImpl.cpp.i
+src/movingstubImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.i
+.PHONY : src/movingstubImpl.cpp.i
 
-src/movingStubImpl.s: src/movingStubImpl.cpp.s
-.PHONY : src/movingStubImpl.s
+src/movingstubImpl.s: src/movingstubImpl.cpp.s
+.PHONY : src/movingstubImpl.s
 
 # target to generate assembly for a file
-src/movingStubImpl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.s
-.PHONY : src/movingStubImpl.cpp.s
+src/movingstubImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.s
+.PHONY : src/movingstubImpl.cpp.s
 
 # Help Target
 help:
@@ -320,7 +381,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... gamepad"
+	@echo "... gp-lightsomeipstub"
 	@echo "... gp-movingsomeipstub"
+	@echo "... src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.o"
+	@echo "... src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.i"
+	@echo "... src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.s"
 	@echo "... src-gen/someip/stub/moving/v1/commonapi/MovingStatusSomeIPStubAdapter.o"
 	@echo "... src-gen/someip/stub/moving/v1/commonapi/MovingStatusSomeIPStubAdapter.i"
 	@echo "... src-gen/someip/stub/moving/v1/commonapi/MovingStatusSomeIPStubAdapter.s"
@@ -330,12 +395,15 @@ help:
 	@echo "... src/gamepadsystem.o"
 	@echo "... src/gamepadsystem.i"
 	@echo "... src/gamepadsystem.s"
+	@echo "... src/lightstubImpl.o"
+	@echo "... src/lightstubImpl.i"
+	@echo "... src/lightstubImpl.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/movingStubImpl.o"
-	@echo "... src/movingStubImpl.i"
-	@echo "... src/movingStubImpl.s"
+	@echo "... src/movingstubImpl.o"
+	@echo "... src/movingstubImpl.i"
+	@echo "... src/movingstubImpl.s"
 .PHONY : help
 
 

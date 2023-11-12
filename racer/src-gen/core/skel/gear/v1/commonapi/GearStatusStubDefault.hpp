@@ -63,7 +63,7 @@ public:
     COMMONAPI_EXPORT virtual void gearselection(const std::shared_ptr<CommonAPI::ClientId> _client, uint8_t _gearselect, gearselectionReply_t _reply) {
         (void)_client;
         (void)_gearselect;
-        uint8_t gear = 0u;
+        uint8_t gear = 0;
         _reply(gear);
     }
     COMMONAPI_EXPORT virtual const uint8_t &getGearAttribute() {

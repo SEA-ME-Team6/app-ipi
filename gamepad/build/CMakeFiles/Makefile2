@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/seame-workstation08/DES_Head-Unit/gamepad/build
 # The main recursive "all" target.
 all: CMakeFiles/gamepad.dir/all
 all: CMakeFiles/gp-movingsomeipstub.dir/all
+all: CMakeFiles/gp-lightsomeipstub.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/gamepad.dir/clean
 clean: CMakeFiles/gp-movingsomeipstub.dir/clean
+clean: CMakeFiles/gp-lightsomeipstub.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,12 +85,12 @@ clean: CMakeFiles/gp-movingsomeipstub.dir/clean
 CMakeFiles/gamepad.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gamepad.dir/build.make CMakeFiles/gamepad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target gamepad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target gamepad"
 .PHONY : CMakeFiles/gamepad.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gamepad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gamepad.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles 0
 .PHONY : CMakeFiles/gamepad.dir/rule
@@ -109,7 +111,7 @@ CMakeFiles/gamepad.dir/clean:
 CMakeFiles/gp-movingsomeipstub.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-movingsomeipstub.dir/build.make CMakeFiles/gp-movingsomeipstub.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-movingsomeipstub.dir/build.make CMakeFiles/gp-movingsomeipstub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=6,7 "Built target gp-movingsomeipstub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=9,10 "Built target gp-movingsomeipstub"
 .PHONY : CMakeFiles/gp-movingsomeipstub.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,6 +129,32 @@ gp-movingsomeipstub: CMakeFiles/gp-movingsomeipstub.dir/rule
 CMakeFiles/gp-movingsomeipstub.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-movingsomeipstub.dir/build.make CMakeFiles/gp-movingsomeipstub.dir/clean
 .PHONY : CMakeFiles/gp-movingsomeipstub.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gp-lightsomeipstub.dir
+
+# All Build rule for target.
+CMakeFiles/gp-lightsomeipstub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-lightsomeipstub.dir/build.make CMakeFiles/gp-lightsomeipstub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-lightsomeipstub.dir/build.make CMakeFiles/gp-lightsomeipstub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=7,8 "Built target gp-lightsomeipstub"
+.PHONY : CMakeFiles/gp-lightsomeipstub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gp-lightsomeipstub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gp-lightsomeipstub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles 0
+.PHONY : CMakeFiles/gp-lightsomeipstub.dir/rule
+
+# Convenience name for target.
+gp-lightsomeipstub: CMakeFiles/gp-lightsomeipstub.dir/rule
+.PHONY : gp-lightsomeipstub
+
+# clean rule for target.
+CMakeFiles/gp-lightsomeipstub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gp-lightsomeipstub.dir/build.make CMakeFiles/gp-lightsomeipstub.dir/clean
+.PHONY : CMakeFiles/gp-lightsomeipstub.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

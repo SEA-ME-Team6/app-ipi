@@ -1,11 +1,7 @@
 package commonapi
 
-interface lightStatus {
+interface LightStatus {
     version { major 1 minor 0 }
 
-    method lightselection {
-        in {
-            Boolean light
-        }
-    }
+    attribute Boolean light
 }

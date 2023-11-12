@@ -26,6 +26,11 @@ void Racer::setGear(uint8_t gear){
     gearStatus = gear;
 }
 
+void Racer::setLight(bool light){
+    std::cout << "Light : " << light << std::endl;
+    lightStatus = light;
+}
+
 void Racer::set_steering_percent(float steering) {
     if (gearStatus == 2 || gearStatus == 3) {
         //PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", steering);
@@ -49,5 +54,9 @@ uint32_t Racer::getBatttery() {
 
 uint8_t Racer::getGear() const{
     return gearStatus;
+}
+
+bool Racer::getLight() const{
+    return lightStatus;
 }
 

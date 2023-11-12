@@ -6,7 +6,7 @@
 
 using namespace v1::commonapi;
 
-ICSystem::ICSystem() {
+ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
     runtime = CommonAPI::Runtime::get();
 
     std::string domain = "local";
@@ -20,8 +20,8 @@ ICSystem::ICSystem() {
     speedProxy->getSpeedAttribute().getChangedEvent().subscribe(
         [&](const float& speed_){
             speed = speed_;
+            convert_to_Rpm(speed);
             emit speedChanged();
-            rpm = speed / (2 * M_PI * WheelRadius);
             emit RpmChanged();
         }
     );
@@ -52,6 +52,10 @@ ICSystem::ICSystem() {
         }
     );
 
+}
+
+void ICSystem::convert_to_Rpm(float speed)  {
+    rpm = speed / (2 * M_PI * WheelRadius);
 }
 
 float ICSystem::getSpeed() const {

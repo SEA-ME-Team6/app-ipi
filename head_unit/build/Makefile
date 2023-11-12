@@ -201,6 +201,19 @@ hu-speedsomeipproxy/fast:
 .PHONY : hu-speedsomeipproxy/fast
 
 #=============================================================================
+# Target rules for targets named hu-lightsomeipproxy
+
+# Build rule for target.
+hu-lightsomeipproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hu-lightsomeipproxy
+.PHONY : hu-lightsomeipproxy
+
+# fast build rule for target.
+hu-lightsomeipproxy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy.dir/build.make CMakeFiles/hu-lightsomeipproxy.dir/build
+.PHONY : hu-lightsomeipproxy/fast
+
+#=============================================================================
 # Target rules for targets named head_unit_autogen
 
 # Build rule for target.
@@ -238,6 +251,19 @@ hu-speedsomeipproxy_autogen: cmake_check_build_system
 hu-speedsomeipproxy_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-speedsomeipproxy_autogen.dir/build.make CMakeFiles/hu-speedsomeipproxy_autogen.dir/build
 .PHONY : hu-speedsomeipproxy_autogen/fast
+
+#=============================================================================
+# Target rules for targets named hu-lightsomeipproxy_autogen
+
+# Build rule for target.
+hu-lightsomeipproxy_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hu-lightsomeipproxy_autogen
+.PHONY : hu-lightsomeipproxy_autogen
+
+# fast build rule for target.
+hu-lightsomeipproxy_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy_autogen.dir/build.make CMakeFiles/hu-lightsomeipproxy_autogen.dir/build
+.PHONY : hu-lightsomeipproxy_autogen/fast
 
 head_unit_autogen/UVLADIE3JM/qrc_qml.o: head_unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
 .PHONY : head_unit_autogen/UVLADIE3JM/qrc_qml.o
@@ -311,6 +337,30 @@ hu-gearsomeipproxy_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-gearsomeipproxy.dir/build.make CMakeFiles/hu-gearsomeipproxy.dir/hu-gearsomeipproxy_autogen/mocs_compilation.cpp.s
 .PHONY : hu-gearsomeipproxy_autogen/mocs_compilation.cpp.s
 
+hu-lightsomeipproxy_autogen/mocs_compilation.o: hu-lightsomeipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : hu-lightsomeipproxy_autogen/mocs_compilation.o
+
+# target to build an object file
+hu-lightsomeipproxy_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy.dir/build.make CMakeFiles/hu-lightsomeipproxy.dir/hu-lightsomeipproxy_autogen/mocs_compilation.cpp.o
+.PHONY : hu-lightsomeipproxy_autogen/mocs_compilation.cpp.o
+
+hu-lightsomeipproxy_autogen/mocs_compilation.i: hu-lightsomeipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : hu-lightsomeipproxy_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+hu-lightsomeipproxy_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy.dir/build.make CMakeFiles/hu-lightsomeipproxy.dir/hu-lightsomeipproxy_autogen/mocs_compilation.cpp.i
+.PHONY : hu-lightsomeipproxy_autogen/mocs_compilation.cpp.i
+
+hu-lightsomeipproxy_autogen/mocs_compilation.s: hu-lightsomeipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : hu-lightsomeipproxy_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+hu-lightsomeipproxy_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy.dir/build.make CMakeFiles/hu-lightsomeipproxy.dir/hu-lightsomeipproxy_autogen/mocs_compilation.cpp.s
+.PHONY : hu-lightsomeipproxy_autogen/mocs_compilation.cpp.s
+
 hu-speedsomeipproxy_autogen/mocs_compilation.o: hu-speedsomeipproxy_autogen/mocs_compilation.cpp.o
 .PHONY : hu-speedsomeipproxy_autogen/mocs_compilation.o
 
@@ -358,6 +408,30 @@ src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.s: src-gen/someip/p
 src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-gearsomeipproxy.dir/build.make CMakeFiles/hu-gearsomeipproxy.dir/src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.cpp.s
 .PHONY : src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.cpp.s
+
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.o: src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.o
+
+# target to build an object file
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy.dir/build.make CMakeFiles/hu-lightsomeipproxy.dir/src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o
+
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.i: src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.i
+
+# target to preprocess a source file
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy.dir/build.make CMakeFiles/hu-lightsomeipproxy.dir/src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i
+
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.s: src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.s
+
+# target to generate assembly for a file
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hu-lightsomeipproxy.dir/build.make CMakeFiles/hu-lightsomeipproxy.dir/src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s
 
 src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o: src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.cpp.o
 .PHONY : src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o
@@ -445,9 +519,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... head_unit_autogen"
 	@echo "... hu-gearsomeipproxy_autogen"
+	@echo "... hu-lightsomeipproxy_autogen"
 	@echo "... hu-speedsomeipproxy_autogen"
 	@echo "... head_unit"
 	@echo "... hu-gearsomeipproxy"
+	@echo "... hu-lightsomeipproxy"
 	@echo "... hu-speedsomeipproxy"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.o"
 	@echo "... head_unit_autogen/UVLADIE3JM/qrc_qml.i"
@@ -458,12 +534,18 @@ help:
 	@echo "... hu-gearsomeipproxy_autogen/mocs_compilation.o"
 	@echo "... hu-gearsomeipproxy_autogen/mocs_compilation.i"
 	@echo "... hu-gearsomeipproxy_autogen/mocs_compilation.s"
+	@echo "... hu-lightsomeipproxy_autogen/mocs_compilation.o"
+	@echo "... hu-lightsomeipproxy_autogen/mocs_compilation.i"
+	@echo "... hu-lightsomeipproxy_autogen/mocs_compilation.s"
 	@echo "... hu-speedsomeipproxy_autogen/mocs_compilation.o"
 	@echo "... hu-speedsomeipproxy_autogen/mocs_compilation.i"
 	@echo "... hu-speedsomeipproxy_autogen/mocs_compilation.s"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.o"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.i"
 	@echo "... src-gen/someip/proxy/gear/v1/commonapi/GearStatusSomeIPProxy.s"
+	@echo "... src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.o"
+	@echo "... src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.i"
+	@echo "... src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.s"
 	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.o"
 	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.i"
 	@echo "... src-gen/someip/proxy/speed/v1/commonapi/SpeedStatusSomeIPProxy.s"

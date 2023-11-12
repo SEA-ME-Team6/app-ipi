@@ -30,6 +30,8 @@ if(BUILD_COMMONAPI)
         src-gen/core/proxy/gear
         src-gen/core/common/speed
         src-gen/core/proxy/speed
+        src-gen/core/common/light
+        src-gen/core/proxy/light
     )
 
     add_executable(head_unit
@@ -65,6 +67,8 @@ if(BUILD_SOMEIP_LIB)
         src-gen/someip/proxy/gear
         src-gen/someip/common/speed
         src-gen/someip/proxy/speed
+        src-gen/someip/common/light
+        src-gen/someip/proxy/light
     )
 
     # gear proxy
@@ -87,6 +91,18 @@ if(BUILD_SOMEIP_LIB)
         ${SPEED_SOMEIP_PROXY_LIB_SRCS}
     )
     target_link_libraries(hu-speedsomeipproxy
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
+    # light proxy
+    FILE(GLOB_RECURSE LIGHT_SOMEIP_PROXY_LIB_SRCS 
+    src-gen/someip/proxy/light/*.cpp
+    )
+    add_library(hu-lightsomeipproxy  SHARED
+        ${LIGHT_SOMEIP_PROXY_LIB_SRCS}
+    )
+    target_link_libraries(hu-lightsomeipproxy
         CommonAPI-SomeIP
         vsomeip3
     )

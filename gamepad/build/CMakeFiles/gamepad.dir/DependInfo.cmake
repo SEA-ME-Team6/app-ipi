@@ -10,8 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/seame-workstation08/DES_Head-Unit/gamepad/src/gamepad.cpp" "CMakeFiles/gamepad.dir/src/gamepad.cpp.o" "gcc" "CMakeFiles/gamepad.dir/src/gamepad.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/gamepad/src/gamepadsystem.cpp" "CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.o" "gcc" "CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.o.d"
+  "/home/seame-workstation08/DES_Head-Unit/gamepad/src/lightstubImpl.cpp" "CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o" "gcc" "CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/gamepad/src/main.cpp" "CMakeFiles/gamepad.dir/src/main.cpp.o" "gcc" "CMakeFiles/gamepad.dir/src/main.cpp.o.d"
-  "/home/seame-workstation08/DES_Head-Unit/gamepad/src/movingStubImpl.cpp" "CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o" "gcc" "CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o.d"
+  "/home/seame-workstation08/DES_Head-Unit/gamepad/src/movingstubImpl.cpp" "CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o" "gcc" "CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o.d"
   )
 
 # Targets to which this target links.

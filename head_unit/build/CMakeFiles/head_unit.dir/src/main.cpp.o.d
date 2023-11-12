@@ -314,4 +314,7 @@ CMakeFiles/head_unit.dir/src/main.cpp.o: \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp \
  /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxy.hpp \
  /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxyBase.hpp \
- /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/speed/v1/commonapi/SpeedStatus.hpp
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/speed/v1/commonapi/SpeedStatus.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/light/v1/commonapi/LightStatusProxy.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/light/v1/commonapi/LightStatusProxyBase.hpp \
+ /home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/light/v1/commonapi/LightStatus.hpp

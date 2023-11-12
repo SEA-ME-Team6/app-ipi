@@ -213,6 +213,56 @@ rc-movingsomeipproxy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-movingsomeipproxy.dir/build.make CMakeFiles/rc-movingsomeipproxy.dir/build
 .PHONY : rc-movingsomeipproxy/fast
 
+#=============================================================================
+# Target rules for targets named rc-lightsomeipproxy
+
+# Build rule for target.
+rc-lightsomeipproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc-lightsomeipproxy
+.PHONY : rc-lightsomeipproxy
+
+# fast build rule for target.
+rc-lightsomeipproxy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipproxy.dir/build.make CMakeFiles/rc-lightsomeipproxy.dir/build
+.PHONY : rc-lightsomeipproxy/fast
+
+#=============================================================================
+# Target rules for targets named rc-lightsomeipstub
+
+# Build rule for target.
+rc-lightsomeipstub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc-lightsomeipstub
+.PHONY : rc-lightsomeipstub
+
+# fast build rule for target.
+rc-lightsomeipstub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipstub.dir/build.make CMakeFiles/rc-lightsomeipstub.dir/build
+.PHONY : rc-lightsomeipstub/fast
+
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.o: src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.o
+
+# target to build an object file
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipproxy.dir/build.make CMakeFiles/rc-lightsomeipproxy.dir/src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.o
+
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.i: src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.i
+
+# target to preprocess a source file
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipproxy.dir/build.make CMakeFiles/rc-lightsomeipproxy.dir/src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.i
+
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.s: src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.s
+
+# target to generate assembly for a file
+src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipproxy.dir/build.make CMakeFiles/rc-lightsomeipproxy.dir/src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s
+.PHONY : src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.cpp.s
+
 src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.o: src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.cpp.o
 .PHONY : src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.o
 
@@ -285,6 +335,30 @@ src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-gearsomeipstub.dir/build.make CMakeFiles/rc-gearsomeipstub.dir/src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.s
 .PHONY : src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.cpp.s
 
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.o: src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.o
+
+# target to build an object file
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipstub.dir/build.make CMakeFiles/rc-lightsomeipstub.dir/src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.o
+
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.i: src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.i
+
+# target to preprocess a source file
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipstub.dir/build.make CMakeFiles/rc-lightsomeipstub.dir/src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.i
+
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.s: src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.s
+
+# target to generate assembly for a file
+src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rc-lightsomeipstub.dir/build.make CMakeFiles/rc-lightsomeipstub.dir/src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s
+.PHONY : src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.cpp.s
+
 src/batterystubImpl.o: src/batterystubImpl.cpp.o
 .PHONY : src/batterystubImpl.o
 
@@ -332,6 +406,30 @@ src/gearstubImpl.s: src/gearstubImpl.cpp.s
 src/gearstubImpl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/gearstubImpl.cpp.s
 .PHONY : src/gearstubImpl.cpp.s
+
+src/lightstubImpl.o: src/lightstubImpl.cpp.o
+.PHONY : src/lightstubImpl.o
+
+# target to build an object file
+src/lightstubImpl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/lightstubImpl.cpp.o
+.PHONY : src/lightstubImpl.cpp.o
+
+src/lightstubImpl.i: src/lightstubImpl.cpp.i
+.PHONY : src/lightstubImpl.i
+
+# target to preprocess a source file
+src/lightstubImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/lightstubImpl.cpp.i
+.PHONY : src/lightstubImpl.cpp.i
+
+src/lightstubImpl.s: src/lightstubImpl.cpp.s
+.PHONY : src/lightstubImpl.s
+
+# target to generate assembly for a file
+src/lightstubImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/racer.dir/build.make CMakeFiles/racer.dir/src/lightstubImpl.cpp.s
+.PHONY : src/lightstubImpl.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -420,7 +518,12 @@ help:
 	@echo "... racer"
 	@echo "... rc-batterysomeipstub"
 	@echo "... rc-gearsomeipstub"
+	@echo "... rc-lightsomeipproxy"
+	@echo "... rc-lightsomeipstub"
 	@echo "... rc-movingsomeipproxy"
+	@echo "... src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.o"
+	@echo "... src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.i"
+	@echo "... src-gen/someip/proxy/light/v1/commonapi/LightStatusSomeIPProxy.s"
 	@echo "... src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.o"
 	@echo "... src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.i"
 	@echo "... src-gen/someip/proxy/moving/v1/commonapi/MovingStatusSomeIPProxy.s"
@@ -430,12 +533,18 @@ help:
 	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.o"
 	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.i"
 	@echo "... src-gen/someip/stub/gear/v1/commonapi/GearStatusSomeIPStubAdapter.s"
+	@echo "... src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.o"
+	@echo "... src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.i"
+	@echo "... src-gen/someip/stub/light/v1/commonapi/LightStatusSomeIPStubAdapter.s"
 	@echo "... src/batterystubImpl.o"
 	@echo "... src/batterystubImpl.i"
 	@echo "... src/batterystubImpl.s"
 	@echo "... src/gearstubImpl.o"
 	@echo "... src/gearstubImpl.i"
 	@echo "... src/gearstubImpl.s"
+	@echo "... src/lightstubImpl.o"
+	@echo "... src/lightstubImpl.i"
+	@echo "... src/lightstubImpl.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

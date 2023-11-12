@@ -20,30 +20,25 @@ Item {
 
         Image{
             id:head_light_left
-            width: 470
-            height: 260
             anchors{
                 verticalCenter: parent.verticalCenter
                 left: parent.left
             }
             source: "qrc:/images/head_light.png"
-            fillMode: Image.PreserveAspectFit
+            visible: husystem.light
         }
 
         Image {
             id:head_light_right
-            width: 470
-            height: 260
             anchors{
                 verticalCenter: parent.verticalCenter
                 right: parent.right
             }
             source: "qrc:/images/head_light.png"
-            fillMode: Image.PreserveAspectFit
+            visible: husystem.light
         }
+
         Image {
-            width: 760
-            height: 262
             anchors{
                 horizontalCenter: parent.horizontalCenter
                 top: head_light_right.bottom
@@ -121,7 +116,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.changegear(0);
+                husystem.changegear(0);
             }
         }
 
@@ -135,7 +130,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.changegear(1);
+                husystem.changegear(1);
             }
         }
 
@@ -149,7 +144,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.changegear(2);
+                husystem.changegear(2);
             }
         }
         Button {
@@ -162,7 +157,7 @@ Item {
                 fillMode: Image.PreserveAspectFit
             }
             onClicked: {
-                car.changegear(3);
+                husystem.changegear(3);
             }
         }
     }

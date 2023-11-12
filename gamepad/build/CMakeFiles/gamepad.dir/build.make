@@ -111,26 +111,41 @@ CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/gamepad/src/gamepadsystem.cpp -o CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.s
 
-CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o: CMakeFiles/gamepad.dir/flags.make
-CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingStubImpl.cpp
-CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o: CMakeFiles/gamepad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o -MF CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o.d -o CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingStubImpl.cpp
+CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o: CMakeFiles/gamepad.dir/flags.make
+CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingstubImpl.cpp
+CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o: CMakeFiles/gamepad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o -MF CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o.d -o CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingstubImpl.cpp
 
-CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingStubImpl.cpp > CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.i
+CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingstubImpl.cpp > CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.i
 
-CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingStubImpl.cpp -o CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.s
+CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingstubImpl.cpp -o CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.s
+
+CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o: CMakeFiles/gamepad.dir/flags.make
+CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o: /home/seame-workstation08/DES_Head-Unit/gamepad/src/lightstubImpl.cpp
+CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o: CMakeFiles/gamepad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o -MF CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o.d -o CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o -c /home/seame-workstation08/DES_Head-Unit/gamepad/src/lightstubImpl.cpp
+
+CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/DES_Head-Unit/gamepad/src/lightstubImpl.cpp > CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.i
+
+CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/DES_Head-Unit/gamepad/src/lightstubImpl.cpp -o CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.s
 
 # Object files for target gamepad
 gamepad_OBJECTS = \
 "CMakeFiles/gamepad.dir/src/main.cpp.o" \
 "CMakeFiles/gamepad.dir/src/gamepad.cpp.o" \
 "CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.o" \
-"CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o"
+"CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o" \
+"CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o"
 
 # External object files for target gamepad
 gamepad_EXTERNAL_OBJECTS =
@@ -138,12 +153,13 @@ gamepad_EXTERNAL_OBJECTS =
 gamepad: CMakeFiles/gamepad.dir/src/main.cpp.o
 gamepad: CMakeFiles/gamepad.dir/src/gamepad.cpp.o
 gamepad: CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.o
-gamepad: CMakeFiles/gamepad.dir/src/movingStubImpl.cpp.o
+gamepad: CMakeFiles/gamepad.dir/src/movingstubImpl.cpp.o
+gamepad: CMakeFiles/gamepad.dir/src/lightstubImpl.cpp.o
 gamepad: CMakeFiles/gamepad.dir/build.make
 gamepad: /home/seame-workstation08/build-commonapi/capicxx-core-runtime/build/libCommonAPI.so.3.2.0
 gamepad: /usr/lib/x86_64-linux-gnu/libpython3.8.so
 gamepad: CMakeFiles/gamepad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable gamepad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/DES_Head-Unit/gamepad/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable gamepad"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gamepad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

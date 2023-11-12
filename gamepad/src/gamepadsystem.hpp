@@ -3,7 +3,9 @@
 
 #include <memory>
 #include <CommonAPI/CommonAPI.hpp>
-#include "movingStubImpl.hpp"
+#include "movingstubImpl.hpp"
+#include "lightstubImpl.hpp"
+
 
 using namespace v1::commonapi;
 
@@ -12,10 +14,12 @@ public:
     GamepadSystem();
     void setSteeringAttribute(float steering);
     void setThrottleAttribute(float throttle);
+    void setLightAttribute(bool light);
     
 private:
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<MovingStubImpl> movingService;
+    std::shared_ptr<LightStubImpl> lightService;
     
 };
 

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/racer.dir/src/batterystubImpl.cpp.o.d"
   "CMakeFiles/racer.dir/src/gearstubImpl.cpp.o"
   "CMakeFiles/racer.dir/src/gearstubImpl.cpp.o.d"
+  "CMakeFiles/racer.dir/src/lightstubImpl.cpp.o"
+  "CMakeFiles/racer.dir/src/lightstubImpl.cpp.o.d"
   "CMakeFiles/racer.dir/src/main.cpp.o"
   "CMakeFiles/racer.dir/src/main.cpp.o.d"
   "CMakeFiles/racer.dir/src/racer.cpp.o"

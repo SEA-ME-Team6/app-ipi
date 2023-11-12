@@ -19,6 +19,8 @@ class ICSystem: public QObject{
 
 public:
     ICSystem();
+    void convert_to_Rpm(float speed);
+
     float getSpeed() const;
     float getRpm() const;
     uint32_t getBattery() const;
@@ -31,10 +33,9 @@ signals:
     void gearChanged();
 
 private:
-    float speed = 0.0f;
-    float rpm = 0.0f;
-    uint32_t battery = 0;
-    uint8_t gear = 0;
+    float speed, rpm;
+    uint32_t battery;
+    uint8_t gear;
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<SpeedStatusProxy<>> speedProxy;
     std::shared_ptr<BatteryStatusProxy<>> batteryProxy;

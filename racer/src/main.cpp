@@ -9,9 +9,9 @@ int main() {
     
     while (true) {
         // battery = racersystem->getBattery();
-        //racersystem->setBatteryAttribute(battery);
-        //battery +=1;
-        //sleep(1);
+        // racersystem->setBatteryAttribute(battery);
+        // battery +=1;
+         sleep(10000000);
     }
     
     return 0;

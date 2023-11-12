@@ -21,6 +21,9 @@ if(BUILD_COMMONAPI)
         src-gen/core/common/moving
         src-gen/core/stub/moving
         src-gen/core/skel/moving
+        src-gen/core/common/light
+        src-gen/core/stub/light
+        src-gen/core/skel/light
         ${PYTHON_INCLUDE_DIRS}
     )
 
@@ -28,7 +31,9 @@ if(BUILD_COMMONAPI)
         src/main.cpp
         src/gamepad.cpp
         src/gamepadsystem.cpp
-        src/movingStubImpl.cpp
+        src/movingstubImpl.cpp
+        src/lightstubImpl.cpp
+
     )
 
     target_link_libraries(gamepad
@@ -56,6 +61,8 @@ if(BUILD_SOMEIP_LIB)
     include_directories(
         src-gen/someip/common/moving
         src-gen/someip/stub/moving
+        src-gen/someip/common/light
+        src-gen/someip/stub/light
     )
 
     # moving stub
@@ -66,6 +73,18 @@ if(BUILD_SOMEIP_LIB)
         ${MOVING_SOMEIP_STUB_LIB_SRCS}
     )
     target_link_libraries(gp-movingsomeipstub
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
+    # light stub
+    FILE(GLOB_RECURSE LIGHT_SOMEIP_STUB_LIB_SRCS 
+        src-gen/someip/stub/light/*.cpp
+    )
+    add_library(gp-lightsomeipstub  SHARED
+        ${LIGHT_SOMEIP_STUB_LIB_SRCS}
+    )
+    target_link_libraries(gp-lightsomeipstub
         CommonAPI-SomeIP
         vsomeip3
     )

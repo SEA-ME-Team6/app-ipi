@@ -196,11 +196,15 @@ CMakeFiles/gamepad.dir/src/gamepadsystem.cpp.o: \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/AttributeExtension.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Factory.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Types.hpp \
- /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingStubImpl.hpp \
+ /home/seame-workstation08/DES_Head-Unit/gamepad/src/movingstubImpl.hpp \
  /home/seame-workstation08/DES_Head-Unit/gamepad/src-gen/core/skel/moving/v1/commonapi/MovingStatusStubDefault.hpp \
  /home/seame-workstation08/DES_Head-Unit/gamepad/src-gen/core/stub/moving/v1/commonapi/MovingStatusStub.hpp \
  /usr/include/c++/9/sstream /usr/include/c++/9/bits/sstream.tcc \
  /home/seame-workstation08/DES_Head-Unit/gamepad/src-gen/core/common/moving/v1/commonapi/MovingStatus.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Stub.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp \
- /usr/include/c++/9/cassert /usr/include/assert.h
+ /usr/include/c++/9/cassert /usr/include/assert.h \
+ /home/seame-workstation08/DES_Head-Unit/gamepad/src/lightstubImpl.hpp \
+ /home/seame-workstation08/DES_Head-Unit/gamepad/src-gen/core/skel/light/v1/commonapi/LightStatusStubDefault.hpp \
+ /home/seame-workstation08/DES_Head-Unit/gamepad/src-gen/core/stub/light/v1/commonapi/LightStatusStub.hpp \
+ /home/seame-workstation08/DES_Head-Unit/gamepad/src-gen/core/common/light/v1/commonapi/LightStatus.hpp

@@ -305,6 +305,9 @@ CMakeFiles/racer.dir/src/main.cpp.o: \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Attribute.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Proxy.hpp \
  /home/seame-workstation08/build-commonapi/capicxx-core-runtime/include/CommonAPI/Address.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/proxy/light/v1/commonapi/LightStatusProxy.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/proxy/light/v1/commonapi/LightStatusProxyBase.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/common/light/v1/commonapi/LightStatus.hpp \
  /home/seame-workstation08/DES_Head-Unit/racer/src/batterystubImpl.hpp \
  /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/skel/battery/v1/commonapi/BatteryStatusStubDefault.hpp \
  /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/stub/battery/v1/commonapi/BatteryStatusStub.hpp \
@@ -315,4 +318,7 @@ CMakeFiles/racer.dir/src/main.cpp.o: \
  /home/seame-workstation08/DES_Head-Unit/racer/src/gearstubImpl.hpp \
  /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/skel/gear/v1/commonapi/GearStatusStubDefault.hpp \
  /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/stub/gear/v1/commonapi/GearStatusStub.hpp \
- /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/common/gear/v1/commonapi/GearStatus.hpp
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/common/gear/v1/commonapi/GearStatus.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src/lightstubImpl.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/skel/light/v1/commonapi/LightStatusStubDefault.hpp \
+ /home/seame-workstation08/DES_Head-Unit/racer/src-gen/core/stub/light/v1/commonapi/LightStatusStub.hpp

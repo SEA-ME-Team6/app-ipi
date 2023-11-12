@@ -6,9 +6,12 @@
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src/husystem.hpp
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/build/head_unit_autogen/moc_predefs.h
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/gear/v1/commonapi/GearStatus.hpp
+ mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/light/v1/commonapi/LightStatus.hpp
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/common/speed/v1/commonapi/SpeedStatus.hpp
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/gear/v1/commonapi/GearStatusProxy.hpp
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/gear/v1/commonapi/GearStatusProxyBase.hpp
+ mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/light/v1/commonapi/LightStatusProxy.hpp
+ mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/light/v1/commonapi/LightStatusProxyBase.hpp
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxy.hpp
  mdp:/home/seame-workstation08/DES_Head-Unit/head_unit/src-gen/core/proxy/speed/v1/commonapi/SpeedStatusProxyBase.hpp
  mdp:/home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/QObject

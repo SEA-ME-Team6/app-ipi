@@ -27,6 +27,10 @@ if(BUILD_COMMONAPI)
         src-gen/core/skel/gear
         src-gen/core/common/moving
         src-gen/core/proxy/moving
+        src-gen/core/common/light
+        src-gen/core/proxy/light
+        src-gen/core/stub/light
+        src-gen/core/skel/light
         ${PYTHON_INCLUDE_DIRS}
     )
 
@@ -36,6 +40,7 @@ if(BUILD_COMMONAPI)
         src/racersystem.cpp
         src/batterystubImpl.cpp
         src/gearstubImpl.cpp
+        src/lightstubImpl.cpp
     )
 
     target_link_libraries(racer
@@ -67,6 +72,9 @@ if(BUILD_SOMEIP_LIB)
         src-gen/someip/stub/gear
         src-gen/someip/common/moving
         src-gen/someip/proxy/moving
+        src-gen/someip/common/light
+        src-gen/someip/proxy/light
+        src-gen/someip/stub/light
     )
 
     # battery stub
@@ -83,7 +91,7 @@ if(BUILD_SOMEIP_LIB)
 
     # gear stub
     FILE(GLOB_RECURSE     GEAR_SOMEIP_STUB_LIB_SRCS 
-    src-gen/someip/stub/gear/*.cpp
+        src-gen/someip/stub/gear/*.cpp
     )
     add_library(rc-gearsomeipstub  SHARED
         ${GEAR_SOMEIP_STUB_LIB_SRCS}
@@ -93,14 +101,38 @@ if(BUILD_SOMEIP_LIB)
         vsomeip3
     )
 
-    # battery proxy
-    FILE(GLOB_RECURSE MOVING_SOMEIP_PROXY_LIB_SRCS 
-    src-gen/someip/proxy/moving/*.cpp
+    # moving proxy
+    FILE(GLOB_RECURSE     MOVING_SOMEIP_PROXY_LIB_SRCS 
+        src-gen/someip/proxy/moving/*.cpp
     )
     add_library(rc-movingsomeipproxy  SHARED
         ${MOVING_SOMEIP_PROXY_LIB_SRCS}
     )
     target_link_libraries(rc-movingsomeipproxy
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
+    # light proxy
+    FILE(GLOB_RECURSE     LIGHT_SOMEIP_PROXY_LIB_SRCS 
+        src-gen/someip/proxy/light/*.cpp
+    )
+    add_library(rc-lightsomeipproxy  SHARED
+        ${LIGHT_SOMEIP_PROXY_LIB_SRCS}
+    )
+    target_link_libraries(rc-lightsomeipproxy
+        CommonAPI-SomeIP
+        vsomeip3
+    )
+
+    # light stub
+    FILE(GLOB_RECURSE     LIGHT_SOMEIP_STUB_LIB_SRCS 
+        src-gen/someip/stub/light/*.cpp
+    )
+    add_library(rc-lightsomeipstub  SHARED
+        ${LIGHT_SOMEIP_STUB_LIB_SRCS}
+    )
+    target_link_libraries(rc-lightsomeipstub
         CommonAPI-SomeIP
         vsomeip3
     )

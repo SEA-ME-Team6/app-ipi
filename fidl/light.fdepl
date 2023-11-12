@@ -1,23 +1,29 @@
 import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
 import "light.fidl"
 
-define org.genivi.commonapi.someip.deployment for interface commonapi.lightStatus {
+define org.genivi.commonapi.someip.deployment for interface commonapi.LightStatus {
     SomeIpServiceID = 4665
 
-    method lightselection {
-        SomeIpMethodID = 2001
+    attribute light {
+        SomeIpGetterID = 3103
+        SomeIpSetterID = 3104
+        SomeIpNotifierID = 34013
+        SomeIpNotifierEventGroups = { 34013 }
+
+        SomeIpReliable = true
     }
+
 }
 
 define org.genivi.commonapi.someip.deployment for provider as Service {
-    instance commonapi.lightStatus {
-        InstanceId = "lightStatus_from_gamepad"
+    instance commonapi.LightStatus {
+        InstanceId = "LightStatus_from_gamepad"
 
         SomeIpInstanceID = 22141
     }
 
-    instance commonapi.lightStatus {
-        InstanceId = "lightStatus_from_racer"
+    instance commonapi.LightStatus {
+        InstanceId = "LightStatus_from_racer"
 
         SomeIpInstanceID = 22142
     }

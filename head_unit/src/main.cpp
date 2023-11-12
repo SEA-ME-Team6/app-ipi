@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     HUSystem *husystem = new HUSystem();
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("car", husystem);
+    engine.rootContext()->setContextProperty("husystem", husystem);
     
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,

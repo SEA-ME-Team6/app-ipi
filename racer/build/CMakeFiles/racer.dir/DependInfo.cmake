@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/seame-workstation08/DES_Head-Unit/racer/src/batterystubImpl.cpp" "CMakeFiles/racer.dir/src/batterystubImpl.cpp.o" "gcc" "CMakeFiles/racer.dir/src/batterystubImpl.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/racer/src/gearstubImpl.cpp" "CMakeFiles/racer.dir/src/gearstubImpl.cpp.o" "gcc" "CMakeFiles/racer.dir/src/gearstubImpl.cpp.o.d"
+  "/home/seame-workstation08/DES_Head-Unit/racer/src/lightstubImpl.cpp" "CMakeFiles/racer.dir/src/lightstubImpl.cpp.o" "gcc" "CMakeFiles/racer.dir/src/lightstubImpl.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/racer/src/main.cpp" "CMakeFiles/racer.dir/src/main.cpp.o" "gcc" "CMakeFiles/racer.dir/src/main.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/racer/src/racer.cpp" "CMakeFiles/racer.dir/src/racer.cpp.o" "gcc" "CMakeFiles/racer.dir/src/racer.cpp.o.d"
   "/home/seame-workstation08/DES_Head-Unit/racer/src/racersystem.cpp" "CMakeFiles/racer.dir/src/racersystem.cpp.o" "gcc" "CMakeFiles/racer.dir/src/racersystem.cpp.o.d"
