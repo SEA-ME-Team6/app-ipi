@@ -20,11 +20,9 @@ public:
     bool getLight() const;
 
 private:
-    /*
     PyObject *pModule, *pClass, *pInstance;
     PyObject *pVoltage;
     double voltage;
-    */
    
     //original resource
     uint32_t batteryStatus; 

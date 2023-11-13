@@ -832,3 +832,19 @@
 [CAPI][INFO] Registering function for creating "commonapi.LightStatus:v1_0" stub adapter.
 [CAPI][DEBUG] Loading interface library "libgp-lightsomeipstub.so" succeeded.
 [CAPI][INFO] Registering stub for "local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad --> libgp-lightsomeipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.MovingStatus:v1_0:MovingStatus --> libgp-movingsomeipstub.so
+[CAPI][INFO] Loading configuration file './gamepad.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.MovingStatus:v1_0:MovingStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.MovingStatus:v1_0:MovingStatus <--> [1238.567d(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.MovingStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libgp-movingsomeipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.MovingStatus:v1_0:MovingStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad <--> [1239.567d(1.0)]
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus_from_racer <--> [1239.567e(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.LightStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libgp-lightsomeipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad"

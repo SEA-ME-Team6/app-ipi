@@ -1,9 +1,9 @@
-//#include "game.h"
+#include "game.h"
 #include "gamepadsystem.hpp"
 #include <unistd.h>
 
 int main() {
-    //Gamepad* gamepad;
+    Gamepad* gamepad;
     GamepadSystem* gamepadsystem = new GamepadSystem;
 
     float steering = 0;
@@ -11,14 +11,14 @@ int main() {
     bool light = true;
     
     while(true){
-        //gamepad->read_data(); 
+        gamepad->read_data(); 
     
-        //steering = gamepad.get_inputLX(); 
-        //throttle = gamepad.get_inputRY();
-        //light = gamepad.get_inputL1();
-        steering +=1;
-        throttle +=1;
-        light = !light;
+        steering = gamepad.get_inputLX(); 
+        throttle = gamepad.get_inputRY();
+        light = gamepad.get_inputL1();
+        // steering +=1;
+        // throttle +=1;
+        // light = !light;
 
         std::cout << "Steering: " << steering << std::endl;
         std::cout << "Throttle: " << throttle << std::endl;

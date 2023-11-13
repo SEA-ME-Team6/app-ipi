@@ -9,7 +9,6 @@ int main() {
     while (true) {
         float speed = receiver.getSpeed();
         speed_server.setSpeedAttribute(speed);
-        // std::cout << "Speed_Sender Speed: " << speed << std::endl;
     }
     return 0;
 }

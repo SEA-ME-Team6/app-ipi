@@ -8,10 +8,10 @@ int main() {
     uint32_t battery = 0;
     
     while (true) {
-        // battery = racersystem->getBattery();
-        // racersystem->setBatteryAttribute(battery);
+        battery = racersystem->getBattery();
+        racersystem->setBatteryAttribute(battery);
         // battery +=1;
-        sleep(10000000);
+        usleep(10000);
     }
     
     return 0;

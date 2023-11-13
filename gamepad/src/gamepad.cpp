@@ -9,7 +9,7 @@ Gamepad::Gamepad() {
 }
 
 Gamepad::~Gamepad() {
-    std::cout << "gamepad remove start" << std::endl;
+    Py_XDECREF(pInputBY);
     Py_XDECREF(pInputLX);
     Py_XDECREF(pInputRY);
     Py_XDECREF(pInputL);
@@ -19,7 +19,6 @@ Gamepad::~Gamepad() {
     Py_XDECREF(pGInstance);
     Py_XDECREF(pGClass);
     Py_XDECREF(pGModule);
-    std::cout << "gamepad remove finish" << std::endl;
     Py_FinalizeEx();
 }
 
@@ -34,9 +33,8 @@ void Gamepad::read_data() {
     pInputRY = PyObject_GetAttrString(pInputR, "y");
     gamepad_inputRY = (float)PyFloat_AsDouble(pInputRY);
 
-    pInputR = PyObject_GetAttrString(pInput, "button_l1");
-    pInputL1 = PyObject_GetAttrString(pInputR, "y");
-    gamepad_inputL1 = (bool)PyFloat_AsDouble(pInputL1);
+    pInputBY = PyObject_GetAttrString(pInput, "button_x");
+    gamepad_inputBY = (bool)PyFloat_AsDouble(pInputBY);
 }
 
 float Gamepad::get_inputLX() const {
@@ -47,6 +45,6 @@ float Gamepad::get_inputRY() const {
     return gamepad_inputRY;
 }
 
-bool Gamepad::get_inputL1() const {
-    return gamepad_inputL1;
+bool Gamepad::get_inputBY() const {
+    return gamepad_inputBY;
 }

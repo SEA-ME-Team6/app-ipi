@@ -2,7 +2,7 @@
 #include <iostream>
 
 Gamepad::Gamepad() {
-    // Py_Initialize();
+    Py_Initialize();
     pGModule = PyImport_ImportModule("piracer.gamepads");
     pGClass = PyObject_GetAttrString(pGModule, "ShanWanGamepad");
     pGInstance = PyObject_CallObject(pGClass, NULL);
@@ -20,7 +20,7 @@ Gamepad::~Gamepad() {
     Py_XDECREF(pGClass);
     Py_XDECREF(pGModule);
     std::cout << "gamepad remove finish" << std::endl;
-    // Py_FinalizeEx();
+    Py_FinalizeEx();
 }
 
 void Gamepad::read_data() {
