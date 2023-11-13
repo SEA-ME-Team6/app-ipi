@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-34fc833996565bb642f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "head_unit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "head_unit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-head_unit-Debug-ea864d00c3de423ad665.json",
+					"name" : "head_unit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "head_unit_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-head_unit_autogen-Debug-5576d2552855a3b4f356.json",
+					"name" : "head_unit_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "head_unit_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-head_unit_autogen_timestamp_deps-Debug-b587bef5760404668443.json",
+					"name" : "head_unit_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-gearsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-gearsomeipproxy-Debug-028b511ec22f0938eefb.json",
+					"name" : "hu-gearsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-gearsomeipproxy_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-gearsomeipproxy_autogen-Debug-e4879950c3351f0dd87e.json",
+					"name" : "hu-gearsomeipproxy_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-gearsomeipproxy_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-gearsomeipproxy_autogen_timestamp_deps-Debug-a3fd7831a0bdd554f32d.json",
+					"name" : "hu-gearsomeipproxy_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-lightsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-lightsomeipproxy-Debug-2c177bb1df5ec0b85784.json",
+					"name" : "hu-lightsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-lightsomeipproxy_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-lightsomeipproxy_autogen-Debug-45fdcdabfb90f1015ea0.json",
+					"name" : "hu-lightsomeipproxy_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-lightsomeipproxy_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-lightsomeipproxy_autogen_timestamp_deps-Debug-fc757b878e2fe3034ef9.json",
+					"name" : "hu-lightsomeipproxy_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-speedsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-speedsomeipproxy-Debug-f5998907fe806cb5389d.json",
+					"name" : "hu-speedsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-speedsomeipproxy_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-speedsomeipproxy_autogen-Debug-413b39762b7f69d5f5d9.json",
+					"name" : "hu-speedsomeipproxy_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu-speedsomeipproxy_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-speedsomeipproxy_autogen_timestamp_deps-Debug-907424b51e04cd23698c.json",
+					"name" : "hu-speedsomeipproxy_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/seame-workstation08/DES_Head-Unit/build-head_unit-Desktop_Qt_5_15_2_GCC_64bit-Debug",
+		"source" : "/home/seame-workstation08/DES_Head-Unit/head_unit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

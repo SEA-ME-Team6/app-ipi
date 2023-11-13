@@ -1,4 +1,4 @@
-#include "game.h"
+#include "gamepad.h"
 #include "gamepadsystem.hpp"
 #include <unistd.h>
 
@@ -13,9 +13,9 @@ int main() {
     while(true){
         gamepad->read_data(); 
     
-        steering = gamepad.get_inputLX(); 
-        throttle = gamepad.get_inputRY();
-        light = gamepad.get_inputL1();
+        steering = gamepad->get_inputLX(); 
+        throttle = gamepad->get_inputRY();
+        light = gamepad->get_inputBY();
         // steering +=1;
         // throttle +=1;
         // light = !light;

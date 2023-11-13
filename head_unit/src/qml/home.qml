@@ -9,15 +9,11 @@ Item {
     scale: 0.5
     Image{
         id:background
-        width: 980
-        height: 570
         source: "qrc:/images/benz.jpg"
         anchors{
             right: parent.right
             bottom: parent.bottom
         }
-        fillMode: Image.PreserveAspectFit
-
         Image{
             id:head_light_left
             anchors{
