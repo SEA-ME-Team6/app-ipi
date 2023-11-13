@@ -1,7 +1,7 @@
 #include "icsystem.hpp"
 #include <iostream>
 #include <thread>
-# define M_PI           3.14159265358979323846  /* pi */
+# define M_PI           3.1415 /* pi */
 # define WheelRadius    0.0325
 
 using namespace v1::commonapi;
@@ -11,19 +11,18 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
 
     std::string domain = "local";
 
-    //speed proxy
-    std::string speed_instance = "SpeedStatus";
-    std::string speed_connection = "client-speed";
-    speedProxy = runtime->buildProxy<SpeedStatusProxy>(domain, speed_instance, speed_connection);
+    //rpm proxy
+    std::string rpm_instance = "RPMStatus";
+    std::string rpm_connection = "client-rpm";
+    rpmProxy = runtime->buildProxy<RPMStatusProxy>(domain, rpm_instance, rpm_connection);
 
-    std::cout << "Waiting for Speed service to become available." << std::endl;
-    speedProxy->getSpeedAttribute().getChangedEvent().subscribe(
-        [&](const float& speed_){
-            speed = speed_;
-            std::cout << "IC receive speed " << speed_ << std::endl;
-            convert_to_Rpm(speed);
+    std::cout << "Waiting for RPM service to become available." << std::endl;
+    rpmProxy->getRpmAttribute().getChangedEvent().subscribe(
+        [&](const float& rpm_){
+            rpm = rpm_;
+            convert_to_Speed(rpm);
             emit speedChanged();
-            emit RpmChanged();
+            emit rpmChanged();
         }
     );
 
@@ -55,8 +54,8 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
 
 }
 
-void ICSystem::convert_to_Rpm(float speed)  {
-    rpm = speed / (2 * M_PI * WheelRadius);
+void ICSystem::convert_to_Speed(float rpm)  {
+    speed = rpm * (2 * M_PI * WheelRadius);
 }
 
 float ICSystem::getSpeed() const {

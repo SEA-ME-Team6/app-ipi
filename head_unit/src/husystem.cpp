@@ -16,14 +16,14 @@ HUSystem::HUSystem() {
     gearProxy = runtime->buildProxy<GearStatusProxy>(domain, gear_instance, gear_connection);
     std::cout << "Waiting for GearSelection service to become available." << std::endl;
 
-    //speed client
-    std::string speed_instance = "SpeedStatus";
-    std::string speed_connection = "client-speed";
-    speedProxy = runtime->buildProxy<SpeedStatusProxy>(domain, speed_instance, speed_connection);
+    //rpm client
+    std::string rpm_instance = "RPMStatus";
+    std::string rpm_connection = "client-rpm";
+    rpmProxy = runtime->buildProxy<RPMStatusProxy>(domain, rpm_instance, rpm_connection);
     std::cout << "Waiting for Speed service to become available." << std::endl;
-    speedProxy->getSpeedAttribute().getChangedEvent().subscribe(
-        [&](const float& speed_){
-            speed_check = speed_;
+    rpmProxy->getRpmAttribute().getChangedEvent().subscribe(
+        [&](const float& rpm_){
+            rpm_check = rpm_;
         }
     );
     
@@ -44,12 +44,11 @@ void HUSystem::changegear(quint8 gearselect){
     CommonAPI::CallStatus callStatus;
     uint8_t returnedGear;
 
-    if(speed_check < 5) {
+    if(rpm_check < 5) {
         gearProxy->gearselection(gearselect, callStatus, returnedGear);
         if (callStatus == CommonAPI::CallStatus::SUCCESS) {
             std::cout << "Gear set successfully. Returned gear: " << (int)returnedGear <<std::endl;
         } else {
-            std::cout << "Speed check " << speed_check <<std::endl;
             std::cout << "Failed to set gear." << std::endl;
         }
     }

@@ -28,8 +28,8 @@ if(BUILD_COMMONAPI)
     include_directories(
         src-gen/core/common/gear
         src-gen/core/proxy/gear
-        src-gen/core/common/speed
-        src-gen/core/proxy/speed
+        src-gen/core/common/rpm
+        src-gen/core/proxy/rpm
         src-gen/core/common/light
         src-gen/core/proxy/light
     )
@@ -65,8 +65,8 @@ if(BUILD_SOMEIP_LIB)
     include_directories(
         src-gen/someip/common/gear
         src-gen/someip/proxy/gear
-        src-gen/someip/common/speed
-        src-gen/someip/proxy/speed
+        src-gen/someip/common/rpm
+        src-gen/someip/proxy/rpm
         src-gen/someip/common/light
         src-gen/someip/proxy/light
     )
@@ -83,14 +83,14 @@ if(BUILD_SOMEIP_LIB)
         vsomeip3
     )
 
-    # speed proxy
-    FILE(GLOB_RECURSE SPEED_SOMEIP_PROXY_LIB_SRCS 
-    src-gen/someip/proxy/speed/*.cpp
+    # rpm proxy
+    FILE(GLOB_RECURSE RPM_SOMEIP_PROXY_LIB_SRCS 
+    src-gen/someip/proxy/rpm/*.cpp
     )
-    add_library(hu-speedsomeipproxy  SHARED
-        ${SPEED_SOMEIP_PROXY_LIB_SRCS}
+    add_library(hu-rpmsomeipproxy  SHARED
+        ${RPM_SOMEIP_PROXY_LIB_SRCS}
     )
-    target_link_libraries(hu-speedsomeipproxy
+    target_link_libraries(hu-rpmsomeipproxy
         CommonAPI-SomeIP
         vsomeip3
     )

@@ -26,8 +26,8 @@ if(BUILD_COMMONAPI)
     find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick)
 
     include_directories(
-        src-gen/core/common/speed
-        src-gen/core/proxy/speed
+        src-gen/core/common/rpm
+        src-gen/core/proxy/rpm
         src-gen/core/common/battery
         src-gen/core/proxy/battery
         src-gen/core/common/gear
@@ -62,22 +62,22 @@ if(BUILD_SOMEIP_LIB)
     endif()
 
     include_directories(
-        src-gen/someip/common/speed
-        src-gen/someip/proxy/speed
+        src-gen/someip/common/rpm
+        src-gen/someip/proxy/rpm
         src-gen/someip/common/battery
         src-gen/someip/proxy/battery
         src-gen/someip/common/gear
         src-gen/someip/proxy/gear
     )
 
-    # speed proxy
-    FILE(GLOB_RECURSE SPEED_SOMEIP_PROXY_LIB_SRCS 
-        src-gen/someip/proxy/speed/*.cpp
+    #rpm proxy
+    FILE(GLOB_RECURSE RPM_SOMEIP_PROXY_LIB_SRCS 
+        src-gen/someip/proxy/rpm/*.cpp
     )
-    add_library(ic-speedsomeipproxy  SHARED
-        ${SPEED_SOMEIP_PROXY_LIB_SRCS}
+    add_library(ic-rpmsomeipproxy  SHARED
+        ${RPM_SOMEIP_PROXY_LIB_SRCS}
     )
-    target_link_libraries(ic-speedsomeipproxy
+    target_link_libraries(ic-rpmsomeipproxy
         CommonAPI-SomeIP
         vsomeip3
     )

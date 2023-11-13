@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <CommonAPI/CommonAPI.hpp>
 #include <v1/commonapi/GearStatusProxy.hpp>
-#include <v1/commonapi/SpeedStatusProxy.hpp>
+#include <v1/commonapi/RPMStatusProxy.hpp>
 #include <v1/commonapi/LightStatusProxy.hpp>
 
 using namespace v1::commonapi;
@@ -29,10 +29,10 @@ private:
 
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<GearStatusProxy<>> gearProxy;
-    std::shared_ptr<SpeedStatusProxy<>> speedProxy;
+    std::shared_ptr<RPMStatusProxy<>> rpmProxy;
     std::shared_ptr<LightStatusProxy<>> lightProxy;
 
-    float speed_check;
+    float rpm_check;
     bool light;
 };
 

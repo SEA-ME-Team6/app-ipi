@@ -17,6 +17,7 @@ Window {
     }
 
     Item {
+        rotation: -90
         id: container
         width: root.width
         height: Math.min(root.width, root.height)
@@ -88,39 +89,39 @@ Window {
                 }
             }
         }
-
-    }
         
-    Item {
-        anchors{
-            horizontalCenter: parent.horizontalCenter
-            top: parent.top
-            topMargin: parent.width * 0.08
+        Item {
+            anchors{
+                horizontalCenter: parent.horizontalCenter
+                top: parent.top
+                topMargin: parent.width * 0.08
+            }
+
+            Image {
+                id: p_gear
+                source: "qrc:/images/p.png"
+                visible: valueSource.gear === 0
+            }
+
+            Image {
+                id: r_gear
+                source: "qrc:/images/r.png"
+                visible: valueSource.gear === 1
+            }
+
+            Image {
+                id: n_gear
+                source: "qrc:/images/n.png"
+                visible: valueSource.gear === 2
+            }
+
+            Image {
+                id: d_gear
+                source: "qrc:/images/d.png"
+                visible: valueSource.gear === 3
+            }
         }
 
-        Image {
-            id: p_gear
-            source: "qrc:/images/p.png"
-            visible: valueSource.gear === 0
-        }
-
-        Image {
-            id: r_gear
-            source: "qrc:/images/r.png"
-            visible: valueSource.gear === 1
-        }
-
-        Image {
-            id: n_gear
-            source: "qrc:/images/n.png"
-            visible: valueSource.gear === 2
-        }
-
-        Image {
-            id: d_gear
-            source: "qrc:/images/d.png"
-            visible: valueSource.gear === 3
-        }
     }
 
 }
