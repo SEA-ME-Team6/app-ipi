@@ -7,6 +7,9 @@ Item {
     width: 1024
     height: 600
     scale: 0.5
+    x: -256
+    y: -150
+    
     Image{
         id:background
         source: "qrc:/images/benz.jpg"
@@ -54,8 +57,6 @@ Item {
         spacing: 200
         Button {
             id: music_icon
-            width: 70
-            height: 70
             background: Image {
                 source: "qrc:/images/music.jpeg"
                 anchors.fill: parent
@@ -68,8 +69,6 @@ Item {
 
         Button {
             id: light_icon
-            width: 70
-            height: 70
             background: Image {
                 source: "qrc:/images/setting.jpeg"
                 anchors.fill: parent
@@ -82,8 +81,6 @@ Item {
 
         Button {
             id: video_icon
-            width: 70
-            height: 70
             background: Image {
                 source: "qrc:/images/video.png"
                 anchors.fill: parent
@@ -104,12 +101,9 @@ Item {
         spacing: 50
         Button {
             id: p_gear
-            width: 60
-            height: 60
             background: Image {
                 source: "qrc:/images/p.png"
                 anchors.fill: parent
-                fillMode: Image.PreserveAspectFit
             }
             onClicked: {
                 husystem.changegear(0);
@@ -118,12 +112,9 @@ Item {
 
         Button {
             id: r_gear
-            width: 60
-            height: 60
             background: Image {
                 source: "qrc:/images/r.png"
                 anchors.fill: parent
-                fillMode: Image.PreserveAspectFit
             }
             onClicked: {
                 husystem.changegear(1);
@@ -132,12 +123,9 @@ Item {
 
         Button {
             id: n_gear
-            width: 60
-            height: 60
             background: Image {
                 source: "qrc:/images/n.png"
                 anchors.fill: parent
-                fillMode: Image.PreserveAspectFit
             }
             onClicked: {
                 husystem.changegear(2);
@@ -145,12 +133,9 @@ Item {
         }
         Button {
             id: d_gear
-            width: 60
-            height: 60
             background: Image {
                 source: "qrc:/images/d.png"
                 anchors.fill: parent
-                fillMode: Image.PreserveAspectFit
             }
             onClicked: {
                 husystem.changegear(3);
