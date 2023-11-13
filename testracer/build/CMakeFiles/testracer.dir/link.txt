@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++0x CMakeFiles/testracer.dir/src/main.cpp.o CMakeFiles/testracer.dir/src/racer.cpp.o CMakeFiles/testracer.dir/src/gamepad.cpp.o CMakeFiles/testracer.dir/src/pythonmanager.cpp.o -o testracer  /usr/lib/x86_64-linux-gnu/libpython3.8.so 
