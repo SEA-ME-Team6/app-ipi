@@ -20,5 +20,6 @@ RPMSystem::RPMSystem() {
 }
 
 void RPMSystem::setRPM(float rpm) {
+    std::cout << "RPN Sender set rpm: " << rpm << std::endl;
     rpmservice->setRpmAttribute(rpm);
 }

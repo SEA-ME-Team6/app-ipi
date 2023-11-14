@@ -1,8 +1,6 @@
 #include "icsystem.hpp"
 #include <iostream>
 #include <thread>
-# define M_PI           3.1415 /* pi */
-# define WheelRadius    0.0325
 
 using namespace v1::commonapi;
 
@@ -55,7 +53,7 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
 }
 
 void ICSystem::convert_to_Speed(float rpm)  {
-    speed = rpm * (2 * M_PI * WheelRadius);
+    speed = rpm * 3.40;
 }
 
 float ICSystem::getSpeed() const {
