@@ -31,12 +31,15 @@ GamepadSystem::GamepadSystem(){
 
 void GamepadSystem::setSteeringAttribute(float steering){
     movingService->setSteeringAttribute(steering);
+    std::cout<<"Sending Steering: " << steering << std::endl;
 }
 
 void GamepadSystem::setThrottleAttribute(float throttle){
     movingService->setThrottleAttribute(throttle);
+    std::cout<<"Sending Throttle: " << throttle << std::endl;    
 }
 
 void GamepadSystem::setLightAttribute(bool light){
     lightService->setLightAttribute(light);
+    std::cout<<"Sending Light: " << light << std::endl;
 }

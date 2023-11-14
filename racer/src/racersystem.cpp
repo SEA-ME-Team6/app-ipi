@@ -36,11 +36,13 @@ RacerSystem::RacerSystem() : current_battery(0), filtered_battery(0), prev_filte
     movingProxy->getSteeringAttribute().getChangedEvent().subscribe(
         [&](const float& steering_){
             racer->set_steering_percent(steering_); 
+	    std::cout << "Receiving steering: " << steering_ << std::endl;
         }
     );
     movingProxy->getThrottleAttribute().getChangedEvent().subscribe(
         [&](const float& throttle_){
             racer->set_throttle_percent(throttle_); 
+	    std::cout << "Receiving throttle: " << throttle_ << std::endl;
         }
     );
 
