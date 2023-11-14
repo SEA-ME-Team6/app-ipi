@@ -9,7 +9,7 @@ int main() {
 
     float steering = 0;
     float throttle = 0;
-    bool light = true;
+    bool light = false;
     
     while(true){
         gamepad->read_data(); 
