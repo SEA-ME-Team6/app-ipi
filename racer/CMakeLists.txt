@@ -49,7 +49,7 @@ if(BUILD_COMMONAPI)
     )
 
     install(TARGETS       racer 
-            DESTINATION   /usr/bin/DES3
+            DESTINATION   /usr/bin/DES3/racer
     )
 
 endif()

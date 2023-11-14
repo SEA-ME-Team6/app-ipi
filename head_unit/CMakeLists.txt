@@ -46,7 +46,7 @@ if(BUILD_COMMONAPI)
     )
 
     install(TARGETS       head_unit 
-            DESTINATION   /usr/bin/DES3
+            DESTINATION   /usr/bin/DES3/head_unit
     )
 
 endif()

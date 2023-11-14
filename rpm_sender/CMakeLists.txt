@@ -33,7 +33,7 @@ if(BUILD_COMMONAPI)
     )
 
     install(TARGETS       rpm_sender 
-            DESTINATION   /usr/bin/DES3
+            DESTINATION   /usr/bin/DES3/rpm_sender
     )
 
 endif()

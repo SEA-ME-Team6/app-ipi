@@ -42,6 +42,7 @@ uint32_t Racer::getBatttery() {
     pVoltage = PyObject_CallMethod(pInstance, "get_battery_voltage", NULL);
     voltage = PyFloat_AsDouble(pVoltage);
     batteryStatus = (uint32_t)((voltage/3-3.1)*100/1.1);
+    std::cout<<"battery: " << batteryStatus << std::endl;
     return batteryStatus;
 }
 

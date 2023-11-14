@@ -18,7 +18,6 @@ if(BUILD_COMMONAPI)
     find_package(PythonLibs REQUIRED)
 
     include_directories(
-        src/
         src-gen/core/common/moving
         src-gen/core/stub/moving
         src-gen/core/skel/moving
@@ -43,7 +42,7 @@ if(BUILD_COMMONAPI)
     )
 
     install(TARGETS       gamepad 
-            DESTINATION   /usr/bin/DES3
+            DESTINATION   /usr/bin/DES3/gamepad
     )
 
 endif()
