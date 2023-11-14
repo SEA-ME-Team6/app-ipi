@@ -10,8 +10,6 @@ int main() {
     while (true) {
         battery = racersystem->getBattery();
         racersystem->setBattery(battery);
-        // battery +=1;
-        usleep(10000);
     }
     
     return 0;

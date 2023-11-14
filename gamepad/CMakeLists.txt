@@ -4,7 +4,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x -Wl,--no-as-needed")
 project(gamepad)
 
 set(BUILD_COMMONAPI true) # if you want to multi compile using top op CMakeLists, 
-set(BUILD_SOMEIP_LIB true) # make comment this two line.
+set(BUILD_SOMEIP_LIB false) # make comment this two line.
 
 if(BUILD_COMMONAPI)
     if (NOT TOP_CMAKE_FOUND)
@@ -14,7 +14,6 @@ if(BUILD_COMMONAPI)
             ${COMMONAPI_INCLUDE_DIRS}
         )
     endif()
-
     find_package(PythonLibs REQUIRED)
 
     include_directories(
@@ -57,14 +56,12 @@ if(BUILD_SOMEIP_LIB)
             ${VSOMEIP3_INCLUDE_DIRS}
         )
     endif()
-
     include_directories(
         src-gen/someip/common/moving
         src-gen/someip/stub/moving
         src-gen/someip/common/light
         src-gen/someip/stub/light
     )
-
     # moving stub
     FILE(GLOB_RECURSE MOVING_SOMEIP_STUB_LIB_SRCS 
         src-gen/someip/stub/moving/*.cpp

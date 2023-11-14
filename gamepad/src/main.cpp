@@ -1,9 +1,10 @@
 #include "gamepad.h"
 #include "gamepadsystem.hpp"
 #include <unistd.h>
+#include <iostream>
 
 int main() {
-    Gamepad* gamepad;
+    Gamepad* gamepad = new Gamepad;
     GamepadSystem* gamepadsystem = new GamepadSystem;
 
     float steering = 0;
@@ -16,9 +17,6 @@ int main() {
         steering = gamepad->get_inputLX(); 
         throttle = gamepad->get_inputRY();
         light = gamepad->get_inputBY();
-        // steering +=1;
-        // throttle +=1;
-        // light = !light;
 
         std::cout << "Steering: " << steering << std::endl;
         std::cout << "Throttle: " << throttle << std::endl;
@@ -27,8 +25,6 @@ int main() {
         gamepadsystem->setSteeringAttribute(steering);
         gamepadsystem->setThrottleAttribute(throttle);
         gamepadsystem->setLightAttribute(light);
-
-        sleep(1);
     }
     
     return 0;

@@ -9,11 +9,10 @@ Racer::Racer() {
 }
 
 Racer::~Racer() {
-    std::cout << "piracer remove start" << std::endl;
+    Py_XDECREF(pVoltage);
     Py_XDECREF(pInstance);
     Py_XDECREF(pClass);
     Py_XDECREF(pModule);
-    std::cout << "piracer remove finish" << std::endl;
     // Py_FinalizeEx();
 }
 
@@ -25,7 +24,7 @@ void Racer::set_throttle_percent(float throttle) {
     PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", throttle);
 }
 
-double Racer::getBatttery() {
+uint32_t Racer::getBatttery() {
     pVoltage = PyObject_CallMethod(pInstance, "get_battery_voltage", NULL);
     voltage = PyFloat_AsDouble(pVoltage);
     voltage_level = (uint32_t)((voltage/3-3.1)*100/1.1);
