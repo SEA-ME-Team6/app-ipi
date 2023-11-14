@@ -46,7 +46,7 @@ if(BUILD_COMMONAPI)
 
 
     install(TARGETS       instrument_cluster 
-            DESTINATION   /usr/bin/DES3/instrument-cluster
+            DESTINATION   /usr/bin/DES3/instrument_cluster
     )
 endif()
 
