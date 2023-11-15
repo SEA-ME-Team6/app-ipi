@@ -11,6 +11,7 @@ Racer::Racer() : batteryStatus(0), gearStatus(0), lightStatus(false){
 
 Racer::~Racer() {
     Py_XDECREF(pVoltage);
+    Py_XDECREF(lInstance);
     Py_XDECREF(pInstance);
     Py_XDECREF(pClass);
     Py_XDECREF(pModule);
