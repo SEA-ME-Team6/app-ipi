@@ -8,9 +8,9 @@ int main() {
     uint32_t battery = 0;
     
     while (true) {
-        // battery = racersystem->getBattery();
-        // racersystem->setBattery(battery);
-        // sleep(0.5);
+        battery = racersystem->getBattery();
+        racersystem->setBattery(battery);
+        sleep(0.1);
     }
     
     return 0;
