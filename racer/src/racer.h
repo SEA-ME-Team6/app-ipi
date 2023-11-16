@@ -1,7 +1,7 @@
 #ifndef RACER_H
 #define RACER_H
 
-//#define PY_SSIZE_T_CLEAN
+#define PY_SSIZE_T_CLEAN
 #include "IncludePython.h"
 
 class Racer
