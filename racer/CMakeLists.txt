@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x -Wl,--no-as-needed")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x -Wl, -fsanitize=address --no-as-needed")
 
 project(racer)
 
