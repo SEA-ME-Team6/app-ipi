@@ -20,7 +20,7 @@ public:
     bool getLight() const;
 
 private:
-    PyObject *pModule, *pClass, *pInstance, *lInstance;
+    PyObject *pModule, *pClass, *pInstance;
     PyObject *pVoltage;
     double voltage;
    
