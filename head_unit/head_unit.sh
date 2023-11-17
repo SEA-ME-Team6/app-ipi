@@ -7,9 +7,8 @@
 SCRIPT_DIR=$(dirname "$0")
 
 export COMMONAPI_CONFIG="$SCRIPT_DIR/head-unit.ini"
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/commonapi"
 
 # $SCRIPT_DIR/head_unit -platform eglfs
-$SCRIPT_DIR/build/head_unit
+$SCRIPT_DIR/../build/head_unit/head_unit
 
 
