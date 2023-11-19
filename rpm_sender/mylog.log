@@ -799,3 +799,198 @@
 [CAPI][INFO] Registering function for creating "commonapi.RPMStatus:v1_0" stub adapter.
 [CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" succeeded.
 [CAPI][INFO] Registering stub for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipstub.so
+[CAPI][INFO] Loading configuration file './rpm_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipstub.so
+[CAPI][INFO] Loading configuration file './rpm_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipstub.so
+[CAPI][INFO] Loading configuration file './rpm_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.RPMStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipstub.so
+[CAPI][INFO] Loading configuration file './rpm_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.RPMStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipstub.so
+[CAPI][INFO] Loading configuration file './rpm_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.RPMStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipstub.so
+[CAPI][INFO] Loading configuration file './rpm_sender.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus stub.
+[CAPI][DEBUG] Loading interface library "librpmsomeipstub.so" failed (librpmsomeipstub.so: cannot open shared object file: No such file or directory)
