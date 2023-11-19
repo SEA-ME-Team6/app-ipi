@@ -3,19 +3,9 @@
 #include <iostream>
 #include <thread>
 
-RacerSystem::RacerSystem() : current_battery(0), filtered_battery(0), prev_filtered_battery(0), alpha(0.3){
+RacerSystem::RacerSystem() {
     runtime = CommonAPI::Runtime::get();
     std::string domain = "local";
-
-    //battery stub
-    batteryService = std::make_shared<BatteryStubImpl>();
-    std::string battery_instance = "BatteryStatus";
-    std::string battery_connection = "service-battery";
-    while (!runtime->registerService(domain, battery_instance, batteryService, battery_connection)) {
-        std::cout << "Register Service failed, trying again in 100 milliseconds..." << std::endl;
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
-    }
-    std::cout << "Successfully Registered Battey Service!" << std::endl;
 
     //gear stub
     gearService = std::make_shared<GearStubImpl>(racer);
@@ -35,13 +25,13 @@ RacerSystem::RacerSystem() : current_battery(0), filtered_battery(0), prev_filte
     std::cout << "Waiting for Moving service to become available." << std::endl;
     movingProxy->getSteeringAttribute().getChangedEvent().subscribe(
         [&](const float& steering_){
-            racer->set_steering_percent(steering_); 
+            racer->setSteering(steering_); 
 	        std::cout << "Receiving steering: " << steering_ << std::endl;
         }
     );
     movingProxy->getThrottleAttribute().getChangedEvent().subscribe(
         [&](const float& throttle_){
-            racer->set_throttle_percent(throttle_); 
+            racer->setThrottle(throttle_); 
 	        std::cout << "Receiving throttle: " << throttle_ << std::endl;
         }
     );
@@ -69,18 +59,4 @@ RacerSystem::RacerSystem() : current_battery(0), filtered_battery(0), prev_filte
             lightService->setLightAttribute(currentlight);
         }
     );
-}
-
-void RacerSystem::setBattery(uint32_t batteryStatus) {
-    std::cout << "Battery Voltage: " << batteryStatus << " V" << std::endl;
-    batteryService->setBatteryAttribute(batteryStatus);
-}
-
-uint32_t RacerSystem::getBattery() {
-    current_battery = racer->getBatttery(); 
-    
-    //filtering
-    filtered_battery = alpha * current_battery + (1 - alpha) * prev_filtered_battery;
-    prev_filtered_battery = filtered_battery;
-    return filtered_battery;
 }

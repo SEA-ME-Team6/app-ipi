@@ -15,9 +15,6 @@ find_package(PythonLibs REQUIRED)
 
 include_directories(
     src
-    ../src-gen/battery/core/common
-    ../src-gen/battery/core/stub
-    ../src-gen/battery/core/skel
     ../src-gen/gear/core/common
     ../src-gen/gear/core/stub
     ../src-gen/gear/core/skel
@@ -34,7 +31,6 @@ add_executable(racer
     src/main.cpp
     src/racer.cpp
     src/racersystem.cpp
-    src/batterystubImpl.cpp
     src/gearstubImpl.cpp
     src/lightstubImpl.cpp
 )

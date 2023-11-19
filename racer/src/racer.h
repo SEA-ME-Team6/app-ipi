@@ -10,22 +10,25 @@ public:
     Racer();
     ~Racer();
 
+    void setSteering(float steering);
+    void setThrottle(float throttle);
     void setGear(uint8_t gear);
     void setLight(bool light);
-    void set_steering_percent(float steering);
-    void set_throttle_percent(float throttle);
 
-    uint32_t getBatttery();
+    float getSteering() const;
+    float getThrottle() const;
     uint8_t getGear() const;
     bool getLight() const;
 
+    void set_steering_percent();
+    void set_throttle_percent();
+
 private:
     PyObject *pModule, *pClass, *pInstance;
-    PyObject *pVoltage;
-    double voltage;
    
     //original resource
-    uint32_t batteryStatus; 
+    float steeringStatus;
+    float throttleStatus;
     uint8_t gearStatus; 
     bool lightStatus; 
 };

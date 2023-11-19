@@ -5,12 +5,12 @@
 
 int main() {
     RacerSystem* racersystem = new RacerSystem;
-    uint32_t battery = 0;
+    Racer* racer = new Racer;
     
     while (true) {
-        //battery = racersystem->getBattery();
-        //racersystem->setBattery(battery);
-        sleep(1);
+        racer->set_steering_percent();
+        racer->set_throttle_percent();
+        sleep(0.1);
     }
     
     return 0;
