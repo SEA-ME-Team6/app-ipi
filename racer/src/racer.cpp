@@ -36,10 +36,15 @@ void Racer::set_steering_percent(float steering) {
 }
 
 void Racer::set_throttle_percent(float throttle) {
+    
+    std::cout << "Throttle : " << throttle << std::endl;
+    PyObject_CallMethod(tInstance, "set_throttle_percent", "(f)", throttle);
+    /*
     if (gearStatus == 1 || gearStatus == 3) {
         std::cout << "Throttle : " << throttle << std::endl;
         PyObject_CallMethod(tInstance, "set_throttle_percent", "(f)", throttle);
     }
+    */
 }
 
 uint32_t Racer::getBatttery() {
