@@ -9,5 +9,6 @@ SCRIPT_DIR=$(dirname "$0")
 export COMMONAPI_CONFIG="$SCRIPT_DIR/gamepad.ini"
 
 # $SCRIPT_DIR/build/gamepad -platform eglfs
-$SCRIPT_DIR/../build/gamepad/gamepad
+# $SCRIPT_DIR/../build/gamepad/gamepad
+$SCRIPT_DIR/gamepad
 
