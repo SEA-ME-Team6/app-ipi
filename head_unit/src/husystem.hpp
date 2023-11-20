@@ -14,16 +14,19 @@ using namespace v1::commonapi;
 class HUSystem: public QObject{
     Q_OBJECT
     Q_PROPERTY(bool light READ getLight NOTIFY lightChanged)
+    Q_PROPERTY(bool gear READ getGear NOTIFY gearChanged)
 
 public:
     HUSystem();
     bool getLight() const;
+    uint8_t getGear() const;
 
 public slots:
     void changegear(quint8 gearselect);
 
 signals:
     void lightChanged();
+    void gearChanged();
 
 private:
 
@@ -32,8 +35,9 @@ private:
     std::shared_ptr<RPMStatusProxy<>> rpmProxy;
     std::shared_ptr<LightStatusProxy<>> lightProxy;
 
-    float rpm_check;
-    bool light;
+    float rpm_check = 0.0;
+    bool light = false;
+    int gear = 0;
 };
 
 #endif // GEARCLIENT_HPP

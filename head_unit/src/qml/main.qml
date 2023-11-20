@@ -17,6 +17,6 @@ Window {
             left: parent.left
             top: parent.top
         }
-        initialItem: "qrc:/qml/home.qml"
+        initialItem: "qrc:/qml/Home.qml"
     }
 }

@@ -1,7 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>qml/main.qml</file>
-        <file>qml/home.qml</file>
+        <file>qml/Home.qml</file>
+        <file>qml/GearSelection.qml</file>
+        <file>qml/Funtionality.qml</file>
+        <file>qml/Background.qml</file>
+        <file>qml/ValueSource.qml</file>
         <file>qml/light.qml</file>
         <file>qml/video.qml</file>
         <file>qml/music.qml</file>
@@ -15,5 +19,9 @@
         <file>images/n.png</file>
         <file>images/r.png</file>
         <file>images/d.png</file>
+        <file>images/p_red.png</file>
+        <file>images/n_red.png</file>
+        <file>images/r_red.png</file>
+        <file>images/d_red.png</file>
     </qresource>
 </RCC>

@@ -48,6 +48,8 @@ void HUSystem::changegear(quint8 gearselect){
         gearProxy->gearselection(gearselect, callStatus, returnedGear);
         if (callStatus == CommonAPI::CallStatus::SUCCESS) {
             std::cout << "Gear set successfully. Returned gear: " << (int)returnedGear <<std::endl;
+            gear = (int)returnedGear;
+            emit gearChanged();
         } else {
             std::cout << "Failed to set gear." << std::endl;
         }
@@ -57,4 +59,9 @@ void HUSystem::changegear(quint8 gearselect){
 bool HUSystem::getLight() const {
     std::cout << "HU Light: " << light << std::endl;
     return light;
+}
+
+uint8_t HUSystem::getGear() const {
+    std::cout << "HU return Gear: " << gear << std::endl;
+    return gear;
 }
