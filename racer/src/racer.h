@@ -27,10 +27,10 @@ private:
     PyObject *pModule, *pClass, *pInstance;
    
     //original resource
-    float steeringStatus;
-    float throttleStatus;
-    uint8_t gearStatus; 
-    bool lightStatus; 
+    float steeringStatus = 0.0;
+    float throttleStatus = 0.0;
+    uint8_t gearStatus = 0; 
+    bool lightStatus = false; 
 };
 
 #endif //Racer_H

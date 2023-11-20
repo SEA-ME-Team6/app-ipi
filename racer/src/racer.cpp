@@ -1,7 +1,7 @@
 #include "racer.h"
 #include <iostream>
 
-Racer::Racer() : gearStatus(0), lightStatus(false){
+Racer::Racer() {
     Py_Initialize();
     pModule = PyImport_ImportModule("piracer.vehicles");
     pClass = PyObject_GetAttrString(pModule, "PiRacerStandard");
