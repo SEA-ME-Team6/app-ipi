@@ -26,7 +26,7 @@ void BatterySystem::setBattery(uint32_t batteryStatus) {
 }
 
 uint32_t BatterySystem::getBattery() {
-    current_battery = battery->getBatttery(); 
+    current_battery = battery->get_battery_voltage(); 
     
     //filtering
     filtered_battery = alpha * current_battery + (1 - alpha) * prev_filtered_battery;
