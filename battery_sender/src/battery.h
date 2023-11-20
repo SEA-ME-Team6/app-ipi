@@ -7,7 +7,7 @@ public:
     Battery();
     ~Battery();
 
-    uint32_t getBatttery();
+    uint32_t get_battery_voltage();
 
 private:
     PyObject *pModule, *pClass, *pInstance;
