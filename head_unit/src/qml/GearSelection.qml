@@ -21,17 +21,6 @@ Column{
     }
 
     Button {
-        id: n_gear
-        background: Image {
-            source: valueSource.gear === 2 ? "qrc:/images/n_red.png" : "qrc:/images/n.png"
-            anchors.fill: parent
-        }
-        onClicked: {
-            husystem.changegear(2);
-        }
-    }
-
-    Button {
         id: r_gear
         background: Image {
             source: valueSource.gear === 1 ? "qrc:/images/r_red.png" : "qrc:/images/r.png"
@@ -39,6 +28,17 @@ Column{
         }
         onClicked: {
             husystem.changegear(1);
+        }
+    }
+
+    Button {
+        id: n_gear
+        background: Image {
+            source: valueSource.gear === 2 ? "qrc:/images/n_red.png" : "qrc:/images/n.png"
+            anchors.fill: parent
+        }
+        onClicked: {
+            husystem.changegear(2);
         }
     }
 
