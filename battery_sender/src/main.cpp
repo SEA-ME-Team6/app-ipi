@@ -8,6 +8,7 @@ int main() {
 
     while(true){
         battery = batterysystem->getBattery();
+        std::cout << "battery: " << battery << std::endl;
         batterysystem->setBattery(battery);
         sleep(0.5);
     }

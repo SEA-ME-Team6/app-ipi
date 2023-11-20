@@ -49,12 +49,14 @@ bool Racer::getLight() const{
 
 void Racer::set_steering_percent(){
     float cureentsteering = getSteering();
+    std::cout << "piracer set steering: " << cureentsteering << std::endl;
     PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", cureentsteering);
 }
 
 void Racer::set_throttle_percent(){
     float cureentthrottle = getThrottle();
-    PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", cureentthrottle);
+    std::cout << "piracer set throttle: " << cureentthrottle << std::endl;
+    PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", cureentthrottle);
     
     /*
     if (gearStatus == 1 || gearStatus == 3) {
