@@ -13,8 +13,8 @@ int main() {
         steering = racer->getSteering();
         throttle = racer->getThrottle();
 
-        //racer->set_steering_percent(steering);
-        //racer->set_throttle_percent(throttle);
+        racer->set_steering_percent(steering);
+        racer->set_throttle_percent(throttle);
         sleep(0.5);
     }
     
