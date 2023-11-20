@@ -20,8 +20,8 @@ public:
     uint8_t getGear() const;
     bool getLight() const;
 
-    void set_steering_percent();
-    void set_throttle_percent();
+    void set_steering_percent(float currentsteering);
+    void set_throttle_percent(float currentthrottle);
 
 private:
     PyObject *pModule, *pClass, *pInstance;

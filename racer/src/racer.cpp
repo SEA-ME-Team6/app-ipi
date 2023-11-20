@@ -23,12 +23,12 @@ void Racer::setThrottle(float throttle_) {
     throttleStatus = throttle_;
 }
 
-void Racer::setGear(uint8_t gear){
-    gearStatus = gear;
+void Racer::setGear(uint8_t gear_){
+    gearStatus = gear_;
 }
 
-void Racer::setLight(bool light){
-    lightStatus = light;
+void Racer::setLight(bool light_){
+    lightStatus = light_;
 }
 
 float Racer::getSteering() const{
@@ -47,17 +47,14 @@ bool Racer::getLight() const{
     return lightStatus;
 }
 
-void Racer::set_steering_percent(){
-    float cureentsteering = getSteering();
-    std::cout << "piracer set steering: " << cureentsteering << std::endl;
-    PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", cureentsteering);
+void Racer::set_steering_percent(float currentsteering){
+    std::cout << "piracer set steering: " << currentsteering << std::endl;
+    PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", currentsteering);
 }
 
-void Racer::set_throttle_percent(){
-    float cureentthrottle = getThrottle();
-    std::cout << "piracer set throttle: " << cureentthrottle << std::endl;
-    PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", cureentthrottle);
-    
+void Racer::set_throttle_percent(float currentthrottle){
+    std::cout << "piracer set throttle: " << currentthrottle << std::endl;
+    PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", currentthrottle);
     /*
     if (gearStatus == 1 || gearStatus == 3) {
         std::cout << "Throttle : " << throttle << std::endl;
