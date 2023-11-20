@@ -1,9 +1,6 @@
 #!/bin/sh
 
-# Virtual CAN
-sudo modprobe vcan
-sudo ip link add dev can0 type vcan
-sudo ip link set up can0
+ip link set can0 up type can bitrate 500000 
 
 SCRIPT_DIR=$(dirname "$0")
 
