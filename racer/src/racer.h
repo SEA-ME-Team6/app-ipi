@@ -24,7 +24,7 @@ public:
     void set_throttle_percent(float currentthrottle);
 
 private:
-    //PyObject *pModule, *pClass, *pInstance;
+    PyObject *pModule, *pClass, *pInstance;
    
     //original resource
     float steeringStatus = 0.0;
