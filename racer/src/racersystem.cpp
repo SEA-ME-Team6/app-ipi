@@ -26,13 +26,13 @@ RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
     movingProxy->getSteeringAttribute().getChangedEvent().subscribe(
         [&](const float& steering_){
             racer->setSteering(steering_); 
-	        std::cout << "Receiving steering: " << steering_ << std::endl;
+	        //std::cout << "Receiving steering: " << steering_ << std::endl;
         }
     );
     movingProxy->getThrottleAttribute().getChangedEvent().subscribe(
         [&](const float& throttle_){
             racer->setThrottle(throttle_); 
-	        std::cout << "Receiving throttle: " << throttle_ << std::endl;
+	        //std::cout << "Receiving throttle: " << throttle_ << std::endl;
         }
     );
 

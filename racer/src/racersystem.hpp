@@ -23,6 +23,9 @@ private:
 
     std::shared_ptr<MovingStatusProxy<>> movingProxy;
     std::shared_ptr<LightStatusProxy<>> lightProxy;
+
+    float getSteering();
+    float getThrottle();
 };
 
 #endif 
