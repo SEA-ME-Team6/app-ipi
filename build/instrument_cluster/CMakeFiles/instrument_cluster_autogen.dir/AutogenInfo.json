@@ -84,8 +84,8 @@
 		"/home/seame-workstation08/DES_Head-Unit/instrument_cluster/src/qml.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/seame-workstation08/DES_Head-Unit",
-	"DEP_FILE" : "/home/seame-workstation08/DES_Head-Unit/build/instrument_cluster/instrument_cluster_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "instrument_cluster_autogen/timestamp",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
@@ -103,6 +103,7 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
 		"QT_QMLMODELS_LIB",
 		"QT_QML_LIB",
 		"QT_QUICK_LIB"
