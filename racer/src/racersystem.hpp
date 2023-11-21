@@ -13,10 +13,9 @@ using namespace v1::commonapi;
 
 class RacerSystem {
 public:
-    RacerSystem();
+    RacerSystem(Racer* racer);
     
 private:
-    Racer* racer = new Racer();
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<GearStubImpl> gearService;
     std::shared_ptr<LightStubImpl> lightService;

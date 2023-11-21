@@ -3,7 +3,7 @@
 #include <iostream>
 #include <thread>
 
-RacerSystem::RacerSystem() {
+RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
     runtime = CommonAPI::Runtime::get();
     std::string domain = "local";
 

@@ -2,7 +2,7 @@
 #include <iostream>
 
 Racer::Racer() {
-    Py_InitializeEx(0);
+    Py_Initialize();
     pModule = PyImport_ImportModule("piracer.vehicles");
     pClass = PyObject_GetAttrString(pModule, "PiRacerStandard");
     pInstance = PyObject_CallObject(pClass, NULL);
@@ -58,7 +58,7 @@ void Racer::set_throttle_percent(float currentthrottle){
     /*
     if (gearStatus == 1 || gearStatus == 3) {
         std::cout << "Throttle : " << throttle << std::endl;
-        PyObject_CallMethod(tInstance, "set_throttle_percent", "(f)", throttle);
+        PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", throttle);
     }
     */
 }

@@ -4,8 +4,9 @@
 #include <iostream>
 
 int main() {
-    RacerSystem* racersystem = new RacerSystem;
     Racer* racer = new Racer;
+    RacerSystem* racersystem = new RacerSystem(racer);
+
     float steering = 0.0;
     float throttle = 0.0;
     
@@ -13,10 +14,12 @@ int main() {
         steering = racer->getSteering();
         throttle = racer->getThrottle();
 
-        //racer->set_steering_percent(steering);
+        racer->set_steering_percent(steering);
         racer->set_throttle_percent(throttle);
-        sleep(0.5);
     }
     
+    delete racersystem;
+    delete racer;
+
     return 0;
 }
