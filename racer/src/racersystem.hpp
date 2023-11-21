@@ -13,17 +13,24 @@ using namespace v1::commonapi;
 
 class RacerSystem {
 public:
-    RacerSystem(Racer* racer);
+    RacerSystem();
     
 private:
-    Racer* racer;
+    Racer* racer = new Racer;
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<GearStubImpl> gearService;
     std::shared_ptr<LightStubImpl> lightService;
 
     std::shared_ptr<MovingStatusProxy<>> movingProxy;
     std::shared_ptr<LightStatusProxy<>> lightProxy;
-    
+
+    void setSteering();
+    void setThrottle();
+    float getSteering() const;
+    float getThrottle() const;
+
+    float steering = 0.0;
+    float throttle = 0.0;
 };
 
 #endif 

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <thread>
 
-RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
+RacerSystem::RacerSystem() {
     runtime = CommonAPI::Runtime::get();
     std::string domain = "local";
 
@@ -25,13 +25,13 @@ RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
     std::cout << "Waiting for Moving service to become available." << std::endl;
     movingProxy->getSteeringAttribute().getChangedEvent().subscribe(
         [&](const float& steering_){
-            racer->setSteering(steering_); 
+            setSteering(steering_); 
 	        std::cout << "Receiving steering: " << steering_ << std::endl;
         }
     );
     movingProxy->getThrottleAttribute().getChangedEvent().subscribe(
         [&](const float& throttle_){
-            racer->setThrottle(throttle_); 
+            setThrottle(throttle_); 
 	        std::cout << "Receiving throttle: " << throttle_ << std::endl;
         }
     );
@@ -59,4 +59,20 @@ RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
             lightService->setLightAttribute(currentlight);
         }
     );
+}
+
+void RacerSystem::setSteering(float steering_){
+    steering = steering_;
+}
+
+void RacerSystem::setThrottle(float throttle_){
+    throttle = throttle_;
+}
+
+float RacerSystem::getSteering() const {
+    return steering;
+}
+
+float RacerSystem::getThrottle() const {
+    return throttle;
 }

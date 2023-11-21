@@ -5,14 +5,14 @@
 
 int main() {
     Racer* racer = new Racer;
-    RacerSystem* racersystem = new RacerSystem(racer);
+    RacerSystem* racersystem = new RacerSystem;
 
     float steering = 0.0;
     float throttle = 0.0;
     
     while (true) {
-        steering = racer->getSteering();
-        throttle = racer->getThrottle();
+        steering = racersystem->getSteering();
+        throttle = racersystem->getThrottle();
 
         racer->set_steering_percent(steering);
         racer->set_throttle_percent(throttle);

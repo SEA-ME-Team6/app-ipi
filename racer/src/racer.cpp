@@ -15,28 +15,12 @@ Racer::~Racer() {
     Py_FinalizeEx();
 }
 
-void Racer::setSteering(float steering_) {
-    steeringStatus = steering_;
-}
-
-void Racer::setThrottle(float throttle_) {
-    throttleStatus = throttle_;
-}
-
 void Racer::setGear(uint8_t gear_){
     gearStatus = gear_;
 }
 
 void Racer::setLight(bool light_){
     lightStatus = light_;
-}
-
-float Racer::getSteering() const{
-    return steeringStatus;
-}
-
-float Racer::getThrottle() const{
-    return throttleStatus;
 }
 
 uint8_t Racer::getGear() const{
