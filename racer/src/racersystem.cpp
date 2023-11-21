@@ -60,3 +60,13 @@ RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
         }
     );
 }
+
+float RacerSystem::getSteering() {
+    float steering = racer->getSteering();
+    return steering;
+}
+
+float RacerSystem::getThrottle() {
+    float throttle = racer->getThrottle();
+    return throttle;
+}

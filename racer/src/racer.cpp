@@ -34,10 +34,12 @@ void Racer::setLight(bool light_){
 }
 
 float Racer::getSteering() const{
+    std::lock_guard<std::mutex> lock(mtx);
     return steerStatus;
 }
 
 float Racer::getThrottle() const{
+    std::lock_guard<std::mutex> lock(mtx);
     return throttleStatus;
 }
 

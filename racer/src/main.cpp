@@ -11,11 +11,11 @@ int main() {
     float throttle = 0.0;
     
     while (true) {
-        steering = racer->getSteering();
-        throttle = racer->getThrottle();
+        steering = racersystem->getSteering();
+        throttle = racersystem->getThrottle();
 
-        racer->set_steering_percent(steering);
-        racer->set_throttle_percent(throttle);
+        //racer->set_steering_percent(steering);
+        //racer->set_throttle_percent(throttle);
     }
     
     delete racersystem;
