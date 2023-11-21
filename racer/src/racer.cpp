@@ -15,12 +15,30 @@ Racer::~Racer() {
     Py_FinalizeEx();
 }
 
+void Racer::setSteering(float steering_){
+    std::lock_guard<std::mutex> lock(mtx);
+    steerStatus = steering_;
+}
+
+void Racer::setThrottle(float throttle_){
+    std::lock_guard<std::mutex> lock(mtx);
+    throttleStatus = throttle_;
+}
+
 void Racer::setGear(uint8_t gear_){
     gearStatus = gear_;
 }
 
 void Racer::setLight(bool light_){
     lightStatus = light_;
+}
+
+float Racer::getSteering() const{
+    return steerStatus;
+}
+
+float Racer::getThrottle() const{
+    return throttleStatus;
 }
 
 uint8_t Racer::getGear() const{
