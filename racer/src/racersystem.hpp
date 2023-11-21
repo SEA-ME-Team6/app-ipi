@@ -16,6 +16,7 @@ public:
     RacerSystem(Racer* racer);
     
 private:
+    Racer* racer;
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<GearStubImpl> gearService;
     std::shared_ptr<LightStubImpl> lightService;
