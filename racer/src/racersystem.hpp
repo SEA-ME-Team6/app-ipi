@@ -14,6 +14,8 @@ using namespace v1::commonapi;
 class RacerSystem {
 public:
     RacerSystem(Racer* racer);
+    float getSteering();
+    float getThrottle();
     
 private:
     Racer* racer;
@@ -24,8 +26,6 @@ private:
     std::shared_ptr<MovingStatusProxy<>> movingProxy;
     std::shared_ptr<LightStatusProxy<>> lightProxy;
 
-    float getSteering();
-    float getThrottle();
 };
 
 #endif 

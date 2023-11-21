@@ -1,0 +1,406 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						12,
+						13,
+						14,
+						15,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "gamepad",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-gamepad-Debug-b1c5a5a83f15ee60ed1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "gamepad",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "head_unit",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-head_unit-Debug-1a5229438217af7bc2cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "head_unit",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "instrument_cluster",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-instrument_cluster-Debug-e9783c38a450921afeee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "instrument_cluster",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "racer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-racer-Debug-b2824d4262a94bc1749a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "racer",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "rpm_sender",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rpm_sender-Debug-deec159543c992970b69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "rpm_sender",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "battery_sender",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-battery_sender-Debug-d6d3732280763ff29fdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "battery_sender",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DES3_HEAD_UNIT",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						12,
+						13,
+						14,
+						15,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gamepad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "head_unit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "instrument_cluster",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "racer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "rpm_sender",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "battery_sender",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "battery_sender::@e81206d9ed8598db9a17",
+					"jsonFile" : "target-battery_sender-Debug-af04cd984de926014f1c.json",
+					"name" : "battery_sender",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "batterysomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-batterysomeipproxy-Debug-7be881e0d9d6752e6722.json",
+					"name" : "batterysomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "batterysomeipstub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-batterysomeipstub-Debug-0027f4c098754ffa926c.json",
+					"name" : "batterysomeipstub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gamepad::@2665cf1cb2ae49004abf",
+					"jsonFile" : "target-gamepad-Debug-aaec0b0c91eecc478a35.json",
+					"name" : "gamepad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gearsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gearsomeipproxy-Debug-950a9a44d9ceacf6465f.json",
+					"name" : "gearsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gearsomeipstub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gearsomeipstub-Debug-e039fc32330266e7e973.json",
+					"name" : "gearsomeipstub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "head_unit::@bd32adfee15763d9e8cc",
+					"jsonFile" : "target-head_unit-Debug-3e780a3ed30699608753.json",
+					"name" : "head_unit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "head_unit_autogen::@bd32adfee15763d9e8cc",
+					"jsonFile" : "target-head_unit_autogen-Debug-94b30d974b0f0522109a.json",
+					"name" : "head_unit_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "head_unit_autogen_timestamp_deps::@bd32adfee15763d9e8cc",
+					"jsonFile" : "target-head_unit_autogen_timestamp_deps-Debug-bf1d97ae3ed0bb23531b.json",
+					"name" : "head_unit_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "instrument_cluster::@0606edeadf225aa1ce05",
+					"jsonFile" : "target-instrument_cluster-Debug-c3d4981b4ec91eaebc8a.json",
+					"name" : "instrument_cluster",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "instrument_cluster_autogen::@0606edeadf225aa1ce05",
+					"jsonFile" : "target-instrument_cluster_autogen-Debug-fd562e1ab83e53c13742.json",
+					"name" : "instrument_cluster_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "instrument_cluster_autogen_timestamp_deps::@0606edeadf225aa1ce05",
+					"jsonFile" : "target-instrument_cluster_autogen_timestamp_deps-Debug-f54bf43924ffe777a4a3.json",
+					"name" : "instrument_cluster_autogen_timestamp_deps",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lightsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lightsomeipproxy-Debug-1ce74eaa2a07999a0200.json",
+					"name" : "lightsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lightsomeipstub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lightsomeipstub-Debug-fbf693886a44ce0466c9.json",
+					"name" : "lightsomeipstub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movingsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movingsomeipproxy-Debug-a49a3b5341c84cb730df.json",
+					"name" : "movingsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movingsomeipstub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movingsomeipstub-Debug-08bc9ba048738ae5a07d.json",
+					"name" : "movingsomeipstub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "racer::@42a3e15cafdacd2ccdf1",
+					"jsonFile" : "target-racer-Debug-977574c381e75e412d51.json",
+					"name" : "racer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rpm_sender::@239a5e257c7d5e860c65",
+					"jsonFile" : "target-rpm_sender-Debug-d8dc4f84a4a5cd597c83.json",
+					"name" : "rpm_sender",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpmsomeipproxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpmsomeipproxy-Debug-e7326ec8bc97f812ce8a.json",
+					"name" : "rpmsomeipproxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpmsomeipstub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpmsomeipstub-Debug-8bb39e1f5373b084783a.json",
+					"name" : "rpmsomeipstub",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/seame-workstation08/DES_Head-Unit/build",
+		"source" : "/home/seame-workstation08/DES_Head-Unit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
