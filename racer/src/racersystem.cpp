@@ -3,12 +3,13 @@
 #include <iostream>
 #include <thread>
 
-RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
+RacerSystem::RacerSystem() : steering(0.0), throttle(0.0), light(false){
+
     runtime = CommonAPI::Runtime::get();
     std::string domain = "local";
 
     //gear stub
-    gearService = std::make_shared<GearStubImpl>(racer);
+    gearService = std::make_shared<GearStubImpl>();
     std::string gear_instance = "GearStatus";
     std::string gear_connection = "service-gear";
     while (!runtime->registerService(domain, gear_instance, gearService, gear_connection)) {
@@ -22,16 +23,18 @@ RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
     std::string moving_connection = "service-moving";
     movingProxy = runtime->buildProxy<MovingStatusProxy>(domain, moving_instance, moving_connection);
 
-    std::cout << "Waiting for Moving service to become available." << std::endl;
+    while (!movingProxy->isAvailable()) {
+        std::cout << "Waiting for Moving service to become available." << std::endl;
+    }
     movingProxy->getSteeringAttribute().getChangedEvent().subscribe(
         [&](const float& steering_){
-            racer->setSteering(steering_); 
+            setSteeing(steering_); 
 	        //std::cout << "Receiving steering: " << steering_ << std::endl;
         }
     );
     movingProxy->getThrottleAttribute().getChangedEvent().subscribe(
         [&](const float& throttle_){
-            racer->setThrottle(throttle_); 
+            setThrottle(throttle_); 
 	        //std::cout << "Receiving throttle: " << throttle_ << std::endl;
         }
     );
@@ -54,19 +57,28 @@ RacerSystem::RacerSystem(Racer* racer) : racer(racer) {
     std::cout << "Waiting for Light service to become available." << std::endl;
     lightProxy->getLightAttribute().getChangedEvent().subscribe(
         [&](const bool& light_){
-            racer->setLight(light_); 
-            bool currentlight = racer->getLight();
-            lightService->setLightAttribute(currentlight);
+            setLight(light_); 
+            lightService->setLightAttribute(light_);
         }
     );
 }
 
+void RacerSystem::setSteeing(float steering_){
+    steering = steering_;
+}
+
+void RacerSystem::setThrottle(float throttle_){
+    throttle = throttle_;
+}
+
+void RacerSystem::setLight(bool light_){
+    light = light_;
+}
+
 float RacerSystem::getSteering() {
-    float steering = racer->getSteering();
     return steering;
 }
 
 float RacerSystem::getThrottle() {
-    float throttle = racer->getThrottle();
     return throttle;
 }

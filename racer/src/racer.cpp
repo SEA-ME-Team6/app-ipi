@@ -15,42 +15,6 @@ Racer::~Racer() {
     Py_FinalizeEx();
 }
 
-void Racer::setSteering(float steering_){
-    std::lock_guard<std::mutex> lock(mtx);
-    steerStatus = steering_;
-}
-
-void Racer::setThrottle(float throttle_){
-    std::lock_guard<std::mutex> lock(mtx);
-    throttleStatus = throttle_;
-}
-
-void Racer::setGear(uint8_t gear_){
-    gearStatus = gear_;
-}
-
-void Racer::setLight(bool light_){
-    lightStatus = light_;
-}
-
-float Racer::getSteering() const{
-    std::lock_guard<std::mutex> lock(mtx);
-    return steerStatus;
-}
-
-float Racer::getThrottle() const{
-    std::lock_guard<std::mutex> lock(mtx);
-    return throttleStatus;
-}
-
-uint8_t Racer::getGear() const{
-    return gearStatus;
-}
-
-bool Racer::getLight() const{
-    return lightStatus;
-}
-
 void Racer::set_steering_percent(float currentsteering){
     std::cout << "piracer set steering: " << currentsteering << std::endl;
     PyObject_CallMethod(pInstance, "set_steering_percent", "(f)", currentsteering);

@@ -3,7 +3,6 @@
 
 #define PY_SSIZE_T_CLEAN
 #include "IncludePython.h"
-#include <mutex>
 
 class Racer
 {
@@ -11,29 +10,12 @@ public:
     Racer();
     ~Racer();
 
-    void setSteering(float steering);
-    void setThrottle(float throttle);
-    void setGear(uint8_t gear);
-    void setLight(bool light);
-
-    float getSteering() const;
-    float getThrottle() const;
-    uint8_t getGear() const;
-    bool getLight() const;
-
     void set_steering_percent(float currentsteering);
     void set_throttle_percent(float currentthrottle);
 
 private:
-    mutable std::mutex mtx;
-
     PyObject *pModule, *pClass, *pInstance;
-   
-    //original resource
-    float steerStatus = 0;
-    float throttleStatus = 0;
-    uint8_t gearStatus = 0; 
-    bool lightStatus = false; 
+
 };
 
 #endif //Racer_H
