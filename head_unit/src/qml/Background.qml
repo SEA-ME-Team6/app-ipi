@@ -4,11 +4,9 @@ import QtQuick.Controls 2.2
 
 Image{
     id:background
+    width: parent.width
+    height: parent.height
     source: "qrc:/images/benz.jpg"
-    anchors{
-        right: parent.right
-        bottom: parent.bottom
-    }
     Image{
         id:head_light_left
         anchors{

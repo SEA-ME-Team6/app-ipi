@@ -31,7 +31,7 @@ Row{
             fillMode: Image.PreserveAspectFit
         }
         onClicked: {
-            stackview.push(Qt.resolvedUrl("/light.qml"))
+            stackview.push(Qt.resolvedUrl("qrc:/qml/Light.qml"))
         }
     }
 
@@ -43,7 +43,7 @@ Row{
             fillMode: Image.PreserveAspectFit
         }
         onClicked: {
-            stackview.push(Qt.resolvedUrl("/video.qml"))
+            stackview.push(Qt.resolvedUrl("qrc:/qml/music.qml"))
         }
     }
 }

@@ -6,7 +6,7 @@
         <file>qml/Funtionality.qml</file>
         <file>qml/Background.qml</file>
         <file>qml/ValueSource.qml</file>
-        <file>qml/light.qml</file>
+        <file>qml/Light.qml</file>
         <file>qml/video.qml</file>
         <file>qml/music.qml</file>
         <file>images/benz.jpg</file>
@@ -15,6 +15,7 @@
         <file>images/music.jpeg</file>
         <file>images/setting.jpeg</file>
         <file>images/video.png</file>
+        <file>images/benz_logo.jpg</file>
         <file>images/p.png</file>
         <file>images/n.png</file>
         <file>images/r.png</file>

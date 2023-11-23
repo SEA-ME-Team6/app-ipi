@@ -11,8 +11,6 @@ Window {
 
     StackView{
         id:stackview
-        x: -256
-        y: -150
         anchors{
             left: parent.left
             top: parent.top
