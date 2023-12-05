@@ -3,6 +3,7 @@ import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.12
 import QtApplicationManager.Application 2.0
+import QtGraphicalEffects 1.12
 
 ApplicationManagerWindow {
     id: ambient
@@ -17,18 +18,14 @@ ApplicationManagerWindow {
         anchors.horizontalCenter: parent.horizontalCenter
         width: 348
         height: 300
-        Rectangle{
-            id: color_overlap
-            width: parent.height * 0.8
-            height: parent.height * 0.8
-            anchors{
-                verticalCenter: parent.verticalCenter
-                horizontalCenter: parent.horizontalCenter
-            }
-            color: ambient.ambient_color
-            opacity: 0.2
-            radius: 1000
-        }
+        smooth: true
+    }
+
+    ColorOverlay {
+        anchors.fill: benz_logo
+        source: benz_logo
+        color: ambient.ambient_color
+        opacity: 0.5
     }
 
     Column {
