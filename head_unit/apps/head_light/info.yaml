@@ -1,0 +1,9 @@
+formatVersion: 1
+formatType: am-application
+---
+id:      'head_light'
+icon:    'icon.png'
+code:    'qml/head_light.qml'
+runtime: 'qml'
+name:
+  en: 'head_light'
