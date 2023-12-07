@@ -17,8 +17,7 @@ Window {
             topMargin: 150
             left: parent.left
             leftMargin: 32
-        }
-        
+        }      
     }
 
     // Show application names and icons

@@ -1,37 +1,47 @@
 import QtQuick 2.2
 import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
+import QtApplicationManager.Application 2.0
 
-Image{
-    id:background
-    width: parent.width
-    height: parent.height
-    source: "qrc:/images/benz.jpg"
+import User.HUSystem 1.0
+
+ApplicationManagerWindow{
+    HUSystem {
+        id: husystem
+        property int hu_light: light
+    }
+
     Image{
-        id:head_light_left
-        anchors{
-            verticalCenter: parent.verticalCenter
-            left: parent.left
+        id:background
+        width: parent.width
+        height: parent.height
+        source: "images/benz.jpg"
+        Image{
+            id:head_light_left
+            anchors{
+                verticalCenter: parent.verticalCenter
+                left: parent.left
+            }
+            source: "images/head_light.png"
+            visible: husystem.hu_light
         }
-        source: "qrc:/images/head_light.png"
-        visible: valueSource.light
-    }
 
-    Image {
-        id:head_light_right
-        anchors{
-            verticalCenter: parent.verticalCenter
-            right: parent.right
+        Image {
+            id:head_light_right
+            anchors{
+                verticalCenter: parent.verticalCenter
+                right: parent.right
+            }
+            source: "images/head_light.png"
+            visible: husystem.hu_light
         }
-        source: "qrc:/images/head_light.png"
-        visible: valueSource.light
-    }
 
-    Image {
-        anchors{
-            horizontalCenter: parent.horizontalCenter
-            top: head_light_right.bottom
+        Image {
+            anchors{
+                horizontalCenter: parent.horizontalCenter
+                top: head_light_right.bottom
+            }
+            source: "images/ground_shadow.png"
         }
-        source: "qrc:/images/ground_shadow.png"
     }
 }
