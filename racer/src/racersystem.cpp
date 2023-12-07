@@ -39,7 +39,7 @@ RacerSystem::RacerSystem() : steering(0.0), throttle(0.0), light(false){
 	        //std::cout << "Receiving throttle: " << throttle_ << std::endl;
         }
     );
-    */
+    
 
     //ligth stub
     lightService = std::make_shared<LightStubImpl>();
@@ -63,6 +63,7 @@ RacerSystem::RacerSystem() : steering(0.0), throttle(0.0), light(false){
             lightService->setLightAttribute(light_);
         }
     );
+    */
 }
 
 void RacerSystem::setSteeing(float steering_){
