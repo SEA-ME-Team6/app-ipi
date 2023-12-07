@@ -4745,3 +4745,15 @@
 [CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
 [CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
 [CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.MovingStatus:v1_0:MovingStatus --> libmovingsomeipproxy.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipstub.so
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.LightStatus:v1_0:LightStatus_from_racer --> liblightsomeipstub.so
+[CAPI][INFO] Loading configuration file './racer.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.GearStatus:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "libgearsomeipstub.so" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.GearStatus:v1_0:GearStatus"
