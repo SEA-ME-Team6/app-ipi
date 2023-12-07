@@ -14,7 +14,7 @@ using namespace v1::commonapi;
 class HUSystem: public QObject{
     Q_OBJECT
     Q_PROPERTY(bool light READ getLight NOTIFY lightChanged)
-    Q_PROPERTY(int gear READ getGear NOTIFY gearChanged)
+    Q_PROPERTY(uint8_t gear READ getGear NOTIFY gearChanged)
 
 public:
     HUSystem();
@@ -37,7 +37,7 @@ private:
 
     float rpm_check = 0.0;
     bool light = false;
-    int gear = 0;
+    uint8_t gear = 0;
 };
 
 #endif // GEARCLIENT_HPP
