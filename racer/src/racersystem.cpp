@@ -19,6 +19,7 @@ RacerSystem::RacerSystem() : steering(0.0), throttle(0.0), light(false){
     std::cout << "Successfully Registered Gear Service!" << std::endl;
 
     //moving proxy
+    /*
     std::string moving_instance = "MovingStatus";
     std::string moving_connection = "service-moving";
     movingProxy = runtime->buildProxy<MovingStatusProxy>(domain, moving_instance, moving_connection);
@@ -38,6 +39,7 @@ RacerSystem::RacerSystem() : steering(0.0), throttle(0.0), light(false){
 	        //std::cout << "Receiving throttle: " << throttle_ << std::endl;
         }
     );
+    */
 
     //ligth stub
     lightService = std::make_shared<LightStubImpl>();

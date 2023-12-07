@@ -13,7 +13,8 @@ Window {
     GearSelection {
         id: gearselection
         anchors{
-            verticalCenter: parent.verticalCenter
+            top: parent.top
+            topMargin: 150
             left: parent.left
             leftMargin: 32
         }
