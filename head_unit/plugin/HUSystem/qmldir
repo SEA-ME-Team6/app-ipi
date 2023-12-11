@@ -1,2 +1,2 @@
-module User.Music
-plugin Music
+module User.HUSystem
+plugin HUSystem
