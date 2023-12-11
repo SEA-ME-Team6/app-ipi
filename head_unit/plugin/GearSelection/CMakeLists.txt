@@ -1,11 +1,10 @@
 cmake_minimum_required(VERSION 3.14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x -Wl,--no-as-needed")
 
-project(HUSystem)
+project(GearSelection)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -25,14 +24,12 @@ include_directories(
     ../../../src-gen/gear/core/proxy
     ../../../src-gen/rpm/core/common  
     ../../../src-gen/rpm/core/proxy
-    ../../../src-gen/light/core/common
-    ../../../src-gen/light/core/proxy
 )
 
 add_library(${PROJECT_NAME}
     SHARED
-        src/husystem.cpp
-        src/husystem_plugin.cpp
+        src/gearselection.cpp
+        src/gearselection_plugin.cpp
 )
 
 target_compile_definitions(${PROJECT_NAME}

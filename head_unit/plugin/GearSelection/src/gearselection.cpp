@@ -1,11 +1,11 @@
 #include <iostream>
 #include <thread>
 #include <CommonAPI/CommonAPI.hpp>
-#include "husystem.h"
+#include "gearselection.h"
 
 using namespace v1::commonapi;
 
-HUSystem::HUSystem() {
+GearSelection::GearSelection() {
     runtime = CommonAPI::Runtime::get();
 
     std::string domain = "local";
@@ -21,6 +21,7 @@ HUSystem::HUSystem() {
     CommonAPI::CallStatus callStatus;
     uint8_t returnedGear;
     gearProxy->gearselection(7, callStatus, returnedGear);
+    emit gearChanged();
 
     //rpm client
     std::string rpm_instance = "RPMStatus";
@@ -32,22 +33,9 @@ HUSystem::HUSystem() {
             rpm_check = rpm_;
         }
     );
-    
-    //light client
-    std::string light_from_racer_instance = "LightStatus_from_racer";
-    std::string light_from_racer_connection = "client-light";
-    lightProxy = runtime->buildProxy<LightStatusProxy>(domain, light_from_racer_instance, light_from_racer_connection);
-    std::cout << "Waiting for Light service to become available." << std::endl;
-    lightProxy->getLightAttribute().getChangedEvent().subscribe(
-        [&](const bool& light_){
-            light = light_;
-            emit lightChanged();
-        }
-    );
-
 }
 
-void HUSystem::changegear(quint8 gearselect){
+void GearSelection::changegear(quint8 gearselect){
     CommonAPI::CallStatus callStatus;
     uint8_t returnedGear;
 
@@ -63,12 +51,7 @@ void HUSystem::changegear(quint8 gearselect){
     }
 }
 
-bool HUSystem::getLight() const {
-    std::cout << "HU Light: " << light << std::endl;
-    return light;
-}
-
-uint8_t HUSystem::getGear() const {
+uint8_t GearSelection::getGear() const {
     std::cout << "HU return Gear: " << gear << std::endl;
     return gear;
 }

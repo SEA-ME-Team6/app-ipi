@@ -3,11 +3,11 @@ import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
 import QtApplicationManager.Application 2.0
 
-import User.HUSystem 1.0
+import User.HeadLight 1.0
 
 ApplicationManagerWindow{
-    HUSystem {
-        id: husystem
+    HeadLight {
+        id: headlight
         property int hu_light: light
     }
 
@@ -23,7 +23,7 @@ ApplicationManagerWindow{
                 left: parent.left
             }
             source: "images/head_light.png"
-            visible: husystem.hu_light
+            visible: headlight.hu_light
         }
 
         Image {
@@ -33,7 +33,7 @@ ApplicationManagerWindow{
                 right: parent.right
             }
             source: "images/head_light.png"
-            visible: husystem.hu_light
+            visible: headlight.hu_light
         }
 
         Image {

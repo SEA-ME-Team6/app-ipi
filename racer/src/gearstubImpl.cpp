@@ -1,5 +1,5 @@
+#include <iostream>
 #include "gearstubImpl.hpp"
-
 
 GearStubImpl::GearStubImpl() : gear(0) {
 
@@ -11,6 +11,7 @@ void GearStubImpl::gearselection(const std::shared_ptr<CommonAPI::ClientId> _cli
 
     if(_gearselect != 7){
         setGear(_gearselect);
+        std::cout << "racer change gear to " << _gearselect << std::endl;
         setGearAttribute(gear);
     }
     _reply(gear);
