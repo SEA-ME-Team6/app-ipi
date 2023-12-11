@@ -19,3 +19,7 @@ void GearStubImpl::gearselection(const std::shared_ptr<CommonAPI::ClientId> _cli
 void GearStubImpl::setGear(uint8_t gear_) {
     gear = gear_;
 }
+
+uint8_t GearStubImpl::getGear() {
+    return gear;
+}

@@ -23,10 +23,4 @@ void Racer::set_steering_percent(float currentsteering){
 void Racer::set_throttle_percent(float currentthrottle){
     std::cout << "piracer set throttle: " << currentthrottle << std::endl;
     PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", currentthrottle);
-    /*
-    if (gearStatus == 1 || gearStatus == 3) {
-        std::cout << "Throttle : " << throttle << std::endl;
-        PyObject_CallMethod(pInstance, "set_throttle_percent", "(f)", throttle);
-    }
-    */
 }
