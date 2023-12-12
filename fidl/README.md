@@ -21,5 +21,7 @@ You can find the installation documentation and example code for CommonAPI at th
 
 ## Reference
 [Welcome to the CommonAPI C++ wiki!](https://github.com/COVESA/capicxx-core-tools/wiki)
+
 [GENIVI CommonAPI](https://medium.com/@aytackahveci93/introduction-to-genivi-commonapi-640472f468e)
+
 [vsomeip](https://github.com/COVESA/vsomeip/wiki/vsomeip-in-10-minutes)
