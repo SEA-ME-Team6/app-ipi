@@ -19,6 +19,13 @@ You can find the installation documentation and example code for CommonAPI at th
   
   Therefore, each application does not contain any code related to SOME/IP binding. Instead, shared libraries related to binding are created in the top-level CMakeLists.txt file.
 
+## SOME/IP communication patterns for each service
+- Gear : Both of Method, Attribute
+- Light : Attribute having Two instances
+- Moving : Attribute including Throttle, Steering
+- RPM : Attribute
+- Batterty : Attribute
+
 ## Reference
 [Welcome to the CommonAPI C++ wiki!](https://github.com/COVESA/capicxx-core-tools/wiki)
 
