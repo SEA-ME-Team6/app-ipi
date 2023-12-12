@@ -8,6 +8,28 @@ Its features include:
 - High-performance implementation utilizing C++ templates.
 
 You can find the installation documentation and example code for CommonAPI at this link. It's very useful.   
-[CommonAPI C SomeIP in 10 minutes](https://github.com/COVESA/capicxx-someip-tools/wiki/CommonAPI-C---SomeIP-in-10-minutes)
+[CommonAPI C++ SomeIP in 10 minutes](https://github.com/COVESA/capicxx-someip-tools/wiki/CommonAPI-C---SomeIP-in-10-minutes)
 
 ## Commonapi Core and Binding Library
+<img src="https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/119277948/9eb817b7-50cf-4363-be65-9716517d573e">
+
+  ### Key Point
+  CommonAPI C++ has a structure that, when an application implements a specific function using a shared library, it is linked only to the CommonAPI runtime and the generated C++ code, and not to binding-specific code. 
+  This allows libraries required for specific bindings,   such as D-Bus or SOME/IP glue code, to be loaded dynamically at runtime. 
+  
+  Therefore, each application does not contain any code related to SOME/IP binding. Instead, shared libraries related to binding are created in the top-level CMakeLists.txt file.
+
+## Service
+In this project, there is following services
+
+- Gear
+- Light
+- Moving
+- RPM
+- Battery
+
+You have to write .fidl & .fdepl for each services.
+
+## Reference
+[Welcome to the CommonAPI C++ wiki!](https://github.com/COVESA/capicxx-core-tools/wiki)
+[GENIVI CommonAPI](https://medium.com/@aytackahveci93/introduction-to-genivi-commonapi-640472f468e)
