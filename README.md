@@ -12,6 +12,13 @@ The applications are as follows:
 - Battery Sender
 - Gamepad
 
+The service are as follows:
+- Gear
+- Light
+- Moving
+- RPM
+- Battery
+
 ## Architecture
 <img src="https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/119277948/701b1474-2453-417e-bd98-d87bd7ff2e2b">
 
