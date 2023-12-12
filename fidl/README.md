@@ -15,7 +15,11 @@ You can find the installation documentation and example code for CommonAPI at th
 
   ### Key Point
   CommonAPI C++ has a structure that, when an application implements a specific function using a shared library, it is linked only to the CommonAPI runtime and the generated C++ code, and not to binding-specific code. 
-  This allows libraries required for specific bindings,   such as D-Bus or SOME/IP glue code, to be loaded dynamically at runtime. 
+  This allows libraries required for specific bindings, such as D-Bus or SOME/IP glue code, to be loaded dynamically at runtime. 
+
+  The connection between CommonAPI core and binding shared libraries is established through the commonapi.ini file, during runtime, not at compile time.
+  
+  **This is the standard CommonAPI way to connect to D-Bus or SOME/IP**
   
   Therefore, each application does not contain any code related to SOME/IP binding. Instead, shared libraries related to binding are created in the top-level CMakeLists.txt file.
 
