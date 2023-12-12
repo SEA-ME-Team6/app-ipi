@@ -13,7 +13,7 @@ The applications are as follows:
 - Gamepad
 
 ## Architecture
-<img src="https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/119277948/701b1474-2453-417e-bd98-d87bd7ff2e2b" width="630" height="500"/>
+<img src="https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/119277948/701b1474-2453-417e-bd98-d87bd7ff2e2b">
 
 ## Following
   ### [Commonapi Concept](https://github.com/SEA-ME-Team6/DES_Head-Unit/tree/dev-communication/fidl)
