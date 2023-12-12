@@ -19,17 +19,6 @@ You can find the installation documentation and example code for CommonAPI at th
   
   Therefore, each application does not contain any code related to SOME/IP binding. Instead, shared libraries related to binding are created in the top-level CMakeLists.txt file.
 
-## Service
-In this project, there is following services
-
-- Gear
-- Light
-- Moving
-- RPM
-- Battery
-
-You have to write .fidl & .fdepl for each services.
-
 ## Reference
 [Welcome to the CommonAPI C++ wiki!](https://github.com/COVESA/capicxx-core-tools/wiki)
 [GENIVI CommonAPI](https://medium.com/@aytackahveci93/introduction-to-genivi-commonapi-640472f468e)
