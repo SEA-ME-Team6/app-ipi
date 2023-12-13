@@ -3,12 +3,17 @@ import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
 import QtApplicationManager.Application 2.0
 
-import User.HUSystem 1.0
-
 ApplicationManagerWindow{
-    HUSystem {
-        id: headlight
-        property int hu_light: light
+    IntentHandler {
+        intentIds: "set-light"
+        onRequestReceived: {
+            var lightValue = request.parameters.huLightValue;
+
+            head_light_left.visible = lightValue;
+            head_light_right.visible = lightValue;
+
+            request.sendReply({ "done": true });
+        }
     }
 
     Image{
@@ -23,7 +28,7 @@ ApplicationManagerWindow{
                 left: parent.left
             }
             source: "images/head_light.png"
-            visible: headlight.hu_light
+            visible: false
         }
 
         Image {
@@ -33,7 +38,7 @@ ApplicationManagerWindow{
                 right: parent.right
             }
             source: "images/head_light.png"
-            visible: headlight.hu_light
+            visible: false
         }
 
         Image {
