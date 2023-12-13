@@ -3,7 +3,7 @@ import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.12
 import QtApplicationManager.Application 2.0
-import QtGraphicalEffects 1.12
+import QtGraphicalEffects 1.0
 
 ApplicationManagerWindow {
     id: ambient
