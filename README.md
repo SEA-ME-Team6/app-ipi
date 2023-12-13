@@ -1,7 +1,7 @@
 # DES_Head-Unit
 
 ## Introduction
-This project aims to implement a Vehicle Application based on Service-Oriented Architecture (SOA). Each application communicates through the Someip protocol. This project uses Commonapi to design the communication structure.
+This project aims to implement a Vehicle Application based on Service-Oriented Architecture (SOA). Each application communicates through the Someip protocol. This project utilize Commonapi to design the communication structure.
 And, the Head Unit includes functions such as music, ambient light, gear selection, and head light. Each of these functions is managed within the Head Unit by the Qt Application Manager
 
 The applications are as follows:
@@ -21,6 +21,15 @@ The service are as follows:
 
 ## Architecture
 <img src="https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/119277948/701b1474-2453-417e-bd98-d87bd7ff2e2b">
+
+## Usage
+```
+git clone https://github.com/SEA-ME-Team6/DES_Head-Unit.git
+cd DES_Head-Unit
+mkdir build
+cd build
+cmake .. && make
+```
 
 ## Following
   ### [Commonapi Concept](https://github.com/SEA-ME-Team6/DES_Head-Unit/tree/dev-communication/fidl)
