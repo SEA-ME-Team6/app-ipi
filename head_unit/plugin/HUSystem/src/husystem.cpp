@@ -1,11 +1,11 @@
 #include <iostream>
 #include <thread>
 #include <CommonAPI/CommonAPI.hpp>
-#include "gearselection.h"
+#include "husystem.h"
 
 using namespace v1::commonapi;
 
-GearSelection::GearSelection() {
+HUSystem::HUSystem() {
     runtime = CommonAPI::Runtime::get();
 
     std::string domain = "local";
@@ -16,10 +16,10 @@ GearSelection::GearSelection() {
     gearProxy = runtime->buildProxy<GearStatusProxy>(domain, gear_instance, gear_connection);
     std::cout << "Waiting for GearSelection service to become available." << std::endl;
 
-    // If HU start, Gear value have to set racer gear value
+    // If HU start, Gear have to set gear value in racer
     // So When HU request value of 7 to racer, racer response saving gear info
     CommonAPI::CallStatus callStatus;
-    uint8_t returnedGear;
+    quint8 returnedGear;
     gearProxy->gearselection(7, callStatus, returnedGear);
     emit gearChanged();
 
@@ -33,16 +33,29 @@ GearSelection::GearSelection() {
             rpm_check = rpm_;
         }
     );
+    
+    //light client
+    std::string light_from_racer_instance = "LightStatus_from_racer";
+    std::string light_from_racer_connection = "client-light";
+    lightProxy = runtime->buildProxy<LightStatusProxy>(domain, light_from_racer_instance, light_from_racer_connection);
+    std::cout << "Waiting for Light service to become available." << std::endl;
+    lightProxy->getLightAttribute().getChangedEvent().subscribe(
+        [&](const bool& light_){
+            light = light_;
+            emit lightChanged();
+        }
+    );
+
 }
 
-void GearSelection::changegear(quint8 gearselect){
+void HUSystem::changegear(quint8 gearselect){
     CommonAPI::CallStatus callStatus;
-    uint8_t returnedGear;
+    quint8 returnedGear;
 
     if(rpm_check < 5) {
         gearProxy->gearselection(gearselect, callStatus, returnedGear);
         if (callStatus == CommonAPI::CallStatus::SUCCESS) {
-            std::cout << "Gear set successfully. Returned gear: " << (int)returnedGear <<std::endl;
+            std::cout << "Gear set successfully. Returned gear: " << returnedGear <<std::endl;
             gear = returnedGear;
             emit gearChanged();
         } else {
@@ -51,7 +64,12 @@ void GearSelection::changegear(quint8 gearselect){
     }
 }
 
-uint8_t GearSelection::getGear() const {
+bool HUSystem::getLight() const {
+    std::cout << "HU Light: " << light << std::endl;
+    return light;
+}
+
+quint8 HUSystem::getGear() const {
     std::cout << "HU return Gear: " << gear << std::endl;
     return gear;
 }

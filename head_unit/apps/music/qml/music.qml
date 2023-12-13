@@ -70,11 +70,11 @@ ApplicationManagerWindow {
         id: usbStatusText
         text: "USB device is not detected!"
         color: "white"
-        font.pixelSize: 20
+        font.pixelSize: 18
         anchors {
             top: parent.top
             left: parent.left
-            margins: 150
+            topMargin: 150
         }
     }
 

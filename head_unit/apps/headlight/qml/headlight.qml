@@ -3,10 +3,10 @@ import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
 import QtApplicationManager.Application 2.0
 
-import User.HeadLight 1.0
+import User.HUSystem 1.0
 
 ApplicationManagerWindow{
-    HeadLight {
+    HUSystem {
         id: headlight
         property int hu_light: light
     }

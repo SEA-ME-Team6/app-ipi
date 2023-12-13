@@ -2,12 +2,12 @@ import QtQuick 2.2
 import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
 
-import User.GearSelection 1.0
+import User.HUSystem 1.0
 
 Item{
-    GearSelection {
+    HUSystem {
         id: gearselection
-        property int hu_gear: gear
+        property var hu_gear: gear
     }
 
     Column{
