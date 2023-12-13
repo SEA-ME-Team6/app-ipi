@@ -1,19 +1,36 @@
 import QtQuick 2.2
 import QtQuick.Window 2.1
 import QtQuick.Controls 2.2
+import QtApplicationManager 2.0
 import QtApplicationManager.Application 2.0
 
 ApplicationManagerWindow{
-    IntentHandler {
-        intentIds: "set-light"
-        onRequestReceived: {
-            var lightValue = request.parameters.huLightValue;
 
-            head_light_left.visible = lightValue;
-            head_light_right.visible = lightValue;
+    function sendHuLightIntent() {
+        var request = IntentClient.sendIntentRequest("set-light", {});
+        request.onReplyReceived.connect(function() {
+            if (request.succeeded) {
+                var lightValue = request.result.huLightValue;
+                head_light_left.visible = lightValue;
+                head_light_right.visible = lightValue;
+            }
+            else{
+                test.visible = false
+                console.error("Intent request failed:", request.errorMessage);
+            }
 
-            request.sendReply({ "done": true });
-        }
+        });
+    }
+
+    Component.onCompleted: {
+        lightIntentTimer.start();
+    }
+
+    Timer {
+        id: lightIntentTimer
+        interval: 100
+        repeat: true
+        onTriggered: sendHuLightIntent()
     }
 
     Image{
@@ -46,5 +63,9 @@ ApplicationManagerWindow{
             }
             source: "images/ground_shadow.png"
         }
+    }
+    Image{
+        id: test
+        source: "images/d_red.png"
     }
 }

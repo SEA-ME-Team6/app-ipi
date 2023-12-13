@@ -1,8 +1,8 @@
 
 import QtQuick 2.4
-import QtApplicationManager.SystemUI 2.0
 import QtQuick.Window 2.1
 import QtApplicationManager 2.0
+import QtApplicationManager.SystemUI 2.0
 
 import User.HUSystem 1.0
 
@@ -13,31 +13,18 @@ Window {
     visible: true
     color: "black"
 
-    function sendHuLightIntent() {
-        var lightValue = husystem.light;
-        var parameters = { huLightValue: lightValue };
-
-        var request = IntentClient.sendIntentRequest("set-light", "headlight", parameters);
-
-        request.onReplyReceived.connect(function() {
-            if (request.succeeded) {
-                console.log("Success intent: ", request.result);
-            } else {
-                console.error("Fail intent: ", request.errorMessage);
-            }
-        });
+    IntentServerHandler {
+        intentIds: [ "set-light" ]
+        visibility: IntentObject.Public
+        onRequestReceived: {
+            request.sendReply({ huLightValue: husystem.hu_light});
+        }
     }
 
     HUSystem {
         id: husystem
-        property var hu_gear: gear
-    }
-
-    Connections {
-        target: husystem
-        onLightChanged: {
-            sendHuLightIntent();
-        }
+        property var hu_gear: gear // source data 
+        property var hu_light: light // source data
     }
 
     GearSelection {

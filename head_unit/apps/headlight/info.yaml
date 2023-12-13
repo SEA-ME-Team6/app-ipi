@@ -7,8 +7,3 @@ code:    'qml/headlight.qml'
 runtime: 'qml'
 name:
   en: 'headlight'
-
-intents:
-- id: set-light
-  name:
-    en: Receive light info
