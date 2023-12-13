@@ -28,7 +28,6 @@ ApplicationManagerWindow{
                 left: parent.left
             }
             source: "images/head_light.png"
-            visible: false
         }
 
         Image {
@@ -38,7 +37,6 @@ ApplicationManagerWindow{
                 right: parent.right
             }
             source: "images/head_light.png"
-            visible: false
         }
 
         Image {

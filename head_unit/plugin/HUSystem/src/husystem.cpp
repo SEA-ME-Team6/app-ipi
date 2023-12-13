@@ -42,6 +42,7 @@ HUSystem::HUSystem() {
     lightProxy->getLightAttribute().getChangedEvent().subscribe(
         [&](const bool& light_){
             light = light_;
+            std::cout << "HU cpp receive light : " << light_ << std::endl;
             emit lightChanged();
         }
     );

@@ -2,6 +2,7 @@
 import QtQuick 2.4
 import QtApplicationManager.SystemUI 2.0
 import QtQuick.Window 2.1
+import QtApplicationManager 2.0
 
 import User.HUSystem 1.0
 
@@ -35,7 +36,7 @@ Window {
     Connections {
         target: husystem
         onLightChanged: {
-            sendHuLightIntent
+            sendHuLightIntent();
         }
     }
 

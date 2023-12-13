@@ -59,7 +59,8 @@ RacerSystem::RacerSystem() : steering(0.0), throttle(0.0), light(false){
     std::cout << "Waiting for Light service to become available." << std::endl;
     lightProxy->getLightAttribute().getChangedEvent().subscribe(
         [&](const bool& light_){
-            setLight(light_); 
+            setLight(light_);
+            std::cout << "Racer receive light : " << light_ << std::endl;
             lightService->setLightAttribute(light);
         }
     );
