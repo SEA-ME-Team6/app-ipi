@@ -19,12 +19,12 @@ int main() {
 
         gear = gearstubimpl->getGear();
         std::cout << "racer receive gear to : " << (int)gear << std::endl;
-/*
+
         if(gear == 0 or gear == 2)
             throttle = 0;
         else if(gear == 1)
             throttle *= (-1);
-*/
+
         racer->set_steering_percent(steering);
         racer->set_throttle_percent(throttle);
     }

@@ -14,7 +14,7 @@ public:
                                gearselectionReply_t _reply) override;
 
 private:
-    uint8_t gear;
+    uint8_t gear = 0;
 };
 
 #endif
