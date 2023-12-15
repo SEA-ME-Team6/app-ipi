@@ -5,15 +5,18 @@ import QtApplicationManager 2.0
 import QtApplicationManager.Application 2.0
 
 ApplicationManagerWindow{
+
     Component.onCompleted: {
-        lightIntentTimer.start();
+        intenttimer.start();
     }
 
     Timer {
-        id: lightIntentTimer
+        id: intenttimer
         interval: 100
         repeat: true
-        onTriggered: sendHuLightIntent()
+        onTriggered: {
+            sendHuLightIntent()
+        }
     }
 
     function sendHuLightIntent() {
@@ -25,7 +28,6 @@ ApplicationManagerWindow{
                 head_light_right.visible = lightValue;
             }
             else{
-                test.visible = false
                 console.error("Intent request failed:", request.errorMessage);
             }
         });
@@ -46,6 +48,7 @@ ApplicationManagerWindow{
                 topMargin: 100
             }
             source: "images/head_light.png"
+            visible: false
         }
 
         Image {
@@ -58,6 +61,7 @@ ApplicationManagerWindow{
                 topMargin: 100
             }
             source: "images/head_light.png"
+            visible: false
         }
 
         Image {

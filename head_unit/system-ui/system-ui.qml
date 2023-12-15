@@ -1,9 +1,12 @@
 
-import QtQuick 2.4
+import QtQuick 2.2
 import QtQuick.Window 2.1
-import QtGraphicalEffects 1.0
+import QtQuick.Controls 2.2
 import QtApplicationManager 2.0
 import QtApplicationManager.SystemUI 2.0
+
+import QtQml 2.15
+
 
 import User.HUSystem 1.0
 
@@ -13,6 +16,31 @@ Window {
     height: 600
     visible: true
     color: "black"
+
+    Component.onCompleted: {
+        timetimer.start();
+    }
+
+    Timer {
+        id: timetimer
+        interval: 500
+        repeat: true
+        onTriggered: {
+            updateTime()
+        }
+    }
+
+    function updateTime() {
+        timeText.text = Qt.formatDateTime(new Date(), "dd.MM.yyyy hh:mm:ss");
+    }
+
+    Text {
+        id: timeText
+        color: "white"
+        anchors.right: parent.right
+        anchors.top: parent.top
+        font.pixelSize: 20
+    }
 
     IntentServerHandler {
         intentIds: [ "get-color" ]

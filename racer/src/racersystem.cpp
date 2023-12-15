@@ -85,3 +85,7 @@ float RacerSystem::getSteering() {
 float RacerSystem::getThrottle() {
     return throttle;
 }
+
+uint8_t RacerSystem::getGear(){
+    return gearService->getGear();
+}

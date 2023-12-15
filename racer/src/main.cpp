@@ -7,7 +7,6 @@
 int main() {
     Racer* racer = new Racer;
     RacerSystem* racersystem = new RacerSystem();
-    GearStubImpl* gearstubimpl = new GearStubImpl();
 
     float steering = 0.0;
     float throttle = 0.0;
@@ -17,8 +16,8 @@ int main() {
         steering = racersystem->getSteering();
         throttle = racersystem->getThrottle();
 
-        gear = gearstubimpl->getGear();
-        std::cout << "racer receive gear to : " << (int)gear << std::endl;
+        gear = racersystem->getGear();
+        std::cout << "racer receive gear to : " << gear << std::endl;
 
         if(gear == 0 or gear == 2)
             throttle = 0;

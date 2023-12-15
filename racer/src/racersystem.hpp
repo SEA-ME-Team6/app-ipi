@@ -21,6 +21,7 @@ public:
 
     float getSteering();
     float getThrottle();
+    uint8_t getGear();
     
 private:
     float steering;

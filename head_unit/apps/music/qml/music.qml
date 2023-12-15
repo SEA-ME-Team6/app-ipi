@@ -124,49 +124,18 @@ ApplicationManagerWindow {
             topMargin: 40
             right: parent.right
         }
-        width: 400
-        height: 350
+        width: 300
+        height: 320
         color: "#a1a1a3"
         opacity: 0.4
         border.color: "black"
         border.width: 0.5
         radius: 10
 
-        Slider {
-            id: volume_slider
-            anchors {
-                top: parent.bottom
-                topMargin: 20
-                horizontalCenter: parent.horizontalCenter
-            }
-            width: 340
-            from: 0
-            to: 1
-            value: mediaPlayer.volume
-            onValueChanged: {
-                mediaPlayer.volume = value
-            }
-        }
-        
-        Text {
-            id: currentlyPlayingText
-            anchors {
-                horizontalCenter: parent.horizontalCenter
-                top: parent.top
-                topMargin: 230
-            }
-            text: (playlistModel.get(playlistView.currentIndex) ? playlistModel.get(playlistView.currentIndex).title : "")
-            color: "white"
-            font.pixelSize: 16
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignVCenter
-            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-        }
-
         Image {
             id: playingimg
-            width: 200
-            height: 200
+            width: 180
+            height: 180
             source: "images/musicplaying.jpg"
             visible: currentlyPlayingText.text !== ""
             anchors {
@@ -176,13 +145,27 @@ ApplicationManagerWindow {
             }
         }
 
-        Slider {
-            id: playerPosition
-            width: 340
+        Text {
+            id: currentlyPlayingText
             anchors {
                 horizontalCenter: parent.horizontalCenter
-                top: parent.top
-                topMargin: 250
+                top: playingimg.bottom
+                topMargin: 5
+            }
+            text: (playlistModel.get(playlistView.currentIndex) ? playlistModel.get(playlistView.currentIndex).title : "")
+            color: "white"
+            font.pixelSize: 16
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+        }
+
+        Slider {
+            id: playerPosition
+            width: 250
+            anchors {
+                horizontalCenter: parent.horizontalCenter
+                top: currentlyPlayingText.bottom
             }
             from: 0
             to: mediaPlayer.duration
@@ -190,15 +173,14 @@ ApplicationManagerWindow {
             onValueChanged: {
                 mediaPlayer.seek(value)
             }
-
         }
 
         Row {
+            id: tools
             spacing: 50
             anchors {
                 horizontalCenter: parent.horizontalCenter
-                top: parent.top
-                topMargin: 280
+                top: playerPosition.bottom
             }
 
             Button {
@@ -250,6 +232,22 @@ ApplicationManagerWindow {
                         playlistView.currentIndex = newIndex;
                     }
                 }
+            }
+        }
+
+        Slider {
+            id: volume_slider
+            anchors {
+                horizontalCenter: parent.horizontalCenter
+                top: tools.bottom
+                topMargin: 7
+            }
+            width: 250
+            from: 0
+            to: 1
+            value: mediaPlayer.volume
+            onValueChanged: {
+                mediaPlayer.volume = value
             }
         }
     }
