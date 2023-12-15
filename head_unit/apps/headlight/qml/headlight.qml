@@ -5,23 +5,6 @@ import QtApplicationManager 2.0
 import QtApplicationManager.Application 2.0
 
 ApplicationManagerWindow{
-
-    function sendHuLightIntent() {
-        var request = IntentClient.sendIntentRequest("set-light", {});
-        request.onReplyReceived.connect(function() {
-            if (request.succeeded) {
-                var lightValue = request.result.huLightValue;
-                head_light_left.visible = lightValue;
-                head_light_right.visible = lightValue;
-            }
-            else{
-                test.visible = false
-                console.error("Intent request failed:", request.errorMessage);
-            }
-
-        });
-    }
-
     Component.onCompleted: {
         lightIntentTimer.start();
     }
@@ -33,6 +16,21 @@ ApplicationManagerWindow{
         onTriggered: sendHuLightIntent()
     }
 
+    function sendHuLightIntent() {
+        var request = IntentClient.sendIntentRequest("get-light", {});
+        request.onReplyReceived.connect(function() {
+            if (request.succeeded) {
+                var lightValue = request.result.huLightValue;
+                head_light_left.visible = lightValue;
+                head_light_right.visible = lightValue;
+            }
+            else{
+                test.visible = false
+                console.error("Intent request failed:", request.errorMessage);
+            }
+        });
+    }
+
     Image{
         id:background
         width: parent.width
@@ -40,18 +38,24 @@ ApplicationManagerWindow{
         source: "images/benz.jpg"
         Image{
             id:head_light_left
+            width: 400
+            height: 222
             anchors{
-                verticalCenter: parent.verticalCenter
                 left: parent.left
+                top: parent.top
+                topMargin: 100
             }
             source: "images/head_light.png"
         }
 
         Image {
             id:head_light_right
+            width: 400
+            height: 222
             anchors{
-                verticalCenter: parent.verticalCenter
                 right: parent.right
+                top: parent.top
+                topMargin: 100
             }
             source: "images/head_light.png"
         }
@@ -63,9 +67,5 @@ ApplicationManagerWindow{
             }
             source: "images/ground_shadow.png"
         }
-    }
-    Image{
-        id: test
-        source: "images/d_red.png"
     }
 }

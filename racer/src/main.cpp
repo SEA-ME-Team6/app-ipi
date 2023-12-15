@@ -1,11 +1,11 @@
 #include <unistd.h>
 #include <iostream>
-// #include "racer.h"
+#include "racer.h"
 #include "racersystem.hpp"
 #include "gearstubImpl.hpp"
 
 int main() {
-    // Racer* racer = new Racer;
+    Racer* racer = new Racer;
     RacerSystem* racersystem = new RacerSystem();
     GearStubImpl* gearstubimpl = new GearStubImpl();
 
@@ -18,19 +18,19 @@ int main() {
         throttle = racersystem->getThrottle();
 
         gear = gearstubimpl->getGear();
-        if(gear == 1)
-            throttle *= (-1);
-        else if(gear == 0 or gear == 2)
-            throttle = 0;
-        else
-            ;
+        std::cout << "racer receive gear to : " << gear << std::endl;
 
-        // racer->set_steering_percent(steering);
-        // racer->set_throttle_percent(throttle);
+        if(gear == 0 or gear == 2)
+            throttle = 0;
+        else if(gear == 1)
+            throttle *= (-1);
+
+        racer->set_steering_percent(steering);
+        racer->set_throttle_percent(throttle);
     }
     
     delete racersystem;
-    // delete racer;
+    delete racer;
 
     return 0;
 }
