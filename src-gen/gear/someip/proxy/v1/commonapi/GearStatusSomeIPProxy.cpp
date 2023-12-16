@@ -60,9 +60,9 @@ GearStatusSomeIPProxy::GearAttribute& GearStatusSomeIPProxy::getGearAttribute() 
 }
 
 
-void GearStatusSomeIPProxy::gearselection(uint8_t _gearselect, CommonAPI::CallStatus &_internalCallStatus, uint8_t &_gear, const CommonAPI::CallInfo *_info) {
-    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_gearselect(_gearselect, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
-    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_gear(static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+void GearStatusSomeIPProxy::gearselection(uint8_t _gear, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info) {
+    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_gear(_gear, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+    CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment> deploy_message(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr));
     CommonAPI::SomeIP::ProxyHelper<
         CommonAPI::SomeIP::SerializableArguments<
             CommonAPI::Deployable<
@@ -72,8 +72,8 @@ void GearStatusSomeIPProxy::gearselection(uint8_t _gearselect, CommonAPI::CallSt
         >,
         CommonAPI::SomeIP::SerializableArguments<
             CommonAPI::Deployable<
-                uint8_t,
-                CommonAPI::SomeIP::IntegerDeployment<uint8_t>
+                std::string,
+                CommonAPI::SomeIP::StringDeployment
             >
         >
     >::callMethodWithReply(
@@ -82,15 +82,15 @@ void GearStatusSomeIPProxy::gearselection(uint8_t _gearselect, CommonAPI::CallSt
         false,
         false,
         (_info ? _info : &CommonAPI::SomeIP::defaultCallInfo),
-        deploy_gearselect,
+        deploy_gear,
         _internalCallStatus,
-        deploy_gear);
-    _gear = deploy_gear.getValue();
+        deploy_message);
+    _message = deploy_message.getValue();
 }
 
-std::future<CommonAPI::CallStatus> GearStatusSomeIPProxy::gearselectionAsync(const uint8_t &_gearselect, GearselectionAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
-    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_gearselect(_gearselect, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
-    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_gear(static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+std::future<CommonAPI::CallStatus> GearStatusSomeIPProxy::gearselectionAsync(const uint8_t &_gear, GearselectionAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
+    CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t>> deploy_gear(_gear, static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr));
+    CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment> deploy_message(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr));
     return CommonAPI::SomeIP::ProxyHelper<
         CommonAPI::SomeIP::SerializableArguments<
             CommonAPI::Deployable<
@@ -100,8 +100,8 @@ std::future<CommonAPI::CallStatus> GearStatusSomeIPProxy::gearselectionAsync(con
         >,
         CommonAPI::SomeIP::SerializableArguments<
             CommonAPI::Deployable<
-                uint8_t,
-                CommonAPI::SomeIP::IntegerDeployment<uint8_t>
+                std::string,
+                CommonAPI::SomeIP::StringDeployment
             >
         >
     >::callMethodAsync(
@@ -110,12 +110,12 @@ std::future<CommonAPI::CallStatus> GearStatusSomeIPProxy::gearselectionAsync(con
         false,
         false,
         (_info ? _info : &CommonAPI::SomeIP::defaultCallInfo),
-        deploy_gearselect,
-        [_callback] (CommonAPI::CallStatus _internalCallStatus, CommonAPI::Deployable< uint8_t, CommonAPI::SomeIP::IntegerDeployment<uint8_t> > _gear) {
+        deploy_gear,
+        [_callback] (CommonAPI::CallStatus _internalCallStatus, CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment > _message) {
             if (_callback)
-                _callback(_internalCallStatus, _gear.getValue());
+                _callback(_internalCallStatus, _message.getValue());
         },
-        std::make_tuple(deploy_gear));
+        std::make_tuple(deploy_message));
 }
 
 void GearStatusSomeIPProxy::getOwnVersion(uint16_t& ownVersionMajor, uint16_t& ownVersionMinor) const {

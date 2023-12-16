@@ -4,6 +4,10 @@ import "light.fidl"
 define org.genivi.commonapi.someip.deployment for interface commonapi.LightStatus {
     SomeIpServiceID = 4665
 
+    method changedlight {
+        SomeIpMethodID = 2111
+    }
+
     attribute light {
         SomeIpGetterID = 3103
         SomeIpSetterID = 3104
@@ -17,14 +21,8 @@ define org.genivi.commonapi.someip.deployment for interface commonapi.LightStatu
 
 define org.genivi.commonapi.someip.deployment for provider as Service {
     instance commonapi.LightStatus {
-        InstanceId = "LightStatus_from_gamepad"
+        InstanceId = "LightStatus"
 
         SomeIpInstanceID = 22141
-    }
-
-    instance commonapi.LightStatus {
-        InstanceId = "LightStatus_from_racer"
-
-        SomeIpInstanceID = 22142
     }
 }

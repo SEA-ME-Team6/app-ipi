@@ -65,6 +65,14 @@ public:
         bool
     > setLightAttributeStubDispatcher;
     
+    CommonAPI::SomeIP::MethodWithReplyStubDispatcher<
+        ::v1::commonapi::LightStatusStub,
+        std::tuple< bool>,
+        std::tuple< std::string>,
+        std::tuple< CommonAPI::EmptyDeployment>,
+        std::tuple< CommonAPI::SomeIP::StringDeployment>
+    > changedlightStubDispatcher;
+    
     LightStatusSomeIPStubAdapterInternal(
         const CommonAPI::SomeIP::Address &_address,
         const std::shared_ptr<CommonAPI::SomeIP::ProxyConnection> &_connection,
@@ -79,7 +87,7 @@ public:
             &::v1::commonapi::LightStatusStub::lockLightAttribute,
             &::v1::commonapi::LightStatusStub::getLightAttribute,
             false,
-            _stub->hasElement(0)),
+            _stub->hasElement(1)),
         setLightAttributeStubDispatcher(
             &::v1::commonapi::LightStatusStub::lockLightAttribute,
             &::v1::commonapi::LightStatusStub::getLightAttribute,
@@ -87,14 +95,23 @@ public:
             &LightStatusStubRemoteEvent::onRemoteLightAttributeChanged,
             &LightStatusStubAdapter::fireLightAttributeChanged,
             false,
-            _stub->hasElement(0))
+            _stub->hasElement(1))
+        ,
+        changedlightStubDispatcher(
+            &LightStatusStub::changedlight,
+            false,
+            _stub->hasElement(0),
+            std::make_tuple(static_cast< CommonAPI::EmptyDeployment* >(nullptr)),
+            std::make_tuple(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr)))
+        
     {
         LightStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0xc1f) }, &getLightAttributeStubDispatcher );
         LightStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0xc20) }, &setLightAttributeStubDispatcher );
+        LightStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0x83f) }, &changedlightStubDispatcher );
         std::shared_ptr<CommonAPI::SomeIP::ClientId> itsClient = std::make_shared<CommonAPI::SomeIP::ClientId>(0xFFFF, 0xFFFFFFFF, 0xFFFFFFFF);
 
         // Provided events/fields
-        if (_stub->hasElement(0)) {
+        if (_stub->hasElement(1)) {
             std::set<CommonAPI::SomeIP::eventgroup_id_t> itsEventGroups;
             itsEventGroups.insert(CommonAPI::SomeIP::eventgroup_id_t(CommonAPI::SomeIP::eventgroup_id_t(0x84dd)));
             CommonAPI::SomeIP::StubAdapter::registerEvent(CommonAPI::SomeIP::event_id_t(0x84dd), itsEventGroups, CommonAPI::SomeIP::event_type_e::ET_FIELD, CommonAPI::SomeIP::reliability_type_e::RT_UNRELIABLE);

@@ -60,6 +60,12 @@ public:
         return &remoteEventHandler_;
     }
 
+    COMMONAPI_EXPORT virtual void changedlight(const std::shared_ptr<CommonAPI::ClientId> _client, bool _light, changedlightReply_t _reply) {
+        (void)_client;
+        (void)_light;
+        std::string message = "";
+        _reply(message);
+    }
     COMMONAPI_EXPORT virtual const bool &getLightAttribute() {
         return lightAttributeValue_;
     }

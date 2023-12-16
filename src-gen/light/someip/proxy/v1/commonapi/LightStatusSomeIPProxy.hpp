@@ -56,6 +56,10 @@ public:
 
     virtual LightAttribute& getLightAttribute();
 
+    virtual void changedlight(bool _light, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info);
+
+    virtual std::future<CommonAPI::CallStatus> changedlightAsync(const bool &_light, ChangedlightAsyncCallback _callback, const CommonAPI::CallInfo *_info);
+
     virtual void getOwnVersion(uint16_t &_major, uint16_t &_minor) const;
 
     virtual std::future<void> getCompletionFuture();

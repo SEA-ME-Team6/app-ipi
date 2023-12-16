@@ -18,8 +18,7 @@ include_directories(
     ../src-gen/moving/core/stub
     ../src-gen/moving/core/skel
     ../src-gen/light/core/common
-    ../src-gen/light/core/stub
-    ../src-gen/light/core/skel
+    ../src-gen/light/core/proxy
     ${PYTHON_INCLUDE_DIRS}
 )
 
@@ -28,7 +27,6 @@ add_executable(gamepad
     src/gamepad.cpp
     src/gamepadsystem.cpp
     src/movingstubImpl.cpp
-    src/lightstubImpl.cpp
 )
 
 target_link_libraries(gamepad

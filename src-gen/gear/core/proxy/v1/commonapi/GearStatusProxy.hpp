@@ -79,7 +79,7 @@ public:
      * "SUCCESS" or which type of error has occurred. In case of an error, ONLY the CallStatus
      * will be set.
      */
-    virtual void gearselection(uint8_t _gearselect, CommonAPI::CallStatus &_internalCallStatus, uint8_t &_gear, const CommonAPI::CallInfo *_info = nullptr);
+    virtual void gearselection(uint8_t _gear, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info = nullptr);
     /**
      * Calls gearselection with asynchronous semantics.
      *
@@ -90,7 +90,7 @@ public:
      * The std::future returned by this method will be fulfilled at arrival of the reply.
      * It will provide the same value for CallStatus as will be handed to the callback.
      */
-    virtual std::future<CommonAPI::CallStatus> gearselectionAsync(const uint8_t &_gearselect, GearselectionAsyncCallback _callback = nullptr, const CommonAPI::CallInfo *_info = nullptr);
+    virtual std::future<CommonAPI::CallStatus> gearselectionAsync(const uint8_t &_gear, GearselectionAsyncCallback _callback = nullptr, const CommonAPI::CallInfo *_info = nullptr);
     /**
      * Returns the wrapper class that provides access to the attribute gear.
      */
@@ -142,13 +142,13 @@ GearStatusProxy<_AttributeExtensions...>::~GearStatusProxy() {
 }
 
 template <typename ... _AttributeExtensions>
-void GearStatusProxy<_AttributeExtensions...>::gearselection(uint8_t _gearselect, CommonAPI::CallStatus &_internalCallStatus, uint8_t &_gear, const CommonAPI::CallInfo *_info) {
-    delegate_->gearselection(_gearselect, _internalCallStatus, _gear, _info);
+void GearStatusProxy<_AttributeExtensions...>::gearselection(uint8_t _gear, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info) {
+    delegate_->gearselection(_gear, _internalCallStatus, _message, _info);
 }
 
 template <typename ... _AttributeExtensions>
-std::future<CommonAPI::CallStatus> GearStatusProxy<_AttributeExtensions...>::gearselectionAsync(const uint8_t &_gearselect, GearselectionAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
-    return delegate_->gearselectionAsync(_gearselect, _callback, _info);
+std::future<CommonAPI::CallStatus> GearStatusProxy<_AttributeExtensions...>::gearselectionAsync(const uint8_t &_gear, GearselectionAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
+    return delegate_->gearselectionAsync(_gear, _callback, _info);
 }
 
 template <typename ... _AttributeExtensions>

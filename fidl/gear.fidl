@@ -5,10 +5,10 @@ interface GearStatus {
 
     method gearselection {
         in {
-            UInt8 gearselect
+            UInt8 gear
         }
         out {
-            UInt8 gear
+            String message
         }
     }
 

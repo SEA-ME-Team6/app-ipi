@@ -56,9 +56,9 @@ public:
 
     virtual GearAttribute& getGearAttribute();
 
-    virtual void gearselection(uint8_t _gearselect, CommonAPI::CallStatus &_internalCallStatus, uint8_t &_gear, const CommonAPI::CallInfo *_info);
+    virtual void gearselection(uint8_t _gear, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info);
 
-    virtual std::future<CommonAPI::CallStatus> gearselectionAsync(const uint8_t &_gearselect, GearselectionAsyncCallback _callback, const CommonAPI::CallInfo *_info);
+    virtual std::future<CommonAPI::CallStatus> gearselectionAsync(const uint8_t &_gear, GearselectionAsyncCallback _callback, const CommonAPI::CallInfo *_info);
 
     virtual void getOwnVersion(uint16_t &_major, uint16_t &_minor) const;
 

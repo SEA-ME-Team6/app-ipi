@@ -10,6 +10,7 @@ int main() {
     float steering = 0;
     float throttle = 0;
     bool light = false;
+    bool previous_light = false;
     
     while(true){
         gamepad->read_data(); 
@@ -24,7 +25,11 @@ int main() {
 
         gamepadsystem->setSteeringAttribute(steering);
         gamepadsystem->setThrottleAttribute(throttle);
-        gamepadsystem->setLightAttribute(light);
+
+        if (light != previous_light) {
+            gamepadsystem->setLight(light);
+            previous_light = light; 
+        }
     }
     
     return 0;

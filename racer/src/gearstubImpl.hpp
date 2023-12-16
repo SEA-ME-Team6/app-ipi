@@ -8,9 +8,10 @@ class GearStubImpl : public v1_0::commonapi:: GearStatusStubDefault {
 
 public:
     GearStubImpl();
+    ~GearStubImpl();
     uint8_t getGear();
     virtual void gearselection(const std::shared_ptr<CommonAPI::ClientId> _client,
-                               uint8_t _gearselect,
+                               uint8_t _gear,
                                gearselectionReply_t _reply) override;
 
 private:

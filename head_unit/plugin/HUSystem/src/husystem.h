@@ -18,26 +18,26 @@ class HUSystem: public QObject{
 
 public:
     HUSystem();
+
     bool getLight() const;
     quint8 getGear() const;
 
 public slots:
-    void changegear(quint8 gearselect);
+    void changegear(quint8 gear);
 
 signals:
     void lightChanged();
     void gearChanged();
 
 private:
-
+    float rpm_check = 0.0;
+    bool light = false;
+    quint8 gear = 0;
+    
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<GearStatusProxy<>> gearProxy;
     std::shared_ptr<RPMStatusProxy<>> rpmProxy;
     std::shared_ptr<LightStatusProxy<>> lightProxy;
-
-    float rpm_check = 0.0;
-    bool light = false;
-    quint8 gear = 0;
 };
 
 #endif // GEARCLIENT_HPP

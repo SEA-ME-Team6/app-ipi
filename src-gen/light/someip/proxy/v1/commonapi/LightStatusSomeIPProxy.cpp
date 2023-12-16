@@ -32,11 +32,8 @@ std::shared_ptr<CommonAPI::SomeIP::Proxy> createLightStatusSomeIPProxy(
 
 void initializeLightStatusSomeIPProxy() {
     CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad",
+        "local:commonapi.LightStatus:v1_0:LightStatus",
         0x1239, 0x567d, 1, 0);
-    CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.LightStatus:v1_0:LightStatus_from_racer",
-        0x1239, 0x567e, 1, 0);
     CommonAPI::SomeIP::Factory::get()->registerProxyCreateMethod(
         "commonapi.LightStatus:v1_0",
         &createLightStatusSomeIPProxy);
@@ -62,6 +59,64 @@ LightStatusSomeIPProxy::LightAttribute& LightStatusSomeIPProxy::getLightAttribut
     return light_;
 }
 
+
+void LightStatusSomeIPProxy::changedlight(bool _light, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info) {
+    CommonAPI::Deployable< bool, CommonAPI::EmptyDeployment> deploy_light(_light, static_cast< CommonAPI::EmptyDeployment* >(nullptr));
+    CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment> deploy_message(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr));
+    CommonAPI::SomeIP::ProxyHelper<
+        CommonAPI::SomeIP::SerializableArguments<
+            CommonAPI::Deployable<
+                bool,
+                CommonAPI::EmptyDeployment
+            >
+        >,
+        CommonAPI::SomeIP::SerializableArguments<
+            CommonAPI::Deployable<
+                std::string,
+                CommonAPI::SomeIP::StringDeployment
+            >
+        >
+    >::callMethodWithReply(
+        *this,
+        CommonAPI::SomeIP::method_id_t(0x83f),
+        false,
+        false,
+        (_info ? _info : &CommonAPI::SomeIP::defaultCallInfo),
+        deploy_light,
+        _internalCallStatus,
+        deploy_message);
+    _message = deploy_message.getValue();
+}
+
+std::future<CommonAPI::CallStatus> LightStatusSomeIPProxy::changedlightAsync(const bool &_light, ChangedlightAsyncCallback _callback, const CommonAPI::CallInfo *_info) {
+    CommonAPI::Deployable< bool, CommonAPI::EmptyDeployment> deploy_light(_light, static_cast< CommonAPI::EmptyDeployment* >(nullptr));
+    CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment> deploy_message(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr));
+    return CommonAPI::SomeIP::ProxyHelper<
+        CommonAPI::SomeIP::SerializableArguments<
+            CommonAPI::Deployable<
+                bool,
+                CommonAPI::EmptyDeployment
+            >
+        >,
+        CommonAPI::SomeIP::SerializableArguments<
+            CommonAPI::Deployable<
+                std::string,
+                CommonAPI::SomeIP::StringDeployment
+            >
+        >
+    >::callMethodAsync(
+        *this,
+        CommonAPI::SomeIP::method_id_t(0x83f),
+        false,
+        false,
+        (_info ? _info : &CommonAPI::SomeIP::defaultCallInfo),
+        deploy_light,
+        [_callback] (CommonAPI::CallStatus _internalCallStatus, CommonAPI::Deployable< std::string, CommonAPI::SomeIP::StringDeployment > _message) {
+            if (_callback)
+                _callback(_internalCallStatus, _message.getValue());
+        },
+        std::make_tuple(deploy_message));
+}
 
 void LightStatusSomeIPProxy::getOwnVersion(uint16_t& ownVersionMajor, uint16_t& ownVersionMinor) const {
     ownVersionMajor = 1;

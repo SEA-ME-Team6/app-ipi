@@ -70,9 +70,9 @@ public:
     CommonAPI::SomeIP::MethodWithReplyStubDispatcher<
         ::v1::commonapi::GearStatusStub,
         std::tuple< uint8_t>,
-        std::tuple< uint8_t>,
+        std::tuple< std::string>,
         std::tuple< CommonAPI::SomeIP::IntegerDeployment<uint8_t>>,
-        std::tuple< CommonAPI::SomeIP::IntegerDeployment<uint8_t>>
+        std::tuple< CommonAPI::SomeIP::StringDeployment>
     > gearselectionStubDispatcher;
     
     GearStatusSomeIPStubAdapterInternal(
@@ -104,7 +104,7 @@ public:
             false,
             _stub->hasElement(0),
             std::make_tuple(static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr)),
-            std::make_tuple(static_cast< CommonAPI::SomeIP::IntegerDeployment<uint8_t>* >(nullptr)))
+            std::make_tuple(static_cast< CommonAPI::SomeIP::StringDeployment* >(nullptr)))
         
     {
         GearStatusSomeIPStubAdapterHelper::addStubDispatcher( { CommonAPI::SomeIP::method_id_t(0xbbb) }, &getGearAttributeStubDispatcher );

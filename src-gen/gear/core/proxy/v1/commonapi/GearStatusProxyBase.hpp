@@ -39,10 +39,10 @@ class GearStatusProxyBase
 public:
     typedef CommonAPI::ObservableAttribute<uint8_t> GearAttribute;
 
-    typedef std::function<void(const CommonAPI::CallStatus&, const uint8_t&)> GearselectionAsyncCallback;
+    typedef std::function<void(const CommonAPI::CallStatus&, const std::string&)> GearselectionAsyncCallback;
 
-    virtual void gearselection(uint8_t _gearselect, CommonAPI::CallStatus &_internalCallStatus, uint8_t &_gear, const CommonAPI::CallInfo *_info = nullptr) = 0;
-    virtual std::future<CommonAPI::CallStatus> gearselectionAsync(const uint8_t &_gearselect, GearselectionAsyncCallback _callback = nullptr, const CommonAPI::CallInfo *_info = nullptr) = 0;
+    virtual void gearselection(uint8_t _gear, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info = nullptr) = 0;
+    virtual std::future<CommonAPI::CallStatus> gearselectionAsync(const uint8_t &_gear, GearselectionAsyncCallback _callback = nullptr, const CommonAPI::CallInfo *_info = nullptr) = 0;
     virtual GearAttribute& getGearAttribute() = 0;
 
     virtual std::future<void> getCompletionFuture() = 0;

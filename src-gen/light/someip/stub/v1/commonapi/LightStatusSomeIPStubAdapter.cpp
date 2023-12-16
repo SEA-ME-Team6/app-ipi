@@ -34,11 +34,8 @@ std::shared_ptr<CommonAPI::SomeIP::StubAdapter> createLightStatusSomeIPStubAdapt
 
 void initializeLightStatusSomeIPStubAdapter() {
     CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.LightStatus:v1_0:LightStatus_from_gamepad",
+        "local:commonapi.LightStatus:v1_0:LightStatus",
          0x1239, 0x567d, 1, 0);
-    CommonAPI::SomeIP::AddressTranslator::get()->insert(
-        "local:commonapi.LightStatus:v1_0:LightStatus_from_racer",
-         0x1239, 0x567e, 1, 0);
     CommonAPI::SomeIP::Factory::get()->registerStubAdapterCreateMethod(
         "commonapi.LightStatus:v1_0",
         &createLightStatusSomeIPStubAdapter);

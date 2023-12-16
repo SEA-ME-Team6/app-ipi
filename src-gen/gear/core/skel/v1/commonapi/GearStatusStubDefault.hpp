@@ -60,11 +60,11 @@ public:
         return &remoteEventHandler_;
     }
 
-    COMMONAPI_EXPORT virtual void gearselection(const std::shared_ptr<CommonAPI::ClientId> _client, uint8_t _gearselect, gearselectionReply_t _reply) {
+    COMMONAPI_EXPORT virtual void gearselection(const std::shared_ptr<CommonAPI::ClientId> _client, uint8_t _gear, gearselectionReply_t _reply) {
         (void)_client;
-        (void)_gearselect;
-        uint8_t gear = 0u;
-        _reply(gear);
+        (void)_gear;
+        std::string message = "";
+        _reply(message);
     }
     COMMONAPI_EXPORT virtual const uint8_t &getGearAttribute() {
         return gearAttributeValue_;

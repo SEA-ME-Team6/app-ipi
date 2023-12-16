@@ -21,7 +21,6 @@ include_directories(
     ../src-gen/moving/core/common
     ../src-gen/moving/core/proxy
     ../src-gen/light/core/common
-    ../src-gen/light/core/proxy
     ../src-gen/light/core/stub
     ../src-gen/light/core/skel
     ${PYTHON_INCLUDE_DIRS}

@@ -19,9 +19,12 @@
 #define HAS_DEFINED_COMMONAPI_INTERNAL_COMPILATION_HERE
 #endif
 
+#include <vector>
 
 #include <CommonAPI/Attribute.hpp>
 #include <CommonAPI/Proxy.hpp>
+#include <functional>
+#include <future>
 
 #if defined (HAS_DEFINED_COMMONAPI_INTERNAL_COMPILATION_HERE)
 #undef COMMONAPI_INTERNAL_COMPILATION
@@ -36,7 +39,10 @@ class LightStatusProxyBase
 public:
     typedef CommonAPI::ObservableAttribute<bool> LightAttribute;
 
+    typedef std::function<void(const CommonAPI::CallStatus&, const std::string&)> ChangedlightAsyncCallback;
 
+    virtual void changedlight(bool _light, CommonAPI::CallStatus &_internalCallStatus, std::string &_message, const CommonAPI::CallInfo *_info = nullptr) = 0;
+    virtual std::future<CommonAPI::CallStatus> changedlightAsync(const bool &_light, ChangedlightAsyncCallback _callback = nullptr, const CommonAPI::CallInfo *_info = nullptr) = 0;
     virtual LightAttribute& getLightAttribute() = 0;
 
     virtual std::future<void> getCompletionFuture() = 0;
