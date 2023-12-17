@@ -12,7 +12,7 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
     //rpm proxy
     std::string rpm_instance = "RPMStatus";
     std::string rpm_connection = "client-rpm";
-    rpmProxy = runtime->buildProxy<RPMStatusProxy>(domain, rpm_instance, rpm_connection);
+    rpmProxy = runtime->buildProxy<RPMStatusProxy>(domain, rpm_instance, rpm_connection); 
     while (!rpmProxy->isAvailable()) {
         std::cout << "Waiting for RPM service to become available." << std::endl;
     }

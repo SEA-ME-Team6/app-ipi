@@ -16,7 +16,7 @@ public:
     void setLight(bool light);
     
 private:
-    bool light;
+    bool light = false;
     std::shared_ptr<CommonAPI::Runtime> runtime;
     std::shared_ptr<MovingStubImpl> movingService;
     std::shared_ptr<LightStatusProxy<>> lightProxy;

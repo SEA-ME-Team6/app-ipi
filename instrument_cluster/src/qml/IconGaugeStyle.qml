@@ -123,7 +123,7 @@ DashboardGaugeStyle {
 
         Text {
             id: batteryText
-            font.pixelSize: tachometerStyle.toPixels(0.3)
+            font.pixelSize: fuelGaugeStyle.toPixels(0.3)
             text: bat
             color: "white"
             horizontalAlignment: Text.Alignleft
@@ -138,7 +138,7 @@ DashboardGaugeStyle {
         Text {
             text: "%"
             color: "white"
-            font.pixelSize: tachometerStyle.toPixels(0.01)
+            font.pixelSize: fuelGaugeStyle.toPixels(0.1)
             anchors.top: batteryText.bottom
             anchors.horizontalCenter: parent.horizontalCenter
         }

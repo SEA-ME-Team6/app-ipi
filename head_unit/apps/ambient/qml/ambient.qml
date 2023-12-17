@@ -9,7 +9,7 @@ ApplicationManagerWindow {
     id: ambient
     color: "black"
 
-    property string ambient_color: "#808080"
+    property string ambient_color: "#030000"
 
     Component.onCompleted: {
         sendInitialColortIntent();
@@ -61,7 +61,7 @@ ApplicationManagerWindow {
             id: redSlider
             from: 0
             to: 255
-            value: 128
+            value: 0
             stepSize: 1
             onValueChanged: {
                 ambient.ambient_color = "#" + (redSlider.value.toString(16).length === 1 ? "0" : "") + redSlider.value.toString(16) + ambient.ambient_color.substring(3, 7)
@@ -73,7 +73,7 @@ ApplicationManagerWindow {
             id: greenSlider
             from: 0
             to: 255
-            value: 128
+            value: 0
             stepSize: 1
             onValueChanged: {
                 ambient.ambient_color = "#" + ambient.ambient_color.substring(1, 3) + (greenSlider.value.toString(16).length === 1 ? "0" : "") + greenSlider.value.toString(16) + ambient.ambient_color.substring(5, 7)
@@ -86,7 +86,7 @@ ApplicationManagerWindow {
             id: blueSlider
             from: 0
             to: 255
-            value: 128
+            value: 0
             stepSize: 1
             onValueChanged: {
                 ambient.ambient_color = "#" + ambient.ambient_color.substring(1, 5) + (blueSlider.value.toString(16).length === 1 ? "0" : "") + blueSlider.value.toString(16)

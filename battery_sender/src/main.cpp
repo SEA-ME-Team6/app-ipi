@@ -10,7 +10,7 @@ int main() {
 
     while(true){
         batterystatus = battery->get_battery_voltage();
-        //std::cout << "battery: " << batterystatus << std::endl;
+        std::cout << "battery: " << batterystatus << std::endl;
         batterysystem->setBattery(batterystatus);
         sleep(0.5);
     }
