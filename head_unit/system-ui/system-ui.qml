@@ -15,7 +15,10 @@ Window {
     width: 1024
     height: 600
     visible: true
-    color: "black"
+    color: ambient_color
+
+    property string ambient_color: "#000000"
+
 
     Component.onCompleted: {
         timetimer.start();
@@ -47,7 +50,7 @@ Window {
         visibility: IntentObject.Public
         onRequestReceived: {
             var changedcolor = request.parameters.abColorValue;
-            root.color = changedcolor
+            root.ambient_color = changedcolor
             request.sendReply({ "done": true });
         }
     }
@@ -56,7 +59,7 @@ Window {
         intentIds: [ "get-initialcolor" ]
         visibility: IntentObject.Public
         onRequestReceived: {
-            request.sendReply({ abIniColorValue: root.color});
+            request.sendReply({ abIniColorValue: root.ambient_color});
         }
     }
 

@@ -1,12 +1,12 @@
 #include <unistd.h>
 #include <iostream>
 #include <typeinfo>
-#include "racer.h"
+//#include "racer.h"
 #include "racersystem.hpp"
 #include "gearstubImpl.hpp"
 
 int main() {
-    Racer* racer = new Racer;
+    //Racer* racer = new Racer;
     RacerSystem* racersystem = new RacerSystem();
 
     float steering = 0.0;
@@ -29,13 +29,13 @@ int main() {
         else if(gear == 1)
             throttle *= (-1);
 
-        racer->set_steering_percent(steering);
-        racer->set_throttle_percent(throttle);
+        //racer->set_steering_percent(steering);
+        //racer->set_throttle_percent(throttle);
 
     }
     
     delete racersystem;
-    delete racer;
+    //delete racer;
 
     return 0;
 }

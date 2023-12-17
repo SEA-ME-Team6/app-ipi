@@ -12,7 +12,7 @@ ApplicationManagerWindow {
     property string ambient_color: "#808080"
 
     Component.onCompleted: {
-        //sendInitialColortIntent();
+        sendInitialColortIntent();
     }
 
     function sendColortIntent() {
