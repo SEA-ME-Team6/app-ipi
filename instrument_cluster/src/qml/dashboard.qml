@@ -92,7 +92,7 @@ Window {
         
         Item {
             anchors{
-                horizontalCenter: parent.horizontalCenter
+                horizontalCenter: root.horizontalCenter
                 top: parent.top
                 topMargin: parent.width * 0.08
             }
@@ -100,24 +100,32 @@ Window {
             Image {
                 id: p_gear
                 source: "qrc:/images/p.png"
+                width: 50
+                height: 50
                 visible: valueSource.gear === 0
             }
 
             Image {
                 id: r_gear
                 source: "qrc:/images/r.png"
+                width: 50
+                height: 50
                 visible: valueSource.gear === 1
             }
 
             Image {
                 id: n_gear
                 source: "qrc:/images/n.png"
+                width: 50 
+                height: 50
                 visible: valueSource.gear === 2
             }
 
             Image {
                 id: d_gear
                 source: "qrc:/images/d.png"
+                width: 50
+                height: 50
                 visible: valueSource.gear === 3
             }
         }

@@ -31,6 +31,5 @@ int main() {
             previous_light = light; 
         }
     }
-    
     return 0;
 }
