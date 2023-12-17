@@ -1,10 +1,10 @@
-//#include "gamepad.h"
+#include "gamepad.h"
 #include "gamepadsystem.hpp"
 #include <unistd.h>
 #include <iostream>
 
 int main() {
-    //Gamepad* gamepad = new Gamepad;
+    Gamepad* gamepad = new Gamepad;
     GamepadSystem* gamepadsystem = new GamepadSystem;
 
     float steering = 0;
@@ -13,7 +13,6 @@ int main() {
     bool previous_light = false;
     
     while(true){
-        /*
         gamepad->read_data(); 
     
         steering = gamepad->get_inputLX(); 
@@ -26,7 +25,7 @@ int main() {
 
         gamepadsystem->setSteeringAttribute(steering);
         gamepadsystem->setThrottleAttribute(throttle);
-        */
+        
         if (light != previous_light) {
             gamepadsystem->setLight(light);
             previous_light = light; 
