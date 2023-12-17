@@ -14,5 +14,5 @@ private:
     PyObject *pVoltage;
     double voltage;
    
-    uint32_t batteryStatus; 
+    uint32_t batteryStatus = 0; 
 };

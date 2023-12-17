@@ -2,7 +2,7 @@
 #include <iostream>
 #include <thread>
 
-BatterySystem::BatterySystem() : current_battery(0), filtered_battery(0), prev_filtered_battery(0), alpha(0.3){
+BatterySystem::BatterySystem(){
     runtime = CommonAPI::Runtime::get();
     batteryService = std::make_shared<BatteryStubImpl>();
 
@@ -20,15 +20,6 @@ BatterySystem::BatterySystem() : current_battery(0), filtered_battery(0), prev_f
 }
 
 void BatterySystem::setBattery(uint32_t batteryStatus) {
-    std::cout << "Battery Voltage: " << batteryStatus << " V" << std::endl;
     batteryService->setBatteryAttribute(batteryStatus);
 }
 
-uint32_t BatterySystem::getBattery() {
-    current_battery = battery->get_battery_voltage(); 
-    
-    //filtering
-    filtered_battery = alpha * current_battery + (1 - alpha) * prev_filtered_battery;
-    prev_filtered_battery = filtered_battery;
-    return filtered_battery;
-}

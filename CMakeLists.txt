@@ -175,7 +175,7 @@ target_link_libraries(rpmsomeipproxy
 
 
 add_subdirectory(gamepad)
-add_subdirectory(head_unit)
+# add_subdirectory(head_unit)
 add_subdirectory(instrument_cluster)
 add_subdirectory(racer)
 add_subdirectory(rpm_sender)
