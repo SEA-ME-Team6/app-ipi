@@ -17,6 +17,7 @@ HUSystem::HUSystem() {
     while (!gearProxy->isAvailable()) {
         std::cout << "Waiting for Gear service to become available." << std::endl;
     }
+
     gearProxy->getGearAttribute().getChangedEvent().subscribe(
         [&](const uint8_t& gear_){
             gear = gear_;
@@ -43,7 +44,7 @@ HUSystem::HUSystem() {
     lightProxy = runtime->buildProxy<LightStatusProxy>(domain, light_instance, light_connection);
     while (!lightProxy->isAvailable()) {
         std::cout << "Waiting for Light service to become available." << std::endl;
-    }    
+    }   
     lightProxy->getLightAttribute().getChangedEvent().subscribe(
         [&](const bool& light_){
             light = light_;
