@@ -20,7 +20,7 @@ The service are as follows:
 - Battery
 
 ## Architecture
-<img src="https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/119277948/701b1474-2453-417e-bd98-d87bd7ff2e2b">
+<img src="https://github.com/SEA-ME-Team6/DES_Head-Unit/assets/119277948/5682fcdc-8fdb-4abd-acea-7ef99611f1f2">
 
 ## Usage
 ```
