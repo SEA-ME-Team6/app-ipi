@@ -31,7 +31,6 @@ int main() {
 
         racer->set_steering_percent(steering);
         racer->set_throttle_percent(throttle);
-
     }
     
     delete racersystem;

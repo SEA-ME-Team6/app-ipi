@@ -180,5 +180,5 @@ add_subdirectory(instrument_cluster)
 add_subdirectory(racer)
 add_subdirectory(rpm_sender)
 add_subdirectory(battery_sender)
-add_subdirectory(Virtual_gamepad)
+# add_subdirectory(Virtual_gamepad)
 
